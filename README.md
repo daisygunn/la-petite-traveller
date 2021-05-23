@@ -45,3 +45,23 @@ What these users would be looking for:
 This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information as this is often the reason people are put off with travel guides.
 
 Due to the age group of the users, it is assumed that most users will be viewing the site on their mobile phones and therefore creating something responsive is integral to the design.
+
+### **Scope**
+
+In order to achieve the desired user & business goals, the following features will be included in this release:
+
+- Header and menu bar, to navigate to various sections of the page
+- Carousel with images of holiday destinations to immediately entice the user
+- Information section full of tips for backpacking
+- Interactive Checklist of things to pack
+- Overview ratings for a recent trip, Sri Lanka
+- Map of the route taken
+- Information, recommendations and advice for travelling Sri Lanka
+- Gallery of images of Sri Lanka trip
+- Newsletter sign up form
+- Links to affiliate social media pages & email address
+
+### *Structure* 
+
+This website is a single page website to allow for desired flow; the navigation bar at the top allows for users to easily move to whatever section of the site they are interested in or they can simply scroll through the information as it is displayed. I chose the following order for the information 'Home > Travel Tips 101 > My Last Trip > Keep in Touch', as I felt this would allow for the information to be digested in the best way. The text blocks are broken up with images to ensure interest is kept and there is no information overload at any point. There is a concise review of Sri Lanka before the more in-detail guide as I wanted users to be able to find these key bits of information quickly. Finally there is a simple sign up form for users to sign up to the La Petite Traveller's newsletter.
+
