@@ -77,6 +77,14 @@
   .topnav .icon {
     display: none;
   }
+/* About Section */
+
+  #about_container {
+    border: solid 2px rgba(0, 169, 165, 0.5);
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Raleway', serif;
+  }
 
 /* Media queries for navbar responsiveness */
 
@@ -115,8 +123,9 @@
     #main_heading {
       font-size: 40px;
       text-align: center;
-      background-colour: rgba(216, 221, 239, 0.5)
 
     }
 
   }
+
+  
