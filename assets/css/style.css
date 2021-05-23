@@ -46,7 +46,7 @@
 
 
 .topnav {
-    /* background-color: #00a9a5; */
+    background-color: rgba(0, 169, 165, 0.5);
     overflow: hidden;
   }
   
@@ -56,6 +56,7 @@
     display: inline;
     color: #f8f8f8;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 15px;
