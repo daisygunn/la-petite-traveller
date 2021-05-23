@@ -23,3 +23,25 @@ The user goals of this website are:
 4. To find recommendations from a trusted source for restaurants and hotels
 5. To easily find affiliate pages for the author, with even more inspiration available
 6. To be able to sign up to directly receive content via a newsletter
+
+## UX
+---
+### **Strategy**
+
+Considering the core UX principles I first started to think about the strategy for this website and defined who the target users would be and what features/technologies they would want.
+
+La Petite Traveller's target users are:
+* Aged 18-30
+* Past/future backpackers
+* People interested in travelling on a budget
+* Have an interest in visiting Sri Lanka
+
+What these users would be looking for:
+* Clear, concise, easy-to-find information
+* Beautiful photos that provide inspiration and make the destinations look desirable
+* Helpful guidance on routes available
+* Recommendations for where to eat/stay
+
+This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information as this is often the reason people are put off with travel guides.
+
+Due to the age group of the users, it is assumed that most users will be viewing the site on their mobile phones and therefore creating something responsive is integral to the design.
