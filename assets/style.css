@@ -11,8 +11,32 @@ header h1 {
     font-size: 60px;
     margin: 0 auto;
     color: #f8f8f8;
-    padding: 10px
+    padding: 10px;
+    left: 0;
+    top: 20px;
 
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("img_nature.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
 }
 
 .topnav {
@@ -22,13 +46,13 @@ header h1 {
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: right;
-    display: block;
+    float: left;
+    display: inline;
     color: #f8f8f8;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
   }
   
   /* Change the color of links on hover */
@@ -39,7 +63,7 @@ header h1 {
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #0000aa;
+    background-color: #0b5351;
     color: #f8f8f8;
   }
   
@@ -51,9 +75,17 @@ header h1 {
 
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
+    .topnav a {
+        float: right;
+    }
     .topnav a.icon {
       float: right;
       display: block;
+    }
+    header h1 {
+        font-size: 40px ;
+        text-align: center;
+        margin: 0 auto;
     }
   }
   
