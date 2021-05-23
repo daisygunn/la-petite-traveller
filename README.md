@@ -65,3 +65,23 @@ In order to achieve the desired user & business goals, the following features wi
 
 This website is a single page website to allow for desired flow; the navigation bar at the top allows for users to easily move to whatever section of the site they are interested in or they can simply scroll through the information as it is displayed. I chose the following order for the information 'Home > Travel Tips 101 > My Last Trip > Keep in Touch', as I felt this would allow for the information to be digested in the best way. The text blocks are broken up with images to ensure interest is kept and there is no information overload at any point. There is a concise review of Sri Lanka before the more in-detail guide as I wanted users to be able to find these key bits of information quickly. Finally there is a simple sign up form for users to sign up to the La Petite Traveller's newsletter.
 
+### Skeleton
+
+[link to wireframes]
+
+### *Surface*
+I chose a colour palette based around a deep blue and green as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their own memories of travelling and believe these colours will help to do this. I paired these with two lighter shades in order to allow for appropriate contrast. 
+
+## Features
+
+---
+## Technologies Used
+---
+## Testing
+---
+## Deployment
+---
+## Credits
+---
+## Acknowledgements
+---
