@@ -113,11 +113,13 @@
 
 }
 
-#travel_tips_101 {
+.section_heading {
     font-size: 15px;
     font-family: 'cookie', cursive;
     text-align: center;
     color: #00a9a5;
+    font-size: 25px;
+
 }
 
 .travel_tips_container {
@@ -134,12 +136,14 @@
     box-sizing: border-box;
     text-align: left;
     font-family: 'Raleway', serif;
-    background-color:rgba(0, 169, 165, 1);
+    background-color: #03045e;
     color: #f8f8f8;
+    font-size: 13px;
 }
 
 #travel_tips h4 {
   font-size: 17px;
+  
 }
 
 
