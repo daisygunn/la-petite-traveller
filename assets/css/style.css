@@ -114,11 +114,12 @@
 }
 
 .section_heading {
-    font-size: 15px;
+    font-size: 40px;
     font-family: 'cookie', cursive;
     text-align: center;
     color: #00a9a5;
-    font-size: 25px;
+    margin: 0 auto;
+    padding: 5px 5px;
 
 }
 
@@ -138,12 +139,17 @@
     font-family: 'Raleway', serif;
     background-color: #03045e;
     color: #f8f8f8;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 #travel_tips h4 {
-  font-size: 17px;
+  font-size: 13px;
+  text-decoration: underline #f8f8f8;
   
+}
+
+#travel_tips > a {
+  color: #f8f8f8
 }
 
 
@@ -173,6 +179,18 @@
       font-size: 12px;
 }
 
+#my_last_trip_img {
+  background-image: url('../images/my_last_trip_hero.jpg');
+  min-height: 380px;
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  clear: both;
+}
+
 
 /* Media queries for navbar responsiveness */
 
@@ -186,6 +204,12 @@
       float: right;
       display: block;
     }
+    
+    .bg-img {
+      background-size: contain;
+      min-height: 150px;
+    }
+
 
     header h1 {
         font-size: 40px ;
