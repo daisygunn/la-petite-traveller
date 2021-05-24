@@ -128,10 +128,18 @@
 }
 
 #travel_tips {
-  float: left;
-  padding: 15px;
-  width: 66%;
-  box-sizing: border-box;
+    float: left;
+    padding: 15px;
+    width: 66%;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: 'Raleway', serif;
+    background-color:rgba(0, 169, 165, 1);
+    color: #f8f8f8;
+}
+
+#travel_tips h4 {
+  font-size: 17px;
 }
 
 
