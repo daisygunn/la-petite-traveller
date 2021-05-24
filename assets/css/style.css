@@ -80,7 +80,8 @@
 /* About Section */
 
   #about_container {
-    padding: 20px; }
+    padding: 10px 5px;
+   }
     
 
   #about_container h2 {
@@ -88,6 +89,7 @@
       font-size: 45px;
       color: #03045e;
       text-align: center;
+      margin: 5px 0 5px;
   
     }
 
@@ -95,15 +97,19 @@
     font-size: 15px;
     font-family: 'Raleway', serif;
     text-align: center;
-    color: #0077b6;
+    color: #00a9a5;
   }
+
+
 
 /* Travel Tips 101 */
 
 #travel_tips_101 h2 {
-      font-family: 'Cookie', cursive;
+      font-family: 'Raleway', serif;
       color: #03045e;
       text-align: center;
+      
+
 }
 
 
@@ -111,10 +117,19 @@
     font-size: 15px;
     font-family: 'Raleway', serif;
     text-align: center;
-    color: #0077b6;
+    color: #00a9a5;
 }
 
+.travel_tips_container {
+  display: inline-block;
+  padding: 15px;
+  border: solid 0.5px rgba(0, 169, 165, 0.5);
+  margin-bottom: 5px;
+}
 
+.travel_tips_container .two_thirds {
+  width: 66%;
+}
 /* Media queries for navbar responsiveness */
 
   @media screen and (max-width: 600px) {
