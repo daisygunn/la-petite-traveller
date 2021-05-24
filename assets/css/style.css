@@ -80,11 +80,13 @@
 /* About Section */
 
   #about_container {
-    border: solid 2px rgba(0, 169, 165, 0.5);
+    /* border: solid 2px rgba(0, 169, 165, 0.5); */
     padding: 5px;
     font-size: 15px;
     font-family: 'Raleway', serif;
     text-align: center;
+    background-color: rgba(0, 169, 165, 0.5);
+    color: #f8f8f8;
   }
 
 /* Media queries for navbar responsiveness */
