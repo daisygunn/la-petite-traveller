@@ -105,7 +105,7 @@
 /* Travel Tips 101 */
 
 #travel_tips_101 h2 {
-      font-family: 'Raleway', serif;
+      font-family: 'cookie', cursive;
       color: #03045e;
       text-align: center;
       font-weight: 300;
@@ -115,7 +115,7 @@
 
 #travel_tips_101 {
     font-size: 15px;
-    font-family: 'Raleway', serif;
+    font-family: 'cookie', cursive;
     text-align: center;
     color: #00a9a5;
 }
@@ -127,18 +127,40 @@
     margin-bottom: 5px;
 }
 
+#travel_tips {
+  float: left;
+  padding: 15px;
+  width: 66%;
+  box-sizing: border-box;
+}
+
+
 #essentials {
     float: right;
-    margin: 15px;
+    padding: 15px;
     list-style-type: circle;
+    width: 33%;
+    box-sizing: border-box;
+
 }
 
 #essentials h4 {
-      font-family: 'Raleway', serif;
+      font-family: 'Cookie', cursive;
       color: #03045e;
       text-align: center;
       font-weight: 500;
+      font-size: 25px;
+      padding: 1px;
+      margin: 1px;
 }
+
+#essentials_list {
+      font-family: 'Raleway', serif;
+      color: rgba(0, 169, 165, 1);
+      text-align: left;
+      font-size: 12px;
+}
+
 
 /* Media queries for navbar responsiveness */
 
@@ -159,8 +181,6 @@
         margin: 0 auto;
     }
 
-  
-  
     #about_container h2 {
         font-family: 'Cookie', cursive;
         font-size: 35px;
@@ -177,6 +197,23 @@
       padding: 10px;
     }
 
+    #main_heading {
+      font-size: 40px;
+      text-align: center;
+
+    }
+
+    #travel_tips {
+      width: 100%;
+      clear: both;
+      float: none;
+    }
+
+    #essentials {
+      width: 100%;
+      clear: both;
+      float: none;
+    }
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -192,13 +229,8 @@
       display: block;
       text-align: left;
     }
-
-    #main_heading {
-      font-size: 40px;
-      text-align: center;
-
-    }
-
   }
+   
+
 
   
