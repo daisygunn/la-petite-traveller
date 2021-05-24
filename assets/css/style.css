@@ -121,21 +121,31 @@
 }
 
 .travel_tips_container {
-  display: inline-block;
-  padding: 15px;
-  border: solid 0.5px rgba(0, 169, 165, 0.5);
-  margin-bottom: 5px;
+    display: inline-block;
+    padding: 10px;
+    border: solid 0.5px rgba(0, 169, 165, 0.5);
+    margin-bottom: 5px;
 }
 
-.travel_tips_container .two_thirds {
-  width: 66%;
+#essentials {
+    float: right;
+    margin: 15px;
+    list-style-type: circle;
 }
+
+#essentials h4 {
+      font-family: 'Raleway', serif;
+      color: #03045e;
+      text-align: center;
+      font-weight: 500;
+}
+
 /* Media queries for navbar responsiveness */
 
   @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a {
-        float: right;
+      .topnav a:not(:first-child) {display: none;}
+      .topnav a {
+      float: right;
     }
 
     .topnav a.icon {
