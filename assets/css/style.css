@@ -80,8 +80,7 @@
 
   #about_container {
     padding: 10px 5px;
-   }
-    
+   }  
 
   #about_container h2 {
       font-family: 'Cookie', cursive;
@@ -190,14 +189,15 @@
       width: fit-content;
       height: fit-content;
       background-color: rgba(248, 248, 248, 0.6);
-    
       position: absolute;
       left: 25%;
       bottom: 0;
-
-    
 }
 
+#sri_lanka_review {
+      display: block;
+      clear: both;
+}
 
 /* Media queries for navbar responsiveness */
 
