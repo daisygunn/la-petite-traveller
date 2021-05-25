@@ -194,10 +194,44 @@
       bottom: 0;
 }
 
-#sri_lanka_review {
-      display: block;
-      clear: both;
+#sri_lanka {
+      float: left;
+      padding: 15px;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: left;
+      font-family: 'Raleway', serif;
+      background-color: rgba(0, 119, 182, 1);
+      color: #f8f8f8;
+      font-size: 12px; 
+      margin-top: 15px; 
 }
+
+#sri_lanka h3 {
+
+}
+
+#sri_lanka_review {
+      left: 0;
+      padding: 5px 0;
+      margin: 0;
+
+}
+
+#sri_lanka_review li {
+      list-style: none;
+      left: 0;
+      padding: 5px 5px;
+      margin: 0;
+}
+
+#sri_lanka_review ul {
+      list-style: circle;
+      left: 0;
+      padding: 5px 5px;
+      margin: 0; 
+}
+
 
 /* Media queries for navbar responsiveness */
 
