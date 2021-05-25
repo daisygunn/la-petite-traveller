@@ -40,8 +40,7 @@
   top: 0 !important;
   background-color: rgba(202, 240, 248, 0.4);
   /* border-radius: 35%; */
-}
-
+} 
 
 .topnav {
     background-color: rgba(0, 169, 165, 0.5);
@@ -100,17 +99,12 @@
     color: #00a9a5;
   }
 
-
-
 /* Travel Tips 101 */
 
 #travel_tips_101 h2 {
       font-family: 'cookie', cursive;
       color: #03045e;
       text-align: center;
-      font-weight: 300;
-      
-
 }
 
 .section_heading {
@@ -126,7 +120,7 @@
 .travel_tips_container {
     display: inline-block;
     padding: 10px;
-    border: solid 0.5px rgba(0, 169, 165, 0.5);
+    border: solid 0.5px rgba(0, 119, 182, 0.5);
     margin-bottom: 5px;
 }
 
@@ -137,7 +131,7 @@
     box-sizing: border-box;
     text-align: left;
     font-family: 'Raleway', serif;
-    background-color: #03045e;
+    background-color: rgba(0, 119, 182, 1);
     color: #f8f8f8;
     font-size: 12px;
 }
