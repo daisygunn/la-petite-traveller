@@ -288,6 +288,17 @@ list-style-type: none;
 
 #more {display: none;}
 
+.buttons {
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+  color: #f8f8f8;
+  background-color:rgba(0, 169, 165, 1);
+  border: 1px solid #f8f8f8;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Media queries for navbar responsiveness */
 
   @media screen and (max-width: 600px) {
