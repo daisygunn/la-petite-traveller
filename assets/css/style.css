@@ -286,6 +286,7 @@ padding-inline-start: 0;
 list-style-type: none;
 }
 
+#more {display: none;}
 
 /* Media queries for navbar responsiveness */
 
