@@ -211,7 +211,7 @@
       bottom: 0;
 }
 
-#sri_lanka {
+.sri_lanka {
       float: left;
       padding: 15px;
       width: 100%;
@@ -243,7 +243,7 @@
       margin: 1px; 
 }
 
-#sri_lanka_review {
+#la_petite_review {
       left: 0;
       padding: 5px 0;
       margin: 0;
