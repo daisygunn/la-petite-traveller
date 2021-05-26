@@ -70,7 +70,7 @@ This website is a single page website to allow for desired flow; the navigation 
 [link to wireframes]
 
 ### *Surface*
-I chose a colour palette based around a deep blue and green as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their own memories of travelling and believe these colours will help to do this. I paired these with two lighter shades in order to allow for appropriate contrast. 
+I chose a colour palette based around a blues and greens as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their own memories of travelling and believe these colours will help to do this. I paired these with two lighter shades in order to allow for appropriate contrast. 
 
 ## Features
 

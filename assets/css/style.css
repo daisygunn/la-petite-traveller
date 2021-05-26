@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@300;500&display=swap');
 
+body {
+  margin:0px;
+  padding:0px;
+  }
+  
 /* CSS code for Navbar styling found on W3 schools */
 .bg-img {
   /* The image used */
@@ -57,7 +62,6 @@
     padding: 10px 10px;
     text-decoration: none;
     font-size: 15px;
-    font-weight: 00;
   }
   
   /* Change the color of links on hover */
@@ -155,15 +159,12 @@
   color: #0077B6;
 }
 
-
 #essentials {
         float: right;  
         padding: 15px;
-        list-style-type: circle;
         width: 33%;
         box-sizing: border-box;
-    
-
+  
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
@@ -265,8 +266,24 @@
 }
 
 #sri_lanka_route {
-    text-align: center;    
-    
+    text-align: center;     
+}
+
+#sri_lanka_map {
+  width: inherit;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+#sri_lanka_route_details > ol, li {
+padding: 5px;
+margin-left: 1px;
+text-align: left;
+padding-inline-start: 0;
+list-style-type: none;
 }
 
 
