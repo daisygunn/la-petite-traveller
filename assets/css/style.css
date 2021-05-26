@@ -121,22 +121,23 @@
     padding: 10px;
     border: solid 0.5px rgba(0, 119, 182, 0.5);
     margin-bottom: 5px;
-    
+    box-sizing: border-box;
+    width: 66%;
 }
 
 #travel_tips {
     float: left;
     padding: 15px;
-    width: 95vw;
+    width: 100%;
     box-sizing: border-box;
     text-align: left;
     font-family: 'Raleway', serif;
     background-color: rgba(0, 119, 182, 0.8);
     color: #f8f8f8;
     font-size: 12px;
-    display: block;
+    /* display: inline-block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 #travel_tips h4 {
@@ -156,13 +157,16 @@
 
 
 #essentials {
-    padding: 15px;
-    list-style-type: circle;
-    width: 33vw;
-    box-sizing: border-box;
-    display: block;
+        float: right;  
+        padding: 15px;
+        list-style-type: circle;
+        width: 33%;
+        box-sizing: border-box;
+    
+
+    /* display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
   
 }
 
@@ -171,7 +175,7 @@
       color: #03045e;
       text-align: center;
       font-weight: 500;
-      font-size: 25px;
+      font-size: 30px;
       padding: 1px;
       margin: 1px;
 }
@@ -180,7 +184,7 @@
       font-family: 'Raleway', serif;
       color: rgba(0, 169, 165, 1);
       text-align: left;
-      font-size: 12px;
+      font-size: 20px;
 }
 
 /* My last trip */
@@ -313,16 +317,24 @@
 
     }
 
-    #travel_tips {
+    .travel_tips_container {
       width: 100%;
       clear: both;
       float: none;
+    }
+
+    #travel_tips {
+      width: 100%;
     }
 
     #essentials {
       width: 100%;
       clear: both;
       float: none;
+    }
+
+    #essentials_list {
+      font-size: 13px;
     }
   }
   
