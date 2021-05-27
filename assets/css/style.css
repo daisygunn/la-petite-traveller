@@ -367,16 +367,20 @@ list-style-type: none;
     }
   }
 
-/* code for form */
+/* code for form https://codepen.io/dope/pen/ZQWBeL */
 
-#form {
+.form {
   font-family: 'Raleway', serif;
   font-size: 15px;
-  background-size: 200% 100% !important;
+  /* background-size: 200% 100% !important;
   animation: move 10s ease infinite;
   transform: translate3d(0, 0, 0);
   background: linear-gradient(45deg, #49D49D 10%, #A2C7E5 90%);
-  height: 100vh
+  height: 40vh */
+}
+
+.form__input {
+  background: rgba(0, 169, 165, 0.5);
 }
 
 .user {
@@ -393,10 +397,11 @@ list-style-type: none;
 }
 
 .user__title {
-  font-size: 'Raleway', serif;
+  font-size: 20px;
   margin-bottom: -10px;
   font-weight: 500;
-  color: white;
+  color: #00a9a5;
+
 }
 
 .form {
@@ -443,7 +448,7 @@ list-style-type: none;
   }
 
   .btn:hover {
-      background: darken(#00a9a5, 5%);
+      background-color: darken(#00a9a5, 5%);
   }
 
 @keyframes NO {
