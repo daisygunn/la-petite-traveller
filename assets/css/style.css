@@ -328,12 +328,17 @@ list-style-type: none;
   animation: arrive 500ms ease-in-out 0.7s forwards;
 }
 
+#form_heading {
+  font-family: 'Cookie', cursive;
+  font-size: 30px !important;
+}
+
 .user__title {
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: -10px;
   font-weight: 500;
   color: #00a9a5;
-
+  font-family: 'Raleway', serif;
 }
 
 .form {
