@@ -65,14 +65,26 @@ In order to achieve the desired user & business goals, the following features wi
 
 This website is a single page website to allow for desired flow; the navigation bar at the top allows for users to easily move to whatever section of the site they are interested in or they can simply scroll through the information as it is displayed. I chose the following order for the information 'Home > Travel Tips 101 > My Last Trip > Keep in Touch', as I felt this would allow for the information to be digested in the best way. The text blocks are broken up with images to ensure interest is kept and there is no information overload at any point. There is a concise review of Sri Lanka before the more in-detail guide as I wanted users to be able to find these key bits of information quickly. Finally there is a simple sign up form for users to sign up to the La Petite Traveller's newsletter.
 
-### Skeleton
+### **Skeleton**
 
 [link to wireframes]
 
-### *Surface*
+### **Surface**
 I chose a colour palette based around a blues and greens as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their own memories of travelling and believe these colours will help to do this. I paired these with two lighter shades in order to allow for appropriate contrast. 
 
-## Features
+## **Features**
+This is a fully responsive website that was designed mobile first as this is the most likely way it will be viewed; the page divided the page into the four sections listed in the navbar. Where a colour background has been 
+
+*Navbar*
+The navbar is placed on top of a responsive image which acts as a header, when viewed on smaller screens I opted for the menu to collapse into a hamburger icon as I still wanted to image to be seen. The image I have chosen is representative of sites theme and incorporates the colour pallete. 
+
+*About section*
+This is where I introduce myself and the page and give a brief insight into why it was created, I have used a H2 element for the main heading, following by a H3 tag line and then a more descriptive paragraph. 
+
+*My Last Trip section*
+
+*Keep in touch*
+
 
 ---
 ## Technologies Used
