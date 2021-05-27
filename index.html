@@ -405,5 +405,13 @@
             captionText.innerHTML = dots[slideIndex-1].alt;
             }
     </script>
+    <script>
+            const button = document.querySelector('.btn')
+            const form   = document.querySelector('.form')
+
+            button.addEventListener('click', function() {
+            form.classList.add('form--no') 
+            });
+    </script>
 </body>
 </html>
