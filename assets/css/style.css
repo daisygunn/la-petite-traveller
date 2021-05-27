@@ -89,7 +89,7 @@ body {
   #about_container h2 {
       font-family: 'Cookie', cursive;
       font-size: 45px;
-      color: #03045e;
+      color: #00a9a5;
       text-align: center;
       margin: 5px 0 5px;
   
@@ -136,7 +136,7 @@ body {
     box-sizing: border-box;
     text-align: left;
     font-family: 'Raleway', serif;
-    background-color: rgba(0, 119, 182, 0.8);
+    background-color: rgba(0, 169, 165, 1);
     color: #f8f8f8;
     font-size: 12px;
     /* display: inline-block;
@@ -206,7 +206,7 @@ body {
 #my_last_trip_heading {
       width: fit-content;
       height: fit-content;
-      background-color: rgba(248, 248, 248, 0.6);
+      background-color: rgba(248, 248, 248, 0.9);
       position: absolute;
       left: 25%;
       bottom: 0;
@@ -219,10 +219,10 @@ body {
       box-sizing: border-box;
       text-align: left;
       font-family: 'Raleway', serif;
-      background-color: rgba(0, 119, 182, 0.2);
-      color: #03045e;
+      background-color:#fff;
+      color: rgba(0, 169, 165, 1);
       font-size: 12px; 
-      margin-top: 15px; 
+      /* margin-top: 15px;  */
 }
 
 #sri_lanka h3 {
@@ -286,6 +286,8 @@ padding-inline-start: 0;
 list-style-type: none;
 }
 
+/* Read more button code found here:  */
+
 #more {display: none;}
 
 .buttons {
@@ -295,8 +297,9 @@ list-style-type: none;
   background-color:rgba(0, 169, 165, 1);
   border: 1px solid #f8f8f8;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 10px auto 10px auto;
 }
 
 /* code for form https://codepen.io/dope/pen/ZQWBeL */
@@ -468,7 +471,6 @@ from, to {
       font-size: 12px;
       font-family: 'Raleway', serif;
       text-align: center;
-      color: #0077b6;
       padding: 10px;
     }
 
