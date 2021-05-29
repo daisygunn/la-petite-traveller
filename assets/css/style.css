@@ -719,6 +719,10 @@ from, to {
    
 
 @media screen and (max-width: 425px) {
+  .mySlides > img {
+    width: 100%;
+}
+ 
   #my_last_trip_img {
 
     max-width: 100%;
@@ -750,8 +754,6 @@ from, to {
     padding: 0;
   }
 
-/* .mySlides {
-  max-height: 200px;
-} */
+
 }
 
