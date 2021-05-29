@@ -53,7 +53,7 @@ In order to achieve the desired user & business goals, the following features wi
 - Header and menu bar, to navigate to various sections of the page
 - Carousel with images of holiday destinations to immediately entice the user
 - Information section full of tips for backpacking
-- Interactive Checklist of things to pack
+- Downloadble Checklist of things to pack
 - Overview ratings for a recent trip, Sri Lanka
 - Map of the route taken
 - Information, recommendations and advice for travelling Sri Lanka
@@ -73,15 +73,21 @@ This website is a single page website to allow for desired flow; the navigation 
 I chose a colour palette based around a blues and greens as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their own memories of travelling and believe these colours will help to do this. I paired these with two lighter shades in order to allow for appropriate contrast. 
 
 ## **Features**
-This is a fully responsive website that was designed mobile first as this is the most likely way it will be viewed; the page divided the page into the four sections listed in the navbar. Where a colour background has been 
+This is a fully responsive website that was designed mobile first as this is the most likely way it will be viewed; the page divided the page into the four sections listed in the navbar. Where a colour background has been used it has a slightly transparent opacity and the text is an off-white. All of the headings use the font Cookie and the body text is Raleway. 
 
 *Navbar*
-The navbar is placed on top of a responsive image which acts as a header, when viewed on smaller screens I opted for the menu to collapse into a hamburger icon as I still wanted to image to be seen. The image I have chosen is representative of sites theme and incorporates the colour pallete. 
+The navbar is placed on top of a responsive image which acts as a header, when viewed on smaller screens I opted for the menu to collapse into a hamburger icon as I still wanted to image to be seen. The image I have chosen is representative of the sites theme and incorporates the colour pallete, it immediately encourages the user to be on holiday and entices them to read further. 
 
 *About section*
-This is where I introduce myself and the page and give a brief insight into why it was created, I have used a H2 element for the main heading, following by a H3 tag line and then a more descriptive paragraph. 
+This is where I introduce myself and the page and give a brief insight into why it was created, I have used a H2 element for the main heading, followed by a H3 tag line and then a more descriptive paragraph. I wanted to keep this section simple and clean as there is plenty more information to follow.  
+
+*Travel Tips 101*
+This section starts with a H2 heading and is the followed by a series of H4 and P elements, this structure is used to provide clarity of the items within this section. 
 
 *My Last Trip section*
+This section includes the most information on the page and so I wanted to include imagery alongside text. The title is a H2 element that is set on a responsive hero image, this is followed by a concise review of Sri Lanka. The review is built using an ul element & icons from FontAwesome. 
+There is then a seperate div that contains a far more detailed review of Sri Lanka, this features a map embedded using GoogleMaps and also a read more/read less button. I want users to read this information only if they want to and it not be an overwhelming amount of text on their screen. 
+I have then included an interactive photo gallery of images of my trip to Sri Lanka, this uses HTML, CSS and some JavaScript.
 
 *Keep in touch*
 
