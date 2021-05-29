@@ -150,11 +150,11 @@ body {
   
 }
 
-#travel_tips > a {
+#travel_tips > p > a {
   color: #f8f8f8
 }
 
-#travel_tips > a:hover {
+#travel_tips > p > a:hover {
   background-color: #f8f8f8;
   color: #0077B6;
 }
