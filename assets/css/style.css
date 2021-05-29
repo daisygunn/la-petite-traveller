@@ -8,7 +8,7 @@ body {
 /* CSS code for Navbar styling found on W3 schools */
 .bg-img {
   /* The image used */
-  background-image: url('../images/navbar_image copy.jpeg');
+  background-image: url('../images/navbar_image.jpeg');
 
   min-height: 380px;
   max-width: 100%;
@@ -628,10 +628,10 @@ from, to {
 
 @media screen and (max-width: 425px) {
   #my_last_trip_img {
-    background-image: url('../images/my_last_trip_hero_2.jpg');
+
     max-width: 100%;
-    height: auto;
-    background-position: center;
+    min-height: 200px;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
