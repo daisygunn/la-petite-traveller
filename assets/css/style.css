@@ -303,70 +303,50 @@ list-style-type: none;
 }
 
 /* scroll arrow code found here: https://codepen.io/JakubHonisek/pen/qjpeeO */
-
-.scroll_arrow {
- display: flex;
- justify-content: center;
- align-items: center;
- width: 100%;
- height: 100vh;
-}
-
-.chevron {
+  
+.arrow,
+.arrow:before {
   position: absolute;
-  width: 0.6rem * 3.5;
-  height: 0.6rem * 0.8;
-  opacity: 0;
-  transform: scale(0.3);
-  animation: move-chevron 3s ease-out infinite;
+  left: 50%;
 }
 
-.chevron:first-child {
-  animation: move-chevron 3s ease-out 1s infinite;
+.arrow {
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  margin: -20px 0 0 -20px;
+  -webkit-transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #00a9a5 solid;
+  border-bottom: 2px #00a9a5 solid;
+}
+  
+.arrow:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #00a9a5 solid;
+  border-bottom: 1px #00a9a5 solid;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
 }
 
-.chevron:nth-child(2) {
-  animation: move-chevron 3s ease-out 2s infinite;
+@keyframes arrow {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-10px, -10px);
 }
-
-.chevron:before,
-.chevron:after {
- content: '';
- position: absolute;
- top: 0;
- height: 100%;
- width: 50%;
- background: #2c3e50;
 }
-
-.chevron:before {
- left: 0;
- transform: skewY(30deg);
-}
-
-.chevron:after {
- right: 0;
- width: 50%;
- transform: skewY(-30deg);
-}
-
-@keyframes move-chevron {
- 25% {
-  opacity: 1;
-	}
- 33.3% {
-  opacity: 1;
-  transform: translateY(0.6rem * 3.8);
- }
- 66.6% {
-  opacity: 1;
-  transform: translateY(0.6rem * 5.2);
- }
- 100% {
-  opacity: 0;
-  transform: translateY(0.6rem * 8) scale(0.5);
- }
-}
+  
 
 /* code for form https://codepen.io/dope/pen/ZQWBeL */
 
