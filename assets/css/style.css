@@ -434,6 +434,58 @@ from, to {
   }
 }
 
+/* Footer */
+
+.footer #page_footer {
+  background-color: rgba(0, 169, 165, 0.5);
+  font-family: 'Raleway', serif;
+  font-size: 10px;
+  color: #f8f8f8;
+  line-height: 15px;
+  position: relative;
+  height: 70px;
+}
+
+.left_footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#social_media_links {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  display: inline;
+}
+
+#social_media_links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+}
+
+#social_media_links > li {
+  float: left;
+  
+}
+
+#social_media_links > .socials {
+    display: inline-block;
+    color: white;
+    padding: 16px;
+    clear: left;
+    
+  }
+
+
+.right_footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
 /* Media queries for navbar responsiveness */
 
   @media screen and (max-width: 600px) {
