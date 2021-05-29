@@ -452,6 +452,11 @@ from, to {
   bottom: 0;
 }
 
+.left_footer > ul {
+  padding-left: 2px;
+
+}
+
 #social_media_links {
   position: absolute;
   left: 50%;
@@ -469,23 +474,26 @@ from, to {
 
 #social_media_links > li {
   float: left;
-  
+  padding: 2px;
 }
-
-#social_media_links > .socials {
-    display: inline-block;
-    color: white;
-    padding: 16px;
-    clear: left;
-    
-  }
-
 
 .right_footer {
   position: absolute;
   right: 0;
   bottom: 0;
 }
+
+.footer_link {
+  color: #f8f8f8 !important;
+  text-decoration: none;
+
+}
+
+.footer_link:hover {
+  background-color: #f8f8f8;
+  color: #00a9a5;
+}
+
 /* Media queries for navbar responsiveness */
 
   @media screen and (max-width: 600px) {
