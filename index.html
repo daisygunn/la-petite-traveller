@@ -322,20 +322,20 @@
                 <h1 class="form_title" id="form_heading">Keep in touch</h1>
                 <h3 class="form_title">Get my latest reviews and tips straight in to your inbox, by signing up to my newsletter below.</h3>
             </header>
-            <form class="form" >
+            <form class="form" action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
                 <div class="form__group">
-                    <input type="text" placeholder="First Name" class="form__input" required/>
+                    <input type="text" placeholder="First Name" class="form__input" name="first_name" required/>
                 </div>
 
                 <div class="form__group">
-                    <input type="text" placeholder="Last Name" class="form__input" required/>
+                    <input type="text" placeholder="Last Name" class="form__input" name="last_name" required/>
                 </div>
                 
                 <div class="form__group">
-                    <input type="email" placeholder="Email" class="form__input" required/>
+                    <input type="email" placeholder="Email" class="form__input" name="email_address"  required/>
                 </div>
                 
-                <button class="btn" type="button">Sign Up!</button>
+                <button class="btn" type="submit">Sign Up!</button>
             </form>
         </div>
     </section>
