@@ -318,13 +318,13 @@ list-style-type: none;
   background: rgba(0, 169, 165, 0.5);
 }
 
-.user {
+.newsletter_form {
   width: 90%;
   max-width: 340px;
-  margin: 10vh auto;
+  margin: 5vh auto;
 }
 
-.user__header {
+.newsletter_form_header {
   text-align: center;
   opacity: 0;
   transform: translate3d(0, 500px, 0);
@@ -336,7 +336,7 @@ list-style-type: none;
   font-size: 30px !important;
 }
 
-.user__title {
+.form_title {
   font-size: 15px;
   margin-bottom: -10px;
   font-weight: 500;
