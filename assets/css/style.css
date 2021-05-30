@@ -783,5 +783,22 @@ from, to {
   .mySlides > img {
     width: 50%;
 }
+
+#form_heading {
+  font-size: 25px;
+}
+
+.form_title {
+  font-size: 20px;
+}
+
+.footer #page_footer {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.left_footer, .right_footer {
+  font-size: 14px;
+}
 }
 
