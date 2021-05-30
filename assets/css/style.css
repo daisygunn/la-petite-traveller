@@ -8,6 +8,7 @@ body {
 
 h1, h2, h3 {
   font-family: 'Cookie', cursive;
+  margin: 5px 0 5px;
 }
   
 /* CSS code for Navbar styling found on W3 schools */
@@ -93,7 +94,6 @@ h1, h2, h3 {
       font-size: 45px;
       color: #00a9a5;
       text-align: center;
-      margin: 5px 0 5px;
   
     }
 
@@ -174,19 +174,7 @@ h1, h2, h3 {
         padding: 15px;
         width: 33%;
         box-sizing: border-box;
-  
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
-  
 }
-/* 
-#essentials h4 {
-      font-weight: 500;
-      font-size: 30px;
-      padding: 1px;
-      margin: 1px;
-} */
 
 #essentials_list {
       font-family: 'Raleway', serif;
@@ -245,20 +233,10 @@ h1, h2, h3 {
       margin: 1px; 
 }
 
-#sri_lanka h4 {
-      font-family: 'Raleway', serif;
-      color: #03045e;
-      text-align: left;
-      font-size: 15px;
-      padding: 1px;
-      margin: 1px; 
-}
-
 #la_petite_review {
       left: 0;
       padding: 5px 0;
       margin: 0;
-
 }
 
 #sri_lanka_review li {
@@ -645,6 +623,26 @@ from, to {
   color: #00a9a5;
 }
 
+/* small mobiles */
+
+@media screen and (max-width: 425px) {
+ 
+  #my_last_trip_img {
+    max-width: 100%;
+    min-height: 200px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    clear: both;
+    padding: 0;
+  }
+
+  #sri_lanka_route > iframe {
+    max-width: 100%;
+    text-align: center;
+  }
+}
 
 /* tablets */ 
 
@@ -667,11 +665,11 @@ from, to {
     }
 
 
-    header h1 {
+    /* header h1 {
         font-size: 40px ;
         text-align: center;
         margin: 0 auto;
-    }
+    } */
 
     #about_container h2 {
         font-family: 'Cookie', cursive;
@@ -699,7 +697,7 @@ from, to {
 
     }
 
-   
+
     .travel_tips_container {
       width: 100%;
       clear: both;
@@ -736,32 +734,38 @@ from, to {
       display: block;
       text-align: left;
     }
-  }
-   
-/* small mobiles */
 
-@media screen and (max-width: 425px) {
-  .mySlides > img {
-    width: 100%;
-}
- 
-  #my_last_trip_img {
-
-    max-width: 100%;
-    min-height: 200px;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    clear: both;
-    padding: 0;
+      .mySlides > img {
+        width: 100%;
+    }
   }
 
-  #sri_lanka_route iframe {
-    max-width: 100%
+@media screen and (min-width: 768px) {
+
+  ul #essentials_list {
+    padding-left: 0;
+    padding-right: 5px;
   }
+
+  #essentials_list {
+    font-family: 'Raleway', serif;
+    color: rgba(0, 169, 165, 1);
+    text-align: left;
+    font-size: 15px;
 }
 
+    .sri_lanka {
+      font-size: 16px;
+
+    }
+
+    .mySlides > img {
+      width: 70%;
+  }
+
+}
+
+  
 /* Large screens */
 
 @media screen and (min-width: 1025px) {
@@ -776,6 +780,8 @@ from, to {
     padding: 0;
   }
 
-
+  .mySlides > img {
+    width: 50%;
+}
 }
 
