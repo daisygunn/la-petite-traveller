@@ -812,12 +812,12 @@ from, to {
 @media screen and (min-width: 1024px) {
 
   .float_left {
-    width: 66%;
+    width: 55%;
     float: left;
   }
 
   .float_right {
-    width: 33%;
+    width: 40%;
     float: right;
   }
 
@@ -845,6 +845,7 @@ from, to {
   .sub_section_heading {
     font-size: 15px;
   }
+  
 
   #sri_lanka_rewiew > h4, p {
     font-size: 14px;
@@ -852,8 +853,19 @@ from, to {
 
   }
 
+  #sri_lanka_route > iframe {
+    max-width: 100%;
+    text-align: center;
+    padding: 0; 
+  }
+
+  .myBtn {
+    position: fixed;
+  }
+  
   .mySlides > img {
-    width: 50%;
+    width: 35%;
+    clear: both;
 }
 
 #form_heading {
