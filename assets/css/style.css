@@ -814,7 +814,29 @@ from, to {
   
 /* Large screens */
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
+
+  .float_left {
+    width: 66%;
+    float: left;
+  }
+
+  .float_right {
+    width: 33%;
+    float: right;
+  }
+
+  #essentials {
+    margin: 5px;
+  }
+
+  #essentials_list {
+    font-size: 18px;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+  }
+
   #my_last_trip_img {
     max-width: 100%;
     height: auto;
