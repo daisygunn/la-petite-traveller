@@ -329,7 +329,7 @@ list-style-type: none;
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: #00a9a5;
   font-size: 'Raleway', serif;
   font-weight: bold;
   font-size: 20px;
@@ -358,6 +358,7 @@ list-style-type: none;
   padding: 2px 16px;
   color: white;
   font-family: 'Raleway', serif;
+  font-size: 14px;
 }
 
 .row:after {
@@ -469,7 +470,7 @@ list-style-type: none;
 
 .form_title {
   font-size: 15px;
-  margin-bottom: -10px;
+  margin-bottom: 20px;
   font-weight: 500;
   color: #00a9a5;
   font-family: 'Raleway', serif;
@@ -743,6 +744,10 @@ from, to {
 
 @media screen and (min-width: 768px) {
 
+  body {
+    font-size: 20px;
+  }
+
   #essentials {
   width: 66%;
   box-sizing: border-box;
@@ -762,15 +767,18 @@ from, to {
     padding-right: 5px;
 }
 
-    .sri_lanka {
-      font-size: 16px;
-
-    }
-
     .mySlides > img {
-      width: 70%;
+      width: 60%;
   }
 
+  /* .caption-container {
+  text-align: center;
+  background-color: rgba(0, 169, 165, 0.5);
+  padding: 2px 16px;
+  color: white;
+  font-family: 'Raleway', serif;
+  font-size: 14px;
+} */
 }
 
   
