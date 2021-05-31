@@ -136,7 +136,7 @@ h1, h2, h3 {
     border: solid 0.5px rgba(0, 119, 182, 0.5);
     margin-bottom: 5px;
     box-sizing: border-box;
-    width: 66%;
+    width: 100%;
 }
 
 #travel_tips {
@@ -169,11 +169,13 @@ h1, h2, h3 {
   color: #0077B6;
 }
 
-#essentials {
-        float: right;  
+#essentials { 
         padding: 15px;
-        width: 33%;
+        width: 66%;
         box-sizing: border-box;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 #essentials_list {
@@ -742,16 +744,23 @@ from, to {
 
 @media screen and (min-width: 768px) {
 
-  ul #essentials_list {
-    padding-left: 0;
-    padding-right: 5px;
-  }
+  #essentials {
+  width: 66%;
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
 
   #essentials_list {
     font-family: 'Raleway', serif;
     color: rgba(0, 169, 165, 1);
     text-align: left;
     font-size: 15px;
+    padding-left: 0;
+    padding-right: 5px;
 }
 
     .sri_lanka {
