@@ -121,7 +121,7 @@ h1, h2, h3 {
 
 .section_heading {
     font-size: 40px;
-    font-family: 'cookie', cursive;
+    font-family: 'Cookie', cursive;
     text-align: center;
     color: #00a9a5;
     margin: 0 auto;
@@ -197,8 +197,6 @@ h1, h2, h3 {
       clear: both;
 }
 
-
-
 .sri_lanka {
       float: left;
       padding: 15px;
@@ -212,14 +210,13 @@ h1, h2, h3 {
       /* margin-top: 15px;  */
 }
 
-#sri_lanka h3 {
+#review_heading {
       font-family: 'Cookie', cursive;
-      color: #03045e;
-      text-align: center;
-      font-weight: 500;
-      font-size: 25px;
       padding: 1px;
-      margin: 1px; 
+      margin: 1px;
+      color: #f8f8f8; 
+      text-align: left;
+      font-size: 24px;
 }
 
 #la_petite_review {
@@ -264,6 +261,12 @@ margin-left: 1px;
 text-align: left;
 padding-inline-start: 0;
 list-style-type: none;
+}
+
+.sri_lanka > h4 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Raleway';
 }
 
 /* Read more button code found here: https://www.w3schools.com/howto/howto_js_read_more.asp */
