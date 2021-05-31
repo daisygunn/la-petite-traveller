@@ -130,16 +130,15 @@ h1, h2, h3 {
 
 }
 
-.travel_tips_container {
+.background_colour_container {
     display: inline-block;
     padding: 10px;
-   
     margin-bottom: 5px;
     box-sizing: border-box;
     width: 100%;
 }
 
-#travel_tips {
+.background_green {
     float: left;
     padding: 15px;
     width: 100%;
