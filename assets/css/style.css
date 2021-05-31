@@ -279,7 +279,7 @@ list-style-type: none;
 
 /* Read more button code found here: https://www.w3schools.com/howto/howto_js_read_more.asp */
 
-#more .hide_display {
+#more {
   display: none;
 }
 
