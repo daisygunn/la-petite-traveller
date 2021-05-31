@@ -152,11 +152,11 @@ h1, h2, h3 {
     margin-right: auto; */
 }
 
-#travel_tips h4 {
+.sub_section_heading {
   font-size: 13px;
   text-decoration: underline #f8f8f8;
-  
 }
+
 
 #travel_tips > p > a {
   color: #f8f8f8
@@ -840,12 +840,21 @@ from, to {
   #my_last_trip_img {
     max-width: 100%;
     height: auto;
-    background-position: 200px 50%;
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
     clear: both;
     padding: 0;
+  }
+
+  .sub_section_heading {
+    font-size: 15px;
+  }
+
+  #sri_lanka_rewiew > h4, p {
+    font-size: 14px;
+    padding: 10px;
+
   }
 
   .mySlides > img {
