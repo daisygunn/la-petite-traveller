@@ -108,9 +108,8 @@ h1, h2, h3 {
     text-align: center;
     max-width: fit-content;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 35px;
+    margin: 20px auto 10px auto;
   }
 
 /* Travel Tips 101 */
@@ -196,20 +195,9 @@ h1, h2, h3 {
       background-size: cover;
       display: block;
       clear: both;
-      position: relative;
 }
 
-#my_last_trip_heading {
-      position: absolute;
-      left: 50%;
-      bottom: 0;
-      width: fit-content;
-      height: fit-content;
-      background-color: rgba(248, 248, 248, 0.9);
-      font-family: 'cookie', cursive;
-      text-align: center;
-      color: #00a9a5;
-}
+
 
 .sri_lanka {
       float: left;
@@ -666,26 +654,6 @@ from, to {
       background-size: contain;
       min-height: 150px;
     }
-
-
-    /* header h1 {
-        font-size: 40px ;
-        text-align: center;
-        margin: 0 auto;
-    } */
-
-    #about_container h2 {
-        font-family: 'Cookie', cursive;
-        font-size: 35px;
-        color: #f8f8f8;
-        background-color: rgba(0, 169, 165, 0.5);
-        text-align: center;
-        max-width: fit-content;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    
-      }
   
     #about_container {
       font-size: 12px;
