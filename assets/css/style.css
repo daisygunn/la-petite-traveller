@@ -16,7 +16,7 @@ h1, h2, h3 {
   /* The image used */
   background-image: url('../images/navbar_image.jpeg');
 
-  min-height: 380px;
+  min-height: 300px;
   max-width: 100%;
   height: auto;
 
@@ -620,10 +620,11 @@ from, to {
 }
 
 /* small mobiles */
-/* @media screen and (max-width: 320px) {
+/* @media screen and (max-width: 424px) { */
+/* 
 .bg-img {
   background-size: contain;
-  min-height: 150px;
+  max-height: 150px;
   background-position: center;
   background-repeat: no-repeat;
   
@@ -675,16 +676,12 @@ from, to {
   text-align: left;
 }
   .bg-img {
-    min-height: 380px;
+    min-height: 200px;
     width: 100%;
     height: auto;
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-  
-    /* Needed to position the navbar */
+    background-size: contain;
     position: relative;
   }
   
@@ -722,7 +719,6 @@ from, to {
       display: block;
     }
     
-  
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -735,7 +731,7 @@ from, to {
       text-align: left;
     }
 
-      .mySlides > img {
+    .mySlides > img {
         width: 100%;
     }
     #about_container {
