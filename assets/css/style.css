@@ -248,7 +248,6 @@ h1, h2, h3 {
 
 #map_container {
   width: inherit;
-  height: 200px;
   margin: 0 auto;
   display: block;
   overflow: hidden;
