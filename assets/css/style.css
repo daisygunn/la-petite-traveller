@@ -539,6 +539,7 @@ h3 {
 	color: #00a9a5;
 	background: #f8f8f8;
 	transition: 0.3s;
+  margin-bottom: 20px;
 }
 
 .btn:hover {
