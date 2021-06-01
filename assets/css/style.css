@@ -97,10 +97,6 @@ h3 {
 
 /* About Section */
 
-#about_container {
-	padding: 10px 5px;
-}
-
 #about_container h2 {
 	font-size: 45px;
 	color: #00a9a5;
@@ -111,6 +107,7 @@ h3 {
 	font-size: 15px;
 	text-align: center;
 	color: #00a9a5;
+  padding: 30px;
 }
 
 .sub_heading {
@@ -771,7 +768,7 @@ h3 {
 		font-size: 12px;
 		font-family: 'Raleway', serif;
 		text-align: center;
-		padding: 10px;
+		padding: 25px;
 	}
 	#main_heading {
 		font-size: 40px;
