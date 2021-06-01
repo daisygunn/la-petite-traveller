@@ -197,6 +197,13 @@ h3 {
 	list-style-type: none;
 }
 
+.list_heading {
+	font-family: 'Raleway', serif;
+	color: rgba(0, 169, 165, 1);
+	text-align: left;
+	font-size: 22px;
+	text-decoration: underline;
+}
 
 /* My last trip */
 
@@ -804,6 +811,19 @@ h3 {
 	}
 }
 
+@media screen and (max-width: 767px) {
+	.essentials_list {
+		font-family: 'Raleway', serif;
+		color: rgba(0, 169, 165, 1);
+		font-size: 15px;
+		padding-right: 5px;
+		text-align: center;
+	}
+
+	.list_heading {
+		text-align: center;
+	}
+}
 
 /* tablets */
 
@@ -820,9 +840,14 @@ h3 {
 		font-family: 'Raleway', serif;
 		color: rgba(0, 169, 165, 1);
 		font-size: 15px;
-		padding-left: 0;
-		padding-right: 5px;
+		padding-right: 100px;
 	}
+
+	.list_heading {
+		text-align: left;
+		padding-right: 100px;
+	}
+
 	.sri_lanka>p,
 	#more>p {
 		font-size: 14px;
