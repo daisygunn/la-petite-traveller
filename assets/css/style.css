@@ -643,6 +643,11 @@ h3 {
 .footer_link {
 	color: #f8f8f8 !important;
 	text-decoration: none;
+  
+}
+
+#back_to_top {
+  list-style-type: none;
 }
 
 .footer_link:hover {
@@ -650,12 +655,10 @@ h3 {
 	color: #00a9a5;
 }
 
-
 /* small mobiles */
 
 
 /* @media screen and (max-width: 424px) { */
-
 
 /* 
 .bg-img {
