@@ -203,6 +203,7 @@ h3 {
 	text-align: left;
 	font-size: 22px;
 	text-decoration: underline;
+	margin: 10px 0 10px 0;
 }
 
 /* My last trip */
@@ -738,6 +739,11 @@ h3 {
 		background-size: contain;
 		position: relative;
 	}
+
+	.list_heading {
+		font-size: 15px;
+	}
+
 	#my_last_trip_img {
 		max-width: 100%;
 		min-height: 200px;
