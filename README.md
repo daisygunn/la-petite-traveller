@@ -13,7 +13,7 @@ The business goals for this website are:
 
 1. To advise users on how to backpack and travel around the world on a budget
 2. To inspire users to visit countries that have been reviewed
-3. Earn commission from links provided (hotels, restaurants)
+3. Earn commission from links provided (hotels, restaurants, products)
 4. Build a database of users to send future information & content to, thus furthering the reach of the author.
 
 The user goals of this website are:
@@ -121,6 +121,13 @@ I have used a number of technlogies that have enabled this design to work:
 ## Testing
 ---
 ## Deployment
+I deployed this website by using GitPages and following the below steps:
+1. Log in to Github
+2. Select project repository
+3. Select settings
+4. Select pages on the left-hand menu
+5. In the source section, select branch 'Master' and save
+6. The page is then given a site URL 
 ---
 ## Credits
 ---
