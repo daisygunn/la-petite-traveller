@@ -283,6 +283,11 @@ h3 {
 	font-family: 'Raleway';
 }
 
+#sri_lanka_map {
+	max-width: 100%;
+	text-align: center;
+	height: 450px;
+}
 
 /* Read more button code found here: https://www.w3schools.com/howto/howto_js_read_more.asp */
 
@@ -743,7 +748,7 @@ h3 {
 		clear: both;
 		padding: 0;
 	}
-	#sri_lanka_route>iframe {
+	#sri_lanka_map{
 		max-width: 100%;
 		text-align: center;
 	}
@@ -852,6 +857,11 @@ h3 {
 	#more>p {
 		font-size: 14px;
 	}
+
+	#sri_lanka_map {
+		height: 400px;
+	}
+	
 	.mySlides>img {
 		width: 60%;
 	}
