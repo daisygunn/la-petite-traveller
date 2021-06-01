@@ -186,10 +186,10 @@ h3 {
 	margin-right: auto;
 }
 
-#essentials_list {
+.essentials_list {
 	font-family: 'Raleway', serif;
 	color: rgba(0, 169, 165, 1);
-	text-align: center;
+	text-align: left;
 	font-size: 20px;
 	padding: 5px;
 	margin-left: 1px;
@@ -799,7 +799,7 @@ h3 {
 		clear: both;
 		float: none;
 	}
-	#essentials_list {
+	.essentials_list {
 		font-size: 13px;
 	}
 }
@@ -816,7 +816,7 @@ h3 {
 		margin-right: auto;
 		float: none;
 	}
-	#essentials_list {
+	.essentials_list {
 		font-family: 'Raleway', serif;
 		color: rgba(0, 169, 165, 1);
 		font-size: 15px;
