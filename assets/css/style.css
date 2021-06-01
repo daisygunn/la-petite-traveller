@@ -467,6 +467,10 @@ h3 {
 	background: rgba(0, 169, 165, 0.5);
 }
 
+.form__group {
+  border: solid 1px #f8f8f8;
+}
+
 .newsletter_form {
 	width: 90%;
 	max-width: 340px;
