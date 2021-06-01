@@ -290,6 +290,10 @@ h3 {
 	height: 450px;
 }
 
+.clear {
+	clear: both;
+}
+
 /* Read more button code found here: https://www.w3schools.com/howto/howto_js_read_more.asp */
 
 #more {
