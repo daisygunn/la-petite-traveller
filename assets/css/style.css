@@ -164,6 +164,10 @@ h3 {
 	text-decoration: underline #f8f8f8;
 }
 
+#travel_tips > p {
+  margin: 10px;
+}
+
 #travel_tips>p>a {
 	color: #f8f8f8
 }
