@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@300;500&display=swap');
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -107,7 +108,7 @@ h3 {
 	font-size: 15px;
 	text-align: center;
 	color: #00a9a5;
-  padding: 30px;
+	padding: 30px;
 }
 
 .sub_heading {
@@ -164,8 +165,8 @@ h3 {
 	text-decoration: underline #f8f8f8;
 }
 
-#travel_tips > p {
-  margin: 10px;
+#travel_tips>p {
+	margin: 10px;
 }
 
 #travel_tips>p>a {
@@ -404,7 +405,7 @@ h3 {
 
 .column {
 	float: left;
-	width: 16.66%;
+	width: 15.5%;
 }
 
 
@@ -458,6 +459,7 @@ h3 {
 	0% {
 		opacity: 1;
 	}
+
 	100% {
 		opacity: 0;
 		transform: translate(-10px, -10px);
@@ -486,7 +488,7 @@ h3 {
 }
 
 .form__group {
-  border: solid 1px #f8f8f8;
+	border: solid 1px #f8f8f8;
 }
 
 .newsletter_form {
@@ -557,7 +559,7 @@ h3 {
 	color: #00a9a5;
 	background: #f8f8f8;
 	transition: 0.3s;
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .btn:hover {
@@ -565,11 +567,13 @@ h3 {
 }
 
 @keyframes NO {
+
 	from,
 	to {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
 	}
+
 	10%,
 	30%,
 	50%,
@@ -578,6 +582,7 @@ h3 {
 		-webkit-transform: translate3d(-10px, 0, 0);
 		transform: translate3d(-10px, 0, 0);
 	}
+
 	20%,
 	40%,
 	60%,
@@ -592,6 +597,7 @@ h3 {
 		opacity: 0;
 		transform: translate3d(0, 50px, 0);
 	}
+
 	100% {
 		opacity: 1;
 		transform: translate3d(0, 0, 0);
@@ -602,9 +608,11 @@ h3 {
 	0% {
 		background-position: 0 0
 	}
+
 	50% {
 		background-position: 100% 0
 	}
+
 	100% {
 		background-position: 0 0
 	}
@@ -616,72 +624,74 @@ h3 {
 	bottom: 0; */
 	width: 100%;
 	/* clear: left; */
-	padding:40px 0;
+	padding: 40px 0;
 	background-color: rgba(0, 169, 165, 1);
 	font-family: 'Raleway', serif;
 	font-size: 10px;
 	color: #f8f8f8;
 	line-height: 15px;
 
-  }
+}
 
-  .list-inline {
+.list-inline {
 	margin-top: 20px;
-  }
-  
-  .footer-basic ul {
-	padding:0;
-	list-style:none;
-	text-align:center;
-	font-size:18px;
-	line-height:1.6;
-	margin-bottom:0;
-  }
-  
-  .footer-basic li {
-	padding:0 10px;
-  }
-  
-  .footer-basic ul a {
-	color:inherit;
-	text-decoration:none;
-  }
-  
-  .footer-basic ul a:hover {
-	opacity:1;
-  }
-  
-  .footer-basic .social {
-	text-align:center;
-	padding-bottom:25px;
-  }
-  
-  .footer-basic .social > a {
-	font-size:24px;
-	width:40px;
-	height:40px;
-	line-height:40px;
-	display:inline-block;
-	text-align:center;
-	border-radius:50%;
-	border:1px solid #f8f8f8;
-	margin:0 8px;
-	color:inherit;
-  }
-  #socials {
-	  color: #f8f8f8 !important;
-  }
-  .footer-basic .social > a:hover {
-	opacity:0.9;
-  }
-  
-  .footer-basic .copyright {
-	margin-top:15px;
-	text-align:center;
-	font-size:15px;
-	color:#f8f8f8;
-	margin-bottom:0;
-   }
+}
+
+.footer-basic ul {
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 0;
+}
+
+.footer-basic li {
+	padding: 0 10px;
+}
+
+.footer-basic ul a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.footer-basic ul a:hover {
+	opacity: 1;
+}
+
+.footer-basic .social {
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #f8f8f8;
+	margin: 0 8px;
+	color: inherit;
+}
+
+#socials {
+	color: #f8f8f8 !important;
+}
+
+.footer-basic .social>a:hover {
+	opacity: 0.9;
+}
+
+.footer-basic .copyright {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 15px;
+	color: #f8f8f8;
+	margin-bottom: 0;
+}
 
 /* Footer */
 /* 
@@ -785,28 +795,34 @@ h3 {
 
 @media screen and (max-width: 425px) {
 	.topnav a:not(:first-child) {
-		display: none; 
+		display: none;
 	}
+
 	.topnav a {
 		float: right;
 	}
+
 	.topnav a.icon {
 		float: right;
 		display: block;
 	}
+
 	.topnav.responsive {
 		position: relative;
 	}
+
 	.topnav.responsive a.icon {
 		position: absolute;
 		right: 0;
 		top: 0;
 	}
+
 	.topnav.responsive a {
 		float: none;
 		display: block;
 		text-align: left;
 	}
+
 	.bg-img {
 		min-height: 200px;
 		width: 100%;
@@ -831,86 +847,99 @@ h3 {
 		clear: both;
 		padding: 0;
 	}
-	#sri_lanka_map{
+
+	#sri_lanka_map {
 		max-width: 100%;
 		text-align: center;
 	}
 
 
-/* tablets */
+	/* tablets */
 
 
-/* Media queries for navbar responsiveness. The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+	/* Media queries for navbar responsiveness. The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
   This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 
-@media screen and (max-width: 600px) {
-	.topnav a:not(:first-child) {
-		display: none;
-	}
-	.topnav a {
-		float: right;
-	}
-	.topnav a.icon {
-		float: right;
-		display: block;
-	}
-	.topnav.responsive {
-		position: relative;
-	}
-	.topnav.responsive a.icon {
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-	.topnav.responsive a {
-		float: none;
-		display: block;
-		text-align: left;
-	}
-	.mySlides>img {
-		width: 100%;
-	}
-	#about_container {
-		font-size: 12px;
-		font-family: 'Raleway', serif;
-		text-align: center;
-		padding: 25px;
-	}
-	#main_heading {
-		font-size: 40px;
-		text-align: center;
-	}
-	.travel_tips_container {
-		width: 100%;
-		clear: both;
-		float: none;
-	}
-	#travel_tips {
-		width: 100%;
-	}
-	#essentials {
-		width: 100%;
-		clear: both;
-		float: none;
-	}
-	.essentials_list {
-		font-size: 13px;
-	}
-}
+	@media screen and (max-width: 600px) {
+		.topnav a:not(:first-child) {
+			display: none;
+		}
 
-@media screen and (max-width: 767px) {
-	.essentials_list {
-		font-family: 'Raleway', serif;
-		color: rgba(0, 169, 165, 1);
-		font-size: 15px;
-		padding-right: 5px;
-		text-align: center;
+		.topnav a {
+			float: right;
+		}
+
+		.topnav a.icon {
+			float: right;
+			display: block;
+		}
+
+		.topnav.responsive {
+			position: relative;
+		}
+
+		.topnav.responsive a.icon {
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+
+		.topnav.responsive a {
+			float: none;
+			display: block;
+			text-align: left;
+		}
+
+		.mySlides>img {
+			width: 100%;
+		}
+
+		#about_container {
+			font-size: 12px;
+			font-family: 'Raleway', serif;
+			text-align: center;
+			padding: 25px;
+		}
+
+		#main_heading {
+			font-size: 40px;
+			text-align: center;
+		}
+
+		.travel_tips_container {
+			width: 100%;
+			clear: both;
+			float: none;
+		}
+
+		#travel_tips {
+			width: 100%;
+		}
+
+		#essentials {
+			width: 100%;
+			clear: both;
+			float: none;
+		}
+
+		.essentials_list {
+			font-size: 13px;
+		}
 	}
 
-	.list_heading {
-		text-align: center;
+	@media screen and (max-width: 767px) {
+		.essentials_list {
+			font-family: 'Raleway', serif;
+			color: rgba(0, 169, 165, 1);
+			font-size: 15px;
+			padding-right: 5px;
+			text-align: center;
+		}
+
+		.list_heading {
+			text-align: center;
+		}
 	}
-}
 }
 
 /* tablets */
@@ -924,6 +953,7 @@ h3 {
 		margin-right: auto;
 		float: none;
 	}
+
 	.essentials_list {
 		font-family: 'Raleway', serif;
 		color: rgba(0, 169, 165, 1);
@@ -944,10 +974,11 @@ h3 {
 	#sri_lanka_map {
 		height: 400px;
 	}
-	
+
 	.mySlides>img {
 		width: 60%;
 	}
+
 	/* .caption-container {
   text-align: center;
   background-color: rgba(0, 169, 165, 0.5);
@@ -962,6 +993,7 @@ h3 {
 /* Large screens */
 
 @media screen and (min-width: 1024px) {
+
 	/* #essentials {
     margin: 5px;
   } */
@@ -970,6 +1002,7 @@ h3 {
 		padding-left: 0;
 		margin-left: 0;
 	}
+
 	#my_last_trip_img {
 		max-width: 100%;
 		height: auto;
@@ -979,36 +1012,45 @@ h3 {
 		clear: both;
 		padding: 0;
 	}
+
 	.sub_section_heading {
 		font-size: 15px;
 	}
+
 	#sri_lanka_rewiew>h4,
 	p {
 		font-size: 14px;
 		padding: 10px;
 	}
+
 	#sri_lanka_route>iframe {
 		max-width: 100%;
 		text-align: center;
 		padding: 0;
 	}
+
 	.myBtn {
 		position: fixed;
 	}
+
 	.mySlides>img {
 		width: 35%;
 		clear: both;
 	}
+
 	#form_heading {
 		font-size: 25px;
 	}
+
 	.form_title {
 		font-size: 20px;
 	}
+
 	.footer #page_footer {
 		height: 100px;
 		margin-top: 20px;
 	}
+
 	.left_footer,
 	.right_footer {
 		font-size: 14px;
@@ -1020,6 +1062,7 @@ h3 {
 		width: 55%;
 		float: left;
 	}
+
 	.float_right {
 		width: 40%;
 		float: right;
