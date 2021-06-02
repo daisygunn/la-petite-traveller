@@ -611,11 +611,11 @@ h3 {
 }
 
 .footer-basic {
-	position: fixed;
+	/* position: fixed;
 	left: 0;
-	bottom: 0;
+	bottom: 0; */
 	width: 100%;
-	clear: left;
+	/* clear: left; */
 	padding:40px 0;
 	background-color: rgba(0, 169, 165, 1);
 	font-family: 'Raleway', serif;
@@ -645,7 +645,6 @@ h3 {
   .footer-basic ul a {
 	color:inherit;
 	text-decoration:none;
-	opacity:0.8;
   }
   
   .footer-basic ul a:hover {
@@ -665,12 +664,13 @@ h3 {
 	display:inline-block;
 	text-align:center;
 	border-radius:50%;
-	border:1px solid #ccc;
+	border:1px solid #f8f8f8;
 	margin:0 8px;
 	color:inherit;
-	opacity:0.75;
   }
-  
+  #socials {
+	  color: #f8f8f8 !important;
+  }
   .footer-basic .social > a:hover {
 	opacity:0.9;
   }
