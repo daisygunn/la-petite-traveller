@@ -810,6 +810,14 @@ h3 {
 
 @media screen and (min-width: 1024px) {
 
+	#about_container {
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 
 	#essentials_list {
 		font-size: 18px;
