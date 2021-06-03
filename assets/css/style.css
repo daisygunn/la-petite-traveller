@@ -870,7 +870,8 @@ h3 {
 		font-size: 14px;
 	}
 }
- /* Extra large screens */
+
+/* Extra large screens */
 
 @media screen and (min-width: 1440px) {
 	.float_left {
