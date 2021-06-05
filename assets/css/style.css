@@ -229,7 +229,7 @@ h3 {
 
 .sri_lanka {
 	float: left;
-	padding: 15px;
+	padding: 2px 15px 5px 15px;
 	width: 100%;
 	box-sizing: border-box;
 	text-align: left;
@@ -237,7 +237,7 @@ h3 {
 	background-color: #fff;
 	color: rgba(0, 169, 165, 1);
 	font-size: 12px;
-	/* margin-top: 15px;  */
+	
 }
 
 #review_heading {
@@ -812,6 +812,7 @@ h3 {
 			display: block;
 			text-align: left;
 		}
+
 	}
 
 	/* Tablet sized screens */
