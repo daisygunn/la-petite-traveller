@@ -120,7 +120,14 @@ h3 {
 	margin: 5px auto 5px auto;
 }
 
+.green-link {
+	color:rgba(0, 169, 165, 1)
+}
 
+.green-link:hover {
+	background-color: rgba(0, 169, 165, 1);
+	color: #f8f8f8;	
+}
 /* Travel Tips 101 */
 
 #travel_tips_101 h2 {
