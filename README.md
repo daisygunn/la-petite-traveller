@@ -112,7 +112,7 @@ I have used a number of technlogies that have enabled this design to work:
 - W3C Markup Validation Service
 - W3C CSS Validation Service
 - WAVE Web Accessibility Evaluation Tool
-- Freeformatter CSS Beautify
+- Freeformatter CSS Beautify: 
 - Freeformatter HTML Formatter
 
 ---
