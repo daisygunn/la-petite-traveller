@@ -196,18 +196,18 @@ h3 {
 	font-family: 'Raleway', serif;
 	color: rgba(0, 169, 165, 1);
 	text-align: left;
-	font-size: 20px;
+	font-size: 15px;
 	padding: 5px;
 	margin-left: 1px;
-	padding-inline-start: 0;
 	list-style-type: none;
+	margin-top: 0;
 }
 
 .list_heading {
 	font-family: 'Raleway', serif;
 	color: rgba(0, 169, 165, 1);
 	text-align: left;
-	font-size: 22px;
+	font-size: 17px;
 	text-decoration: underline;
 	margin: 10px 0 10px 0;
 }
