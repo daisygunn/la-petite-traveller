@@ -308,6 +308,7 @@ h3 {
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(8, 5vw);
 	grid-gap: 10px;
+	margin-top: 10px;
 }
 
 .fancybox-photo {
