@@ -86,7 +86,7 @@ h3 {
 }
 
 #about_container {
-	font-size: 15px;
+	font-size: 20px;
 	text-align: center;
 	color: #00a9a5;
 	padding: 20px 20px 5px 20px;
@@ -143,7 +143,7 @@ h3 {
 	font-family: 'Raleway', serif;
 	background-color: rgba(0, 169, 165, 1);
 	color: #f8f8f8;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .sub_section_heading {
@@ -189,7 +189,7 @@ h3 {
 	font-family: 'Raleway', serif;
 	color: rgba(0, 169, 165, 1);
 	text-align: left;
-	font-size: 17px;
+	font-size: 18px;
 	text-decoration: underline;
 	margin: 10px 0 10px 0;
 }
@@ -218,7 +218,7 @@ h3 {
 	font-family: 'Raleway', serif;
 	background-color: #fff;
 	color: rgba(0, 169, 165, 1);
-	font-size: 12px;
+	font-size: 15px;
 }
 
 #review_heading {
@@ -241,6 +241,7 @@ h3 {
 	left: 0;
 	padding: 5px 5px;
 	margin: 0;
+	font-size: 15px;
 }
 
 #sri_lanka_review ul {
@@ -248,6 +249,7 @@ h3 {
 	left: 0;
 	padding: 5px 5px;
 	margin: 0;
+	font-size: 15px;
 }
 
 #sri_lanka_route {
@@ -268,7 +270,7 @@ h3 {
 
 .sri_lanka>h4 {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 18px;
 	font-family: 'Raleway';
 }
 
