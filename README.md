@@ -64,10 +64,7 @@ In order to achieve the desired user & business goals, the following features wi
 
 This website is a single page website to allow for desired flow; the navigation bar at the top allows for users to easily move to whatever section of the site they are interested in or they can simply scroll through the information as it is displayed. I chose the following order for the information 'Home > Travel Tips 101 > My Last Trip > Keep in Touch', as I felt this would allow the information to be digested in the best way. The text blocks are broken up with images to ensure interest is kept and there is no information overload at any point. There is a concise review of Sri Lanka before the more in-detail guide as I wanted users to be able to find these key bits of information quickly. Finally there is a simple sign up form for users to sign up to the La Petite Traveller's newsletter.
 
-
-
 ### **Skeleton**
-
 [Wireframes](wireframes.pdf/wireframes_la_petite_traveller.pdf)
 
 Please note the actual website has changed slightly from these wireframes.
@@ -76,10 +73,13 @@ Whilst building the website I felt that there were sections with too much inform
 
 I also decided to change my photo slideshow to a Fancybox gallery as I felt it looked cleaner and I preferred this method of interaction, it also allowed for better responsivness and the images looked better on larger screens. 
 
+In addition to these changes I also decided to add an animated arrow between the heading for the newsletter sign up form and the form itself, I felt that this was an engaging element that would encourage user's to keep looking down the page. 
+
 ### **Surface**
 I chose a colour palette based around blues & greens as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their own memories of travelling/holiday's and believe these colours will help to do this. I paired these with a lighter off-white in order to allow for appropriate contrast. 
-
+---
 ## **Features**
+
 This is a fully responsive website that was designed mobile first as this is the most likely way it will be viewed; the page is divided into the four sections listed in the navbar. Where a colour background has been used it has a slightly transparent opacity and the text is an off-white. All of the headings use the font Cookie and the body text is Raleway, this consistency has been used across the website to create a coherent design. 
 
 ### *Navbar*
@@ -130,13 +130,13 @@ I have used a number of technlogies that have enabled this design to work:
     - Used to fix the thousands of grammar errors across the project.
 - [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
     - Used to detect overflow of elements, which allowed to me to quickly debug any issues.
-- [Coloors] (https://coolors.co/)
+- [Coloors](https://coolors.co/)
     - Used to create a colour palette for the design.
 - [Fancybox](https://fancyapps.com/fancybox/3/)
     - Used to format my Sri Lanka photo gallery.
-- [Favicon.io] (https://favicon.io/)
+- [Favicon.io](https://favicon.io/)
     - Used to create favicon's for my website
-- [Tiny.png] (https://tinypng.com/)
+- [Tiny.png](https://tinypng.com/)
     - Allowed me to compress my images so that the page would load faster.
 - [Color Contrast Accessibility Validator](https://color.a11y.com/)
     - Allowed my to test the colour contrast of my webpage.
@@ -175,7 +175,6 @@ If you want to make changes to your repository without affecting it, you can mak
 1. Find the relevant Github repository
 2. In the top right corner of the page, click the Fork button (under your account)
 3. Your repository has now been 'Forked' and you have a copy to work on.
-
 
 ---
 ## Credits
