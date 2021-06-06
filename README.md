@@ -53,16 +53,16 @@ In order to achieve the desired user & business goals, the following features wi
 - Header and menu bar, to navigate to various sections of the page
 - Information section full of tips for backpacking
 - Downloadble Checklist of things to pack
-- Ratings for a recent trip, Sri Lanka
-- Map of the route taken
+- Ratings of a recent trip to Sri Lanka
+- Interactive map of the route taken
 - Information, recommendations and advice for travelling Sri Lanka
-- Gallery of images of Sri Lanka trip
+- Gallery of images from the Sri Lanka trip
 - Newsletter sign up form
-- Links to affiliate social media pages & email address
+- Links to affiliate social media pages
 
 ### *Structure* 
 
-This website is a single page website to allow for desired flow; the navigation bar at the top allows for users to easily move to whatever section of the site they are interested in or they can simply scroll through the information as it is displayed. I chose the following order for the information 'Home > Travel Tips 101 > My Last Trip > Keep in Touch', as I felt this would allow for the information to be digested in the best way. The text blocks are broken up with images to ensure interest is kept and there is no information overload at any point. There is a concise review of Sri Lanka before the more in-detail guide as I wanted users to be able to find these key bits of information quickly. Finally there is a simple sign up form for users to sign up to the La Petite Traveller's newsletter.
+This website is a single page website to allow for desired flow; the navigation bar at the top allows for users to easily move to whatever section of the site they are interested in or they can simply scroll through the information as it is displayed. I chose the following order for the information 'Home > Travel Tips 101 > My Last Trip > Keep in Touch', as I felt this would allow the information to be digested in the best way. The text blocks are broken up with images to ensure interest is kept and there is no information overload at any point. There is a concise review of Sri Lanka before the more in-detail guide as I wanted users to be able to find these key bits of information quickly. Finally there is a simple sign up form for users to sign up to the La Petite Traveller's newsletter.
 
 ### **Skeleton**
 
