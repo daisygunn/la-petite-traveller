@@ -156,6 +156,8 @@ I deployed this website by using GitPages and following the below steps:
 5. In the source section, select branch 'Master' and save.
 6. The page is then given a site URL which you will see above the source section, it will look like the following: 
 
+![](assets/README-files/images/git-pages-published.png)
+
 Please note it can take a while for this link to become fully active. 
 
 *Forking the Github Respository*
