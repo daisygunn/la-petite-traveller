@@ -622,6 +622,10 @@ h3 {
 		font-size: 30px;
 	}
 
+	.sub_section_heading {
+		font-size: 15px;
+	}
+
 	.bg-img {
 		min-height: 200px;
 		width: 100%;
@@ -746,6 +750,11 @@ h3 {
 		text-align: center;
 	}
 
+	.sub_section_heading {
+		font-size: 15px;
+	}
+}
+
 /* Mid mobile - Large mobile screens */
 
 	@media screen and (min-width: 426px) and (max-width: 520px) {
@@ -781,6 +790,13 @@ h3 {
 			float: none;
 			display: block;
 			text-align: left;
+		}
+		.sub_section_heading {
+			font-size: 15px;
+		}
+
+		.fas, .far {
+			font-size: 15px;
 		}
 
 	}
@@ -838,7 +854,7 @@ h3 {
 			text-align: center;
 		}
 	}
-}
+
 
 /* Tablet screens */
 
