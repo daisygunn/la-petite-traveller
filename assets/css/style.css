@@ -52,9 +52,6 @@ h3 {
 	overflow: hidden;
 }
 
-
-/* Style the links inside the navigation bar */
-
 .topnav a {
 	float: left;
 	display: inline;
@@ -66,29 +63,19 @@ h3 {
 	font-size: 15px;
 }
 
-
-/* Change the color of links on hover */
-
 .topnav a:hover {
 	background-color: #f8f8f8;
 	color: #0b5351;
 }
-
-
-/* Add an active class to highlight the current page */
 
 .topnav a.active {
 	background-color: #0b5351;
 	color: #f8f8f8;
 }
 
-
-/* Hide the link that should open and close the topnav on small screens */
-
 .topnav .icon {
 	display: none;
 }
-
 
 /* About Section */
 
@@ -542,7 +529,7 @@ h3 {
 	}
 }
 
-/* Footer */
+/* Footer credit to https://epicbootstrap.com/snippets/footer-basic */ 
 
 .footer-basic {
 	width: 100%;
@@ -614,6 +601,7 @@ h3 {
 	color: #f8f8f8;
 	margin-bottom: 0;
 }
+
 /* Media Queries */
 
 /* Extra-small mobile screens */
