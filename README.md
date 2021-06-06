@@ -17,12 +17,12 @@ The business goals for this website are:
 4. Build a database of users to send future information & content to, thus furthering the reach of the author.
 
 The user goals of this website are:
-1. To easily find useful information & tips for travelling/backpacking
-2. To find inspiration for planning future trips
-3. To find a helpful guide on Sri Lanka, with possible routes to take and options available
-4. To find recommendations from a trusted source for restaurants and hotels
-5. To easily find affiliate pages for the author, with even more inspiration available
-6. To be able to sign up to directly receive content via a newsletter
+1. As a first-time visitor, I want to easily find useful information & tips for travelling/backpacking.
+2. As a first-time visitor, I want to find inspiration for planning future trips.
+3. As a first-time visitor, I want to find a helpful guide on Sri Lanka, with possible routes to take and options available.
+4. As a recurring or first-time visitor, I want to find recommendations from a trusted source for restaurants and hotels.
+5. As a recurring or first-time visitor, to easily find affiliate pages for the author, with even more inspiration available
+6. As a first-time user, I want to be able to sign up to directly receive content via a newsletter
 
 ## UX
 ---
