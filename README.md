@@ -21,8 +21,8 @@ The user goals of this website are:
 2. As a first-time visitor, I want to find inspiration for planning future trips.
 3. As a first-time visitor, I want to find a helpful guide on Sri Lanka, with possible routes to take and options available.
 4. As a recurring or first-time visitor, I want to find recommendations from a trusted source for restaurants and hotels.
-5. As a recurring or first-time visitor, to easily find affiliate pages for the author, with even more inspiration available
-6. As a first-time user, I want to be able to sign up to directly receive content via a newsletter
+5. As a recurring or first-time visitor, to easily find affiliate pages for the author, with even more inspiration available.
+6. As a first-time user, I want to be able to sign up to directly receive content via a newsletter.
 
 ## UX
 ---
@@ -42,7 +42,7 @@ What these users would be looking for:
 * Helpful guidance on routes available
 * Recommendations for where to eat/stay
 
-This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information as this is often the reason people are put off with travel guides.
+This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information at first glance as this is often the reason people are put off with travel guides.
 
 Due to the age group of the users, it is assumed that most users will be viewing the site on their mobile phones and therefore creating something responsive is integral to the design.
 
@@ -64,13 +64,20 @@ In order to achieve the desired user & business goals, the following features wi
 
 This website is a single page website to allow for desired flow; the navigation bar at the top allows for users to easily move to whatever section of the site they are interested in or they can simply scroll through the information as it is displayed. I chose the following order for the information 'Home > Travel Tips 101 > My Last Trip > Keep in Touch', as I felt this would allow the information to be digested in the best way. The text blocks are broken up with images to ensure interest is kept and there is no information overload at any point. There is a concise review of Sri Lanka before the more in-detail guide as I wanted users to be able to find these key bits of information quickly. Finally there is a simple sign up form for users to sign up to the La Petite Traveller's newsletter.
 
+
+
 ### **Skeleton**
 
 [Wireframes](wireframes.pdf/wireframes_la_petite_traveller.pdf)
 
+Please note the actual website has changed slightly from these wireframes.
+
+Whilst building the website I felt that there were sections with too much information, for this reason I opted to install the read more button on all devices and not just the mobile. This allows for user's to only read on if they would like the more detailed information; I felt giving the user this control would provide a positive user experience. 
+
+I also decided to change my photo slideshow to a Fancybox gallery as I felt it looked cleaner and I preferred this method of interaction, it also allowed for better responsivness and the images looked better on larger screens. 
 
 ### **Surface**
-I chose a colour palette based around a blues and greens as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their own memories of travelling and believe these colours will help to do this. I paired these with a lighter off-white in order to allow for appropriate contrast. 
+I chose a colour palette based around blues & greens as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their own memories of travelling/holiday's and believe these colours will help to do this. I paired these with a lighter off-white in order to allow for appropriate contrast. 
 
 ## **Features**
 This is a fully responsive website that was designed mobile first as this is the most likely way it will be viewed; the page is divided into the four sections listed in the navbar. Where a colour background has been used it has a slightly transparent opacity and the text is an off-white. All of the headings use the font Cookie and the body text is Raleway, this consistency has been used across the website to create a coherent design. 
