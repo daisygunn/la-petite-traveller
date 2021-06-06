@@ -100,8 +100,6 @@ I have used a number of technlogies that have enabled this design to work:
     - Used as the basic building block for the project and to structure the content.
 - [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
     - Used to style all the web content across the project. 
-- [jQuery](https://jquery.com/)
-    - Used with Bootstrap to make the navbar responsive.
 - [JavaScript](https://www.javascript.com/)
     - Used for the responsive navbar, form, scroll down arrow and read more/read less button.
 - [Google Fonts](https://fonts.google.com/)
@@ -126,6 +124,8 @@ I have used a number of technlogies that have enabled this design to work:
     - Used to detect overflow of elements, which allowed to me to quickly debug any issues.
 - [Coloors] (https://coolors.co/)
     - Used to create a colour palette for the design.
+- [Fancybox](https://fancyapps.com/fancybox/3/)
+    - Used to format my Sri Lanka photo gallery.
 - [Favicon.io] (https://favicon.io/)
     - Used to create favicon's for my website
 - [Tiny.png] (https://tinypng.com/)
