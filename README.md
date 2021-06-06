@@ -76,8 +76,11 @@ I also decided to change my photo slideshow to a Fancybox gallery as I felt it l
 In addition to these changes I also decided to add an animated arrow between the heading for the newsletter sign up form and the form itself, I felt that this was an engaging element that would encourage user's to keep looking down the page. 
 
 ### **Surface**
+
 I chose a colour palette based around blues & greens as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their own memories of travelling/holiday's and believe these colours will help to do this. I paired these with a lighter off-white in order to allow for appropriate contrast. 
+
 ---
+
 ## **Features**
 
 This is a fully responsive website that was designed mobile first as this is the most likely way it will be viewed; the page is divided into the four sections listed in the navbar. Where a colour background has been used it has a slightly transparent opacity and the text is an off-white. All of the headings use the font Cookie and the body text is Raleway, this consistency has been used across the website to create a coherent design. 
@@ -178,6 +181,39 @@ If you want to make changes to your repository without affecting it, you can mak
 
 ---
 ## Credits
+
+I have used a number of resources in order to produce this website, where code has been used found from another source this is credited as a comment within the HTML, CSS and JS files.
+
+The following websites/articles were used for research and guidance:
+
+[Wireframes](https://careerfoundry.com/en/blog/ux-design/wireframing-mobile-apps-websites/)
+
+[Design tips](https://99designs.co.uk/blog/tips/responsive-web-design-key-tips-and-approaches/)
+
+[Media Queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+
+I used code from the following resources:
+
+[Responsive Navbar](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+
+[Animated scroll down arrow](https://codepen.io/JoshMac/pen/MaYEmJ)
+
+[Read more button](https://www.w3schools.com/howto/howto_js_read_more.asp)
+- This code was used but the JS function was heavily edited with the help of my tutor Guido.
+
+[Sign up form](https://codepen.io/dope/pen/ZQWBeL)
+- I used this code as the basis of my form but changed the styling and removed the background animation. 
+
+[Image grid](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
+
+[Fancybox gallery](https://fancyapps.com/fancybox/3/docs/#images)
+
+The below websites were used for the content: 
+
+Most of the content was created by me but I used Trip Advisor and Wikiepedia for some facts on some of the destinations in Sri Lanka.
+
+A number of the images were taken by me but the rest were found on [Unsplash](https://unsplash.com/s/photos/sri-lankan).
+
 ---
 ## Acknowledgements
 ---
