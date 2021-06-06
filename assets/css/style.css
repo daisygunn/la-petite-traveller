@@ -548,6 +548,8 @@ h3 {
 	}
 }
 
+/* Footer */
+
 .footer-basic {
 	width: 100%;
 	padding: 30px 0 5px 0;
@@ -618,6 +620,9 @@ h3 {
 	color: #f8f8f8;
 	margin-bottom: 0;
 }
+/* Media Queries */
+
+/* Extra-small mobile screens */
 
 @media screen and (max-width: 369px) {
 	#main_heading {
@@ -681,11 +686,9 @@ h3 {
 	.essentials_list {
 		font-size: 15px;
 	}
-
-
 }
 
-/* small mobiles */
+/* Small mobile screens */
 
 @media screen and (min-width: 370px) and (max-width: 425px) {
 	.bg-img {
@@ -747,9 +750,7 @@ h3 {
 		text-align: center;
 	}
 
-
-	/* Media queries for navbar responsiveness. The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
-  This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+/* Mid mobile - Large mobile screens */
 
 	@media screen and (min-width: 426px) and (max-width: 520px) {
 
@@ -788,7 +789,7 @@ h3 {
 
 	}
 
-	/* Tablet sized screens */
+	/* Small tablet screens */
 
 	@media screen and (max-width: 600px) {
 		.mySlides>img {
@@ -843,7 +844,7 @@ h3 {
 	}
 }
 
-/* tablets */
+/* Tablet screens */
 
 @media screen and (min-width: 768px) {
 	#essentials {
@@ -881,7 +882,7 @@ h3 {
 	}
 }
 
-/* Large screens */
+/* Desktop screens */
 
 @media screen and (min-width: 1024px) {
 
@@ -954,7 +955,7 @@ h3 {
 	}
 }
 
-/* Extra large screens */
+/* Extra large desktop screens */
 
 @media screen and (min-width: 1440px) {
 	.float_left {
@@ -967,8 +968,6 @@ h3 {
 		float: right;
 	}
 }
-
-
 
 /* Code for Privacy Policy */
 
