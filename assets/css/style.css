@@ -236,6 +236,9 @@ h3 {
 	margin: 0;
 }
 
+.fas, .far {
+	font-size: 20px;
+}
 #sri_lanka_review li {
 	list-style: none;
 	left: 0;
