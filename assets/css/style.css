@@ -86,7 +86,7 @@ h3 {
 }
 
 #about_container {
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 	color: #00a9a5;
 	padding: 20px 20px 5px 20px;
@@ -661,6 +661,10 @@ h3 {
 		text-align: left;
 	}
 
+	.about_container {
+		font-size: 14px;
+	}
+
 	#my_last_trip_img {
 		background-size: contain;
 		margin-bottom: -50px;
@@ -716,6 +720,10 @@ h3 {
 		float: none;
 		display: block;
 		text-align: left;
+	}
+
+	.about_container {
+		font-size: 15px;
 	}
 
 	.list_heading {
@@ -785,7 +793,7 @@ h3 {
 		}
 
 		#about_container {
-			font-size: 12px;
+			font-size: 15px;
 			font-family: 'Raleway', serif;
 			text-align: center;
 			padding: 20px 20px 5px 20px;
@@ -836,7 +844,6 @@ h3 {
 
 @media screen and (min-width: 768px) {
 
-
 	#essentials {
 		width: 66%;
 		box-sizing: border-box;
@@ -860,7 +867,7 @@ h3 {
 
 	.sri_lanka>p,
 	#more>p {
-		font-size: 14px;
+		font-size: 15px;
 	}
 
 	#sri_lanka_map {
@@ -907,7 +914,7 @@ h3 {
 
 	#sri_lanka_rewiew>h4,
 	p {
-		font-size: 14px;
+		font-size: 18px;
 		padding: 10px;
 	}
 
