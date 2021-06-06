@@ -147,12 +147,13 @@ h3 {
 }
 
 .sub_section_heading {
-	font-size: 13px;
+	font-size: 18px;
 	text-decoration: underline #f8f8f8;
 }
 
 #travel_tips>p {
 	margin: 8px;
+	font-size: 15px;
 }
 
 #travel_tips>p>a {
@@ -829,6 +830,8 @@ h3 {
 /* Tablet screens */
 
 @media screen and (min-width: 768px) {
+
+
 	#essentials {
 		width: 66%;
 		box-sizing: border-box;
