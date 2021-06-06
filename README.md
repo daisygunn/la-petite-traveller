@@ -93,9 +93,9 @@ I have then included an interactive photo gallery of images of my trip to Sri La
 This is a sign up form that will allow the user to sign up for La Petite Traveller's newsletter. There is a H2 & H3 providing information regarding the form and an animated arrow guiding the user's attention to the form below. The form uses 3 elements, 2 text inputs and an email input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same as across the site.
 
 ---
-## Technologies Used
+## Technologies Used ##
 I have used a number of technlogies that have enabled this design to work:
-## *Technologies Used* ##
+
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
     - Used as the basic building block for the project and to structure the content.
 - [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
@@ -122,20 +122,24 @@ I have used a number of technlogies that have enabled this design to work:
     - Used to parse my CSS and ass vendor prefixes.
 - [Grammarly](https://www.grammarly.com/)
     - Used to fix the thousands of grammar errors across the project.
-- Unicorn Revealer
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
     - Used to detect overflow of elements, which allowed to me to quickly debug any issues.
-- Coloors
+- [Coloors] (https://coolors.co/)
     - Used to create a colour palette for the design.
 - [Favicon.io] (https://favicon.io/)
     - Used to create favicon's for my website
-- Tiny.png
+- [Tiny.png] (https://tinypng.com/)
     - Allowed me to compress my images so that the page would load faster.
-- Color Contrast Accessibility Validator
-- W3C Markup Validation Service
-- W3C CSS Validation Service
-- WAVE Web Accessibility Evaluation Tool
-- Freeformatter CSS Beautify 
-- Freeformatter HTML Formatter
+- [Color Contrast Accessibility Validator](https://color.a11y.com/)
+    - Allowed my to test the colour contrast of my webpage.
+- [W3C Markup Validation Service](https://validator.w3.org/) 
+    - Used to validate all HTML code written and used in this webpage.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Used to validate all CSS code written and used in this webpage.
+- [Freeformatter CSS Beautify](https://www.freeformatter.com/css-beautifier.html)
+    - Used to accurately format my CSS code.
+- [Freeformatter HTML Formatter](https://www.freeformatter.com/html-formatter.html)
+    - Used to accurately format my HTML code.
 
 ---
 ## Testing
