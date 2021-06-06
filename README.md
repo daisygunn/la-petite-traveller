@@ -95,24 +95,46 @@ This is a sign up form that will allow the user to sign up for La Petite Travell
 ---
 ## Technologies Used
 I have used a number of technlogies that have enabled this design to work:
-
-- HTML, CSS and JavaScript are the languages that this website has been written in
-- Balsamiq: Used to create my project wireframes
-- Gitpod.io: the coding software that allowed me to write my code and display previews
-- Github: Used to store my Gitpod repository, where all my code was pushed to. 
-- Chrome Developer Tools: used throughout the entire project to work on the responsiveness of my page and to help debug any issues.
-- Unicorn Revealer: used to detect overflow of elements, which allowed to me to quickly debug any issues.
-- Coloors: used to create a colour palette for the design.
-- Google Fonts: used to find compatible font styles for the website. 
-- Font Awesome: used to embed icons on to my webpag.
-- Tiny.png: allowed me to compress my images so that the page would load faster.
-- Favicon.io: used to create favicon's for my website
-- Autoprefixer
+## *Technologies Used* ##
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - Used as the basic building block for the project and to structure the content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - Used to style all the web content across the project. 
+- [jQuery](https://jquery.com/)
+    - Used with Bootstrap to make the navbar responsive.
+- [JavaScript](https://www.javascript.com/)
+    - Used for the responsive navbar, form, scroll down arrow and read more/read less button.
+- [Google Fonts](https://fonts.google.com/)
+    - Used to obtain the fonts linked in the header, fonts used were Playfair and Cookie
+- [Font Awesome](https://fontawesome.com/)
+    - Used to obtain the social media icons used in the footer and the icons in La Petite Review.
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+- [Github](https://github.com/)
+    - Used to store code for the project after being pushed.
+- [Git](https://git-scm.com/)
+    - Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+- [Gitpod](https://www.gitpod.io/)
+    - Used as the development enviroment.
+- [Balsamiq](https://balsamiq.com/)
+    - Used to create the wireframes for the project.
+- [AutoPrefixer](https://autoprefixer.github.io/)
+    - Used to parse my CSS and ass vendor prefixes.
+- [Grammarly](https://www.grammarly.com/)
+    - Used to fix the thousands of grammar errors across the project.
+- Unicorn Revealer
+    - Used to detect overflow of elements, which allowed to me to quickly debug any issues.
+- Coloors
+    - Used to create a colour palette for the design.
+- [Favicon.io] (https://favicon.io/)
+    - Used to create favicon's for my website
+- Tiny.png
+    - Allowed me to compress my images so that the page would load faster.
 - Color Contrast Accessibility Validator
 - W3C Markup Validation Service
 - W3C CSS Validation Service
 - WAVE Web Accessibility Evaluation Tool
-- Freeformatter CSS Beautify: 
+- Freeformatter CSS Beautify 
 - Freeformatter HTML Formatter
 
 ---
