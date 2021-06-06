@@ -172,10 +172,10 @@ I deployed this website by using GitPages and following the below steps:
 *Github pages deployment* 
 
 1. Log in to Github
-2. In your Repository section, select the project repository that you want to deploy.
-3. In the menu located at the top of this section, click 'Settings'. 
-4. Select 'Pages' on the left-hand menu - this is around half-way down. 
-5. In the source section, select branch 'Master' and save.
+2. In your Repository section, select the project repository that you want to deploy
+3. In the menu located at the top of this section, click 'Settings'
+4. Select 'Pages' on the left-hand menu - this is around half-way down
+5. In the source section, select branch 'Master' and save
 6. The page is then given a site URL which you will see above the source section, it will look like the following: 
 
 ![](assets/README-files/images/git-pages-published.png)
@@ -188,7 +188,7 @@ If you want to make changes to your repository without affecting it, you can mak
 
 1. Find the relevant Github repository
 2. In the top right corner of the page, click the Fork button (under your account)
-3. Your repository has now been 'Forked' and you have a copy to work on.
+3. Your repository has now been 'Forked' and you have a copy to work on
 
 ---
 ## Credits
