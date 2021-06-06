@@ -66,7 +66,8 @@ This website is a single page website to allow for desired flow; the navigation 
 
 ### **Skeleton**
 
-[link to wireframes]
+[Wireframes](wireframes.pdf/wireframes_la_petite_traveller.pdf)
+
 
 ### **Surface**
 I chose a colour palette based around a blues and greens as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their own memories of travelling and believe these colours will help to do this. I paired these with a lighter off-white in order to allow for appropriate contrast. 
