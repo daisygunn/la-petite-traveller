@@ -682,6 +682,10 @@ h3 {
 	.essentials_list {
 		font-size: 15px;
 	}
+
+	.footer-basic .social {
+		padding-bottom: 0;
+	}
 }
 
 /* Small mobile screens */
