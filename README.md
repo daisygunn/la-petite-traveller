@@ -154,6 +154,17 @@ I have used a number of technlogies that have enabled this design to work:
 
 ---
 ## Testing
+
+### User Stories
+
+### Lighthouse
+
+### HTML and CSS Validation
+
+### Known bugs and fixes
+
+### Further testing
+
 ---
 ## Deployment
 I deployed this website by using GitPages and following the below steps:
