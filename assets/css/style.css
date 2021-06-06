@@ -237,7 +237,6 @@ h3 {
 	background-color: #fff;
 	color: rgba(0, 169, 165, 1);
 	font-size: 12px;
-	
 }
 
 #review_heading {
@@ -434,7 +433,7 @@ h3 {
 	position: relative;
 }
 
-/* code for form https://codepen.io/dope/pen/ZQWBeL */
+/* Code for form found here: https://codepen.io/dope/pen/ZQWBeL */
 
 .form {
 	font-family: 'Raleway', serif;
@@ -521,32 +520,6 @@ h3 {
 	background-color: #00a9a5;
 	color: #f8f8f8;
 
-}
-
-@keyframes NO {
-
-	from,
-	to {
-		-webkit-transform: translate3d(0, 0, 0);
-		transform: translate3d(0, 0, 0);
-	}
-
-	10%,
-	30%,
-	50%,
-	70%,
-	90% {
-		-webkit-transform: translate3d(-10px, 0, 0);
-		transform: translate3d(-10px, 0, 0);
-	}
-
-	20%,
-	40%,
-	60%,
-	80% {
-		-webkit-transform: translate3d(10px, 0, 0);
-		transform: translate3d(10px, 0, 0);
-	}
 }
 
 @keyframes arrive {
