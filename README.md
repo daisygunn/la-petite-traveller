@@ -95,7 +95,7 @@ There is also an Essentials list of items to pack when travelling, on smaller sc
 ### *My Last Trip*
 This section includes the most information on the page and so I wanted to include imagery alongside text. The title is a H2 element that is set underneath a responsive hero image, this is followed by a concise review of Sri Lanka. The review is built using H4 and p elements with icons from FontAwesome. 
 There is then a seperate div that contains a far more detailed review of Sri Lanka, this features a map embedded using GoogleMaps and also a read more/read less button. I want users to read this information only if they want to and it not be an overwhelming amount of text on their screen. 
-I have then included an interactive photo gallery of images of my trip to Sri Lanka, this uses HTML, CSS and some JavaScript.
+I have then included a Fancybox gallery of images of my trip to Sri Lanka, this uses 2 Fancybox libraries that have been included at the bottom of my HTML code.
 
 ### *Keep in touch*
 This is a sign up form that will allow the user to sign up for La Petite Traveller's newsletter. There is a H2 & H3 providing information regarding the form and an animated arrow guiding the user's attention to the form below. The form uses 3 elements, 2 text inputs and an email input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same as across the site.
