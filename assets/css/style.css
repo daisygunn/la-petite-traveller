@@ -17,21 +17,15 @@ h3 {
 /* CSS code for Navbar styling found on W3 schools */
 
 .bg-img {
-	/* The image used */
 	background-image: url('../images/navbar_image.jpeg');
 	min-height: 300px;
 	max-width: 100%;
 	height: auto;
-	/* Center and scale the image nicely */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* Needed to position the navbar */
 	position: relative;
 }
-
-
-/* Position the navbar container inside the image */
 
 .container {
 	position: absolute;
@@ -129,7 +123,7 @@ h3 {
 	color: #f8f8f8;
 }
 
-/* Travel Tips 101 */
+/* Travel Tips 101 section */
 
 #travel_tips_101 h2 {
 	font-family: 'cookie', cursive;
@@ -212,7 +206,7 @@ h3 {
 	margin: 10px 0 10px 0;
 }
 
-/* My last trip */
+/* My Last Trip section */
 
 #my_last_trip_img {
 	background-image: url('../images/my_last_trip_hero.jpg');
