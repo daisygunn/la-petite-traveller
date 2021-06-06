@@ -93,7 +93,7 @@ I have then included an interactive photo gallery of images of my trip to Sri La
 This is a sign up form that will allow the user to sign up for La Petite Traveller's newsletter. There is a H2 & H3 providing information regarding the form and an animated arrow guiding the user's attention to the form below. The form uses 3 elements, 2 text inputs and an email input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same as across the site.
 
 ---
-## Technologies Used ##
+## Technologies Used 
 I have used a number of technlogies that have enabled this design to work:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -146,13 +146,27 @@ I have used a number of technlogies that have enabled this design to work:
 ---
 ## Deployment
 I deployed this website by using GitPages and following the below steps:
+
+*Github pages deployment* 
+
 1. Log in to Github
-2. Select project repository
-3. Select settings
-4. Select pages on the left-hand menu
-5. In the source section, select branch 'Master' and save
-6. The page is then given a site URL 
-(add photos of various stages)
+2. In your Repository section, select the project repository that you want to deploy.
+3. In the menu located at the top of this section, click 'Settings'. 
+4. Select 'Pages' on the left-hand menu - this is around half-way down. 
+5. In the source section, select branch 'Master' and save.
+6. The page is then given a site URL which you will see above the source section, it will look like the following: 
+
+Please note it can take a while for this link to become fully active. 
+
+*Forking the Github Respository*
+
+If you want to make changes to your repository without affecting it, you can make a copy of it by 'Forking' it. This ensures your original repository remains unchanged.
+
+1. Find the relevant Github repository
+2. In the top right corner of the page, click the Fork button (under your account)
+3. Your repository has now been 'Forked' and you have a copy to work on.
+
+
 ---
 ## Credits
 ---
