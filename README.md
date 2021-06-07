@@ -157,6 +157,20 @@ I have used a number of technlogies that have enabled this design to work:
 
 ### User Stories
 
+1. *As a first-time visitor, I want to easily find useful information & tips for travelling/backpacking.*
+As soon as you enter the page you can easily see within the navbar the Travel Tips 101 section; upon clicking this you are taken to a section filled with tips on various elements of travelling/backpacking.
+
+2. *As a first-time visitor, I want to find inspiration for planning future trips.*
+
+
+3. *As a first-time visitor, I want to find a helpful guide on Sri Lanka, with possible routes to take and options available.*
+
+4. *As a recurring or first-time visitor, I want to find recommendations from a trusted source for restaurants and hotels.*
+
+5. *As a recurring or first-time visitor, to easily find affiliate pages for the author, with even more inspiration available.*
+
+6. *As a first-time user, I want to be able to sign up to directly receive content via a newsletter.*
+
 ### Lighthouse
 
 ### HTML and CSS Validation
@@ -221,7 +235,7 @@ I used code from the following resources:
 
 The below websites were used for the content: 
 
-Most of the content was created by me but I used Trip Advisor and Wikiepedia for some facts on some of the destinations in Sri Lanka.
+I wrote most of the content but I used Trip Advisor and Wikiepedia for some facts on some of the destinations in Sri Lanka.
 
 A number of the images were taken by me but the rest were found on [Unsplash](https://unsplash.com/s/photos/sri-lankan).
 
