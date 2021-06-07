@@ -174,7 +174,7 @@ Within the 'Travel Tips 101' section I have provided clickable links for any pro
 5. *As a recurring or first-time visitor, to easily find affiliate pages for the author, with even more inspiration available.*   
 All social media icons can be found in the footer of the page, linked directly to those of the author.
 
-6. *As a first-time user, I want to be able to sign up to directly receive content via a newsletter.*
+6. *As a first-time user, I want to be able to sign up to directly receive content via a newsletter.*  
 The 'Keep in Touch' button is found in the navbar, upon clicking this the user will be taken to this section towards the end of the page. In this section is a newsletter sign up form for the user to register their interest. The form was built using the required attribute so all fields are necessary to 'Sign Up!'.
 
 ### Lighthouse
