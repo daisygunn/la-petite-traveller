@@ -184,8 +184,7 @@ The 'Keep in Touch' button is found in the navabr, upon clicking this the user w
 ### Known bugs and fixes
 
 ### Further testing
-
-
+Throughout the entire process I used Google Dev Tools and Unicorn revealer to debug the website and it's layout, this allowed me to check the responsiveness of the site and quickly debug any issues that I came across. 
 ---
 ## Deployment
 I deployed this website by using GitPages and following the below steps:
