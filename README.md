@@ -1,5 +1,7 @@
 # La Petite Traveller
 
+[Visit the website here](https://daisygunn.github.io/la-petite-traveller/)
+
 This website was created to provide guidance and inspiration for people interested in backpacking; furthermore those specifically interested in visiting Sri Lanka as that is the 'recent trip' currently featured on this website. This website was made for educational purposes only.
 
 This website is made up of the following sections:
@@ -182,6 +184,7 @@ The 'Keep in Touch' button is found in the navabr, upon clicking this the user w
 ### Known bugs and fixes
 
 ### Further testing
+
 
 ---
 ## Deployment
