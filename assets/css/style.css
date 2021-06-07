@@ -608,6 +608,10 @@ h3 {
 	margin-bottom: 0;
 }
 
+::placeholder {
+	color: #f8f8f8;
+}
+
 /* Media Queries */
 
 /* Extra-small mobile screens */
