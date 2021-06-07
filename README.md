@@ -188,10 +188,10 @@ I validated both my HTML and CSS code multiple times whilst building the website
 
 ### Further testing
 Throughout the entire process, I used Google Dev Tools and Unicorn revealer to debug the website and its layout, this allowed me to check the responsiveness of the site and quickly debug any issues that I came across. 
-The website was initially designed in turquoise but this failed the contrast validator
+- The website was initially designed in turquoise but this failed the contrast validator:
 ![](assets/README-files/images/contrast_test_failed.png) 
 
-So I decided to change the main colour to a darker blue to make the website as accessible as possible:
+- So I decided to change the main colour to a darker blue to improve the websites accessibility:
 
 ![](assets/README-files/images/contrast_test_passed.png)
 
