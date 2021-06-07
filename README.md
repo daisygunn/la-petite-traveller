@@ -54,7 +54,7 @@ In order to achieve the desired user & business goals, the following features wi
 
 - Header and menu bar, to navigate to various sections of the page
 - Information section full of tips for backpacking
-- Downloadble Checklist of things to pack
+- Downloadable Checklist of things to pack
 - Ratings of a recent trip to Sri Lanka
 - Interactive map of the route taken
 - Information, recommendations and advice for travelling Sri Lanka
@@ -64,50 +64,50 @@ In order to achieve the desired user & business goals, the following features wi
 
 ### **Structure** 
 
-This website is a single page website to allow for desired flow; the navigation bar at the top allows for users to easily move to whatever section of the site they are interested in or they can simply scroll through the information as it is displayed. I chose the following order for the information 'Home > Travel Tips 101 > My Last Trip > Keep in Touch', as I felt this would allow the information to be digested in the best way. The text blocks are broken up with images to ensure interest is kept and there is no information overload at any point. There is a concise review of Sri Lanka before the more in-detail guide as I wanted users to be able to find these key bits of information quickly. Finally there is a simple sign up form for users to sign up to the La Petite Traveller's newsletter.
+This website is a single-page website to allow for desired flow; the navigation bar at the top allows for users to easily move to whatever section of the site they are interested in or they can simply scroll through the information as it is displayed. I chose the following order for the information 'Home > Travel Tips 101 > My Last Trip > Keep in Touch', as I felt this would allow the information to be digested in the best way. The text blocks are broken up with images to ensure interest is kept and there is no information overload at any point. There is a concise review of Sri Lanka before the more in-detail guide as I wanted users to be able to find these key bits of information quickly. Finally, there is a simple sign up form for users to sign up to the La Petite Traveller's newsletter.
 
 ### **Skeleton**
 [Wireframes](wireframes.pdf/wireframes_la_petite_traveller.pdf)
 
 Please note the actual website has changed slightly from these wireframes.
 
-Whilst building the website I felt that there were sections with too much information, for this reason I opted to install the read more button on all devices and not just the mobile. This allows for user's to only read on if they would like the more detailed information; I felt giving the user this control would provide a positive user experience. 
+Whilst building the website I felt that there were sections with too much information, for this reason, I opted to install the read more button on all devices and not just the mobile. This allows for user's to only read on if they would like the more detailed information; I felt giving the user this control would provide a positive user experience. 
 
-I also decided to change my photo slideshow to a Fancybox gallery as I felt it looked cleaner and I preferred this method of interaction, it also allowed for better responsivness and the images looked better on larger screens. 
+I also decided to change my photo slideshow to a Fancybox gallery as I felt it looked cleaner and I preferred this method of interaction, it also allowed for better responsiveness and the images looked better on larger screens. 
 
 In addition to these changes I also decided to add an animated arrow between the heading for the newsletter sign up form and the form itself, I felt that this was an engaging element that would encourage user's to keep looking down the page. 
 
 ### **Surface**
 
-I chose a colour palette based around blues & greens as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their own memories of travelling/holiday's and believe these colours will help to do this. I paired these with a lighter off-white in order to allow for appropriate contrast. 
+I chose a colour palette based around blues & greens as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their memories of travelling/holiday's and believe these colours will help to do this. I paired these with a lighter off-white to allow for appropriate contrast. 
 
 ---
 
 ## **Features**
 
-This is a fully responsive website that was designed mobile first as this is the most likely way it will be viewed; the page is divided into the four sections listed in the navbar. Where a colour background has been used it has a slightly transparent opacity and the text is an off-white. All of the headings use the font Cookie and the body text is Raleway, this consistency has been used across the website to create a coherent design. 
+This is a fully responsive website that was designed mobile-first as this is the most likely way it will be viewed; the page is divided into the four sections listed in the navbar. Where a colour background has been used it has a slightly transparent opacity and the text is off-white. All of the headings use the font Cookie and the body text is Raleway, this consistency has been used across the website to create a coherent design. 
 
 ### *Navbar*
-The navbar is placed on top of a responsive image which acts as a header, when viewed on smaller screens I opted for the menu to collapse into a hamburger icon as I still wanted to image to be seen. The image I have chosen is representative of the sites theme and incorporates the colour pallete, it immediately encourages the user to think of being on holiday and entices them to read further. 
+The navbar is placed on top of a responsive image which acts as a header, when viewed on smaller screens I opted for the menu to collapse into a hamburger icon as I still wanted to image to be seen. The image I have chosen is representative of the site's theme and incorporates the colour palette, it immediately encourages the user to think of being on holiday and entices them to read further. 
 
 ### *About*
-This is where I introduce myself and the page and give a brief insight into why it was created, I have used a H2 element for the main heading, followed by a H3 tag line and then a more descriptive paragraph. I wanted to keep this section simple and clean as there is plenty more information to follow.  
+This is where I introduce myself and the page and give a brief insight into why it was created, I have used an H2 element for the main heading, followed by an H3 tag line and then a more descriptive paragraph. I wanted to keep this section simple and clean as there is plenty more information to follow.  
 
 ### *Travel Tips 101*
-This section starts with a H2 heading and is the followed by a series of H4 and P elements, this structure is used to provide clarity of the items within this section and make it easy to understand at a glance. This also allows the users to direct their attention to a particular section they a more interested in. Within the p elements there are a number of clickable links for products mentioned, this enables the user to easily navigate their way to recommended products creating a trusting relationship between the author and user.
-There is also an Essentials list of items to pack when travelling, on smaller screens this list appears under the Travel Tips and on larger screens (1440px+) it is alongside it. This list is also available as a downloadable document so that users can print this list to use for their own packing. 
+This section starts with an H2 heading and is then followed by a series of H4 and P elements, this structure is used to provide clarity of the items within this section and make it easy to understand at a glance. This also allows the users to direct their attention to a particular section they a more interested in. Within the p elements, there are several clickable links for products mentioned, this enables the user to easily navigate their way to recommended products creating a trusting relationship between the author and user.
+There is also an Essentials list of items to pack when travelling, on smaller screens this list appears under the Travel Tips and on larger screens (1440px+) it is alongside it. This list is also available as a downloadable document so that users can print this list to use when packing. 
 
 ### *My Last Trip*
-This section includes the most information on the page and so I wanted to include imagery alongside text. The title is a H2 element that is set underneath a responsive hero image, this is followed by a concise review of Sri Lanka. The review is built using H4 and p elements with icons from FontAwesome. 
-There is then a seperate div that contains a far more detailed review of Sri Lanka, this features a map embedded using GoogleMaps and also a read more/read less button. I want users to read this information only if they want to and it not be an overwhelming amount of text on their screen. 
+This section includes the most information on the page and so I wanted to include imagery alongside text. The title is an H2 element that is set underneath a responsive hero image, this is followed by a concise review of Sri Lanka. The review is built using H4 and p elements with icons from FontAwesome. 
+There is then a separate div that contains a far more detailed review of Sri Lanka, this features a map embedded using GoogleMaps and also a read more/read less button. I want users to read this information only if they want to and not have an overwhelming amount of text on their screen. 
 I have then included a Fancybox gallery of images of my trip to Sri Lanka, this uses 2 Fancybox libraries that have been included at the bottom of my HTML code.
 
 ### *Keep in touch*
-This is a sign up form that will allow the user to sign up for La Petite Traveller's newsletter. There is a H2 & H3 providing information regarding the form and an animated arrow guiding the user's attention to the form below. The form uses 3 elements, 2 text inputs and an email input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same as across the site.
+This is a signup form that will allow the user to sign up for La Petite Traveller's newsletter. There is an H2 & H3 providing information regarding the form and an animated arrow guiding the user's attention to the form below. The form uses 3 elements, 2 text inputs and an email input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same across the site.
 
 ---
 ## Technologies Used 
-I have used a number of technlogies that have enabled this design to work:
+I have used several technologies that have enabled this design to work:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
     - Used as the basic building block for the project and to structure the content.
@@ -126,7 +126,7 @@ I have used a number of technlogies that have enabled this design to work:
 - [Git](https://git-scm.com/)
     - Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 - [Gitpod](https://www.gitpod.io/)
-    - Used as the development enviroment.
+    - Used as the development environment.
 - [Balsamiq](https://balsamiq.com/)
     - Used to create the wireframes for the project.
 - [AutoPrefixer](https://autoprefixer.github.io/)
@@ -134,7 +134,7 @@ I have used a number of technlogies that have enabled this design to work:
 - [Grammarly](https://www.grammarly.com/)
     - Used to fix the thousands of grammar errors across the project.
 - [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
-    - Used to detect overflow of elements, which allowed to me to quickly debug any issues.
+    - Used to detect overflow of elements, which allowed me to quickly debug any issues.
 - [Coloors](https://coolors.co/)
     - Used to create a colour palette for the design.
 - [Fancybox](https://fancyapps.com/fancybox/3/)
@@ -144,7 +144,7 @@ I have used a number of technlogies that have enabled this design to work:
 - [Tiny.png](https://tinypng.com/)
     - Allowed me to compress my images so that the page would load faster.
 - [Color Contrast Accessibility Validator](https://color.a11y.com/)
-    - Allowed my to test the colour contrast of my webpage.
+    - Allowed me to test the colour contrast of my webpage.
 - [W3C Markup Validation Service](https://validator.w3.org/) 
     - Used to validate all HTML code written and used in this webpage.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
@@ -163,7 +163,7 @@ I have used a number of technlogies that have enabled this design to work:
 As soon as you enter the page you can easily see within the navbar the 'Travel Tips 101' section; upon clicking this you are taken to a section filled with tips on various elements of travelling/backpacking.
 
 2. *As a first-time visitor, I want to find inspiration for planning future trips.*
-The page is designed to immediately provide inspiration, the photo in the heading allows for the user to be transported to thoughts of being away. As you scroll further down the page the tips and tricks provide key info for planning future trips; this is followed by 'My Last Trip', this section is started with another emotive photograph, this combined with the information on Sri Lanka will stimulate inspiraiton. 
+The page is designed to immediately inspire, the photo in the heading allows for the user to be transported to thoughts of being away. As you scroll further down the page the tips and tricks provide key info for planning future trips; this is followed by 'My Last Trip', this section is started with another emotive photograph, combined with the information on Sri Lanka will stimulate inspiration. 
 
 3. *As a first-time visitor, I want to find a helpful guide on Sri Lanka, with possible routes to take and options of places to visit available.*
 As soon as you enter the page you can easily find the 'My Last Trip' button in the navbar, clicking on this link will take you straight to the Sri Lanka guide and review. Embedded in this section is a map of the route taken by the author and there are options within this section of things to do. If a user isn't immediately looking for this section they might be guided by the link in the 'About' section.
@@ -175,10 +175,10 @@ Within the 'Travel Tips 101' section I have provided clickable links for any pro
 All social media icons can be found in the footer of the page, linked directly to those of the author.
 
 6. *As a first-time user, I want to be able to sign up to directly receive content via a newsletter.*
-The 'Keep in Touch' button is found in the navabr, upon clicking this the user will be taken to this section towards the end of the page. In this section is a newsletter sign up form for the user to register their interest. The form was built using the required attribute so all fields are necessary in order to press 'Sign Up!'.
+The 'Keep in Touch' button is found in the navbar, upon clicking this the user will be taken to this section towards the end of the page. In this section is a newsletter sign up form for the user to register their interest. The form was built using the required attribute so all fields are necessary to 'Sign Up!'.
 
 ### Lighthouse
-Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and it's features. I acheived relatively low performance and best practice scores intially:
+Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved relatively low performance and best practice scores initially:
 
 
 ### HTML and CSS Validation
@@ -187,11 +187,11 @@ I validated both my HTML and CSS code multiple times whilst building the website
 ### Known bugs and fixes
 
 ### Further testing
-Throughout the entire process I used Google Dev Tools and Unicorn revealer to debug the website and it's layout, this allowed me to check the responsiveness of the site and quickly debug any issues that I came across. 
-The website was initially designed in a turquoise but this failed the contrast validator
+Throughout the entire process, I used Google Dev Tools and Unicorn revealer to debug the website and its layout, this allowed me to check the responsiveness of the site and quickly debug any issues that I came across. 
+The website was initially designed in turquoise but this failed the contrast validator
 ![](assets/README-files/images/contrast_test_failed.png) 
 
-So I decided to change the main colour to a darker blue in order to make the website as accessible as possible:
+So I decided to change the main colour to a darker blue to make the website as accessible as possible:
 
 ![](assets/README-files/images/contrast_test_passed.png)
 
@@ -205,7 +205,7 @@ I deployed this website by using GitPages and following the below steps:
 1. Log in to Github
 2. In your Repository section, select the project repository that you want to deploy
 3. In the menu located at the top of this section, click 'Settings'
-4. Select 'Pages' on the left-hand menu - this is around half-way down
+4. Select 'Pages' on the left-hand menu - this is around halfway down
 5. In the source section, select branch 'Master' and save
 6. The page is then given a site URL which you will see above the source section, it will look like the following: 
 
@@ -213,7 +213,7 @@ I deployed this website by using GitPages and following the below steps:
 
 Please note it can take a while for this link to become fully active. 
 
-*Forking the Github Respository*
+*Forking the Github Repository*
 
 If you want to make changes to your repository without affecting it, you can make a copy of it by 'Forking' it. This ensures your original repository remains unchanged.
 
@@ -224,7 +224,7 @@ If you want to make changes to your repository without affecting it, you can mak
 ---
 ## Credits
 
-I have used a number of resources in order to produce this website, where code has been used found from another source this is credited as a comment within the HTML, CSS and JS files.
+I have used a number of resources to produce this website, where code has been used found from another source this is credited as a comment within the HTML, CSS and JS files.
 
 The following websites/articles were used for research and guidance:
 
@@ -252,7 +252,7 @@ I used code from the following resources:
 
 The below websites were used for the content: 
 
-I wrote most of the content but I used Trip Advisor and Wikiepedia for some facts on some of the destinations in Sri Lanka.
+I wrote most of the content but I used Trip Advisor and Wikipedia for some facts on some of the destinations in Sri Lanka.
 
 A number of the images were taken by me but the rest were found on [Unsplash](https://unsplash.com/s/photos/sri-lankan).
 
