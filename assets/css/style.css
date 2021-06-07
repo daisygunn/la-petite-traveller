@@ -81,19 +81,19 @@ h3 {
 
 #about_container h2 {
 	font-size: 45px;
-	color: #00a9a5;
+	color: #0565AF;
 	text-align: center;
 }
 
 #about_container {
 	font-size: 18px;
 	text-align: center;
-	color: #00a9a5;
+	color: #0565AF;
 	padding: 20px 20px 5px 20px;
 }
 
 .sub_heading {
-	color: #00a9a5;
+	color: #0565AF;
 	text-align: center;
 	max-width: fit-content;
 	display: block;
@@ -102,11 +102,11 @@ h3 {
 }
 
 .green-link {
-	color: rgba(0, 169, 165, 1)
+	color: #0565AF;
 }
 
 .green-link:hover {
-	background-color: rgba(0, 169, 165, 1);
+	background-color: #0565AF;
 	color: #f8f8f8;
 }
 
@@ -121,7 +121,7 @@ h3 {
 	font-size: 40px;
 	font-family: 'Cookie', cursive;
 	text-align: center;
-	color: #00a9a5;
+	color: #0565AF;
 	margin: 0 auto;
 	padding: 10px 10px 15px 10px;
 }
@@ -141,7 +141,7 @@ h3 {
 	box-sizing: border-box;
 	text-align: left;
 	font-family: 'Raleway', serif;
-	background-color: rgba(0, 169, 165, 1);
+	background-color: #0565AF;
 	color: #f8f8f8;
 	font-size: 15px;
 }
@@ -176,7 +176,7 @@ h3 {
 
 .essentials_list {
 	font-family: 'Raleway', serif;
-	color: rgba(0, 169, 165, 1);
+	color:#0565AF;
 	text-align: left;
 	font-size: 15px;
 	padding: 5px;
@@ -187,7 +187,7 @@ h3 {
 
 .list_heading {
 	font-family: 'Raleway', serif;
-	color: rgba(0, 169, 165, 1);
+	color: #0565AF;
 	text-align: left;
 	font-size: 18px;
 	text-decoration: underline;
@@ -217,7 +217,7 @@ h3 {
 	text-align: left;
 	font-family: 'Raleway', serif;
 	background-color: #fff;
-	color: rgba(0, 169, 165, 1);
+	color: #0565AF;
 	font-size: 15px;
 }
 
@@ -364,7 +364,7 @@ h3 {
 	font-family: 'Raleway', serif;
 	font-size: 15px;
 	color: #f8f8f8;
-	background-color: rgba(0, 169, 165, 1);
+	background-color:#0565AF;
 	border: 1px solid #f8f8f8;
 	display: block;
 	margin: 10px auto 10px auto;
@@ -386,8 +386,8 @@ h3 {
 	transform: rotate(45deg);
 	border-left: none;
 	border-top: none;
-	border-right: 2px #00a9a5 solid;
-	border-bottom: 2px #00a9a5 solid;
+	border-right: 2px #0565AF solid;
+	border-bottom: 2px #0565AF solid;
 }
 
 .arrow:before {
@@ -398,8 +398,8 @@ h3 {
 	margin: -10px 0 0 -10px;
 	border-left: none;
 	border-top: none;
-	border-right: 1px #00a9a5 solid;
-	border-bottom: 1px #00a9a5 solid;
+	border-right: 1px #0565AF solid;
+	border-bottom: 1px #0565AF solid;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-name: arrow;
@@ -454,7 +454,7 @@ h3 {
 	font-size: 15px;
 	margin-bottom: 20px;
 	font-weight: 500;
-	color: #00a9a5;
+	color: #0565AF;
 	font-family: 'Raleway', serif;
 }
 
@@ -482,7 +482,7 @@ h3 {
 	border: 0;
 	outline: 0;
 	transition: 0.3s;
-	background-color: rgba(0, 169, 165, 0.9);
+	background-color: rgba(5, 101, 175, 0.9);
 }
 
 .form_input:focus {
@@ -497,14 +497,14 @@ h3 {
 	-webkit-appearance: none;
 	outline: 0;
 	border: 0;
-	color: #00a9a5;
+	color: #0565AF;
 	background: #f8f8f8;
 	transition: 0.3s;
 	margin-bottom: 20px;
 }
 
 .btn:hover {
-	background-color: #00a9a5;
+	background-color: #0565AF;
 	color: #f8f8f8;
 
 }
@@ -540,7 +540,7 @@ h3 {
 .footer-basic {
 	width: 100%;
 	padding: 30px 0 5px 0;
-	background-color: rgba(0, 169, 165, 1);
+	background-color: #0565AF;
 	font-family: 'Raleway', serif;
 	font-size: 10px;
 	color: #f8f8f8;
@@ -848,7 +848,7 @@ h3 {
 	@media screen and (max-width: 767px) {
 		.essentials_list {
 			font-family: 'Raleway', serif;
-			color: rgba(0, 169, 165, 1);
+			color: #0565AF;
 			font-size: 15px;
 			padding-right: 5px;
 			text-align: center;
@@ -875,7 +875,7 @@ h3 {
 
 	.essentials_list {
 		font-family: 'Raleway', serif;
-		color: rgba(0, 169, 165, 1);
+		color: #0565AF;
 		font-size: 15px;
 		padding-right: 100px;
 	}
