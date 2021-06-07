@@ -178,6 +178,8 @@ All social media icons can be found in the footer of the page, linked directly t
 The 'Keep in Touch' button is found in the navabr, upon clicking this the user will be taken to this section towards the end of the page. In this section is a newsletter sign up form for the user to register their interest. The form was built using the required attribute so all fields are necessary in order to press 'Sign Up!'.
 
 ### Lighthouse
+Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and it's features. I acheived relatively low performance and best practice scores intially:
+
 
 ### HTML and CSS Validation
 I validated both my HTML and CSS code multiple times whilst building the website, this meant there were not a huge amount of errors at the final stages. 
