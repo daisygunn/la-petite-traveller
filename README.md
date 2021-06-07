@@ -180,6 +180,7 @@ The 'Keep in Touch' button is found in the navabr, upon clicking this the user w
 ### Lighthouse
 
 ### HTML and CSS Validation
+I validated both my HTML and CSS code multiple times whilst building the website, this meant there were not a huge amount of errors at the final stages. 
 
 ### Known bugs and fixes
 
