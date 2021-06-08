@@ -195,7 +195,6 @@ Throughout the entire process, I used Google Dev Tools and Unicorn revealer to d
 
 ![](assets/README-files/images/contrast_test_passed.png)
 
- 
 ---
 ## Deployment
 I deployed this website by using GitPages and following the below steps:
