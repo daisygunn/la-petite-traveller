@@ -6,7 +6,7 @@ This website was created to provide guidance and inspiration for people interest
 
 This website is made up of the following sections:
 
-1. Introduction
+1. Home/Introduction
 2. Travel Tips 101
 3. Guide for the most recent trip the author has taken, in this case, Sri Lanka
 4. Form to sign up to La Petite Traveller's newsletter
