@@ -185,7 +185,7 @@ Lighthouse is a feature of Google Chrome developer tools and is used to assess t
 
 ### **HTML and CSS Validation**
 
-I validated both my HTML and CSS code multiple times whilst building the website, this meant there were not a huge amount of errors at the final stages. 
+I validated both my HTML and CSS code multiple times whilst building the website, I did this so that there were not a huge amount of errors/warnings at the final stages of development for me to deal with. This allowed me to incremently improve my code and upon completion there were 0 errors found. 
 
 ### **Known bugs and fixes**
 
