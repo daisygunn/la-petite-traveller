@@ -157,7 +157,7 @@ I have used several technologies that have enabled this design to work:
 ---
 ## Testing
 
-### User Stories
+### **User Stories**
 
 1. *As a first-time visitor, I want to easily find useful information & tips for travelling/backpacking.*  
 As soon as you enter the page you can easily see within the navbar the 'Travel Tips 101' section; upon clicking this you are taken to a section filled with tips on various elements of travelling/backpacking.
@@ -177,17 +177,17 @@ All social media icons can be found in the footer of the page, linked directly t
 6. *As a first-time user, I want to be able to sign up to directly receive content via a newsletter.*  
 The 'Keep in Touch' button is found in the navbar, upon clicking this the user will be taken to this section towards the end of the page. In this section is a newsletter sign up form for the user to register their interest. The form was built using the required attribute so all fields are necessary to 'Sign Up!'.
 
-### Lighthouse
-Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved a really low performance score initially, as you can see below and so I made concious effort to increase this by reducing image sizes on smaller screens, deffering any CSS or JS that wasn't required for the frist paint. 
+### **Lighthouse**
+Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved a really low performance score initially, as you can see below and so I made concious effort to increase this by reducing image sizes on smaller screens & deffering any CSS or JS that wasn't required for the first paint. 
 
 ![](assets/README-files/images/first_lighthouse_report.png)
 
-### HTML and CSS Validation
+### **HTML and CSS Validation**
 I validated both my HTML and CSS code multiple times whilst building the website, this meant there were not a huge amount of errors at the final stages. 
 
-### Known bugs and fixes
+### **Known bugs and fixes**
 
-### Further testing
+### **Further testing**
 Throughout the entire process, I used Google Dev Tools and Unicorn revealer to debug the website and its layout, this allowed me to check the responsiveness of the site and quickly debug any issues that I came across. 
 - The website was initially designed in turquoise but this failed the contrast validator:
 
