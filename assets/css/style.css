@@ -494,6 +494,11 @@ h3 {
 	background-color: rgba(5, 101, 175, 0.9);
 }
 
+/* .hidden {
+	margin: 0;
+	content-visibility: 0;
+} */
+
 .form_input:focus {
 	background: #f8f8f8;
 }
