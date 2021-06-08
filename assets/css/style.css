@@ -258,6 +258,10 @@ h3 {
 	text-align: center;
 }
 
+.route_details {
+	margin: 0;
+	padding: 5px;
+}
 #map_container {
 	width: inherit;
 	margin: 0 auto;
