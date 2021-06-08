@@ -229,33 +229,33 @@ I have used a number of resources to produce this website, where code has been u
 
 The following websites/articles were used for research and guidance:
 
-[Wireframes](https://careerfoundry.com/en/blog/ux-design/wireframing-mobile-apps-websites/)
+- [Wireframes](https://careerfoundry.com/en/blog/ux-design/wireframing-mobile-apps-websites/)
 
-[Design tips](https://99designs.co.uk/blog/tips/responsive-web-design-key-tips-and-approaches/)
+- [Design tips](https://99designs.co.uk/blog/tips/responsive-web-design-key-tips-and-approaches/)
 
-[Media Queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+- [Media Queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
 I used code from the following resources:
 
-[Responsive Navbar](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+- [Responsive Navbar](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 
-[Animated scroll down arrow](https://codepen.io/JoshMac/pen/MaYEmJ)
+- [Animated scroll down arrow](https://codepen.io/JoshMac/pen/MaYEmJ)
 
-[Read more button](https://www.w3schools.com/howto/howto_js_read_more.asp)
-- This code was used but the JS function was heavily edited with the help of my tutor Guido.
+- [Read more button](https://www.w3schools.com/howto/howto_js_read_more.asp)
+    - This code was used but the JS function was heavily edited with the help of my tutor Guido.
 
-[Sign up form](https://codepen.io/dope/pen/ZQWBeL)
-- I used this code as the basis of my form but changed the styling and removed the background animation. 
+- [Sign up form](https://codepen.io/dope/pen/ZQWBeL)
+    - I used this code as the basis of my form but changed the styling and removed the background animation. 
 
-[Image grid](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
+- [Image grid](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
 
-[Fancybox gallery](https://fancyapps.com/fancybox/3/docs/#images)
+- [Fancybox gallery](https://fancyapps.com/fancybox/3/docs/#images)
 
 The below websites were used for the content: 
 
-I wrote most of the content but I used [Trip Advisor](https://www.tripadvisor.co.uk/) and [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) for facts on some of the destinations in Sri Lanka.
+- I wrote most of the content but I used [Trip Advisor](https://www.tripadvisor.co.uk/) and [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) for facts on some of the destinations in Sri Lanka.
 
-A number of the images were taken by me but the rest were found on [Unsplash](https://unsplash.com/s/photos/sri-lankan).
+- A number of the images were taken by me but the rest were found on [Unsplash](https://unsplash.com/s/photos/sri-lankan).
 
 ---
 ## Acknowledgements
