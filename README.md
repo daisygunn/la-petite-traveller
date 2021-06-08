@@ -105,7 +105,6 @@ I have then included a Fancybox gallery of images of my trip to Sri Lanka, this 
 
 ### *Keep in touch*
 This is a signup form that will allow the user to sign up for La Petite Traveller's newsletter. There is an H2 & H3 providing information regarding the form and an animated arrow guiding the user's attention to the form below. The form uses 3 elements, 2 text inputs and an email input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same across the site.
-
 ---
 ## Technologies Used 
 
