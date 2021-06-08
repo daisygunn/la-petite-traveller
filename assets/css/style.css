@@ -101,11 +101,11 @@ h3 {
 	margin: 5px auto 5px auto;
 }
 
-.green-link {
+.blue-link {
 	color: #0565AF;
 }
 
-.green-link:hover {
+.blue-link:hover {
 	background-color: #0565AF;
 	color: #f8f8f8;
 }
