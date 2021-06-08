@@ -173,6 +173,11 @@ h3 {
 	margin-right: auto;
 }
 
+#essentials_description {
+	font-size: 15px;
+	color: #0565af
+}
+
 .essentials_list {
 	font-family: 'Raleway', serif;
 	color:#0565AF;
