@@ -253,7 +253,7 @@ I used code from the following resources:
 
 The below websites were used for the content: 
 
-I wrote most of the content but I used Trip Advisor and Wikipedia for some facts on some of the destinations in Sri Lanka.
+I wrote most of the content but I used [Trip Advisor](https://www.tripadvisor.co.uk/) and [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) for facts on some of the destinations in Sri Lanka.
 
 A number of the images were taken by me but the rest were found on [Unsplash](https://unsplash.com/s/photos/sri-lankan).
 
