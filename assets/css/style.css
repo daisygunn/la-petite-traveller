@@ -175,7 +175,8 @@ h3 {
 
 #essentials_description {
 	font-size: 15px;
-	color: #0565af
+	color: #0565af;
+	text-align: center;
 }
 
 .essentials_list {
