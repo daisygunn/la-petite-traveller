@@ -17,7 +17,7 @@ h3 {
 /* CSS code for Navbar styling found on W3 schools */
 
 .bg-img {
-	background-image: url('../images/navbar_image.jpeg');
+	background-image: url('../images/navbar_image.jpeg ');
 	min-height: 300px;
 	max-width: 100%;
 	height: auto;
