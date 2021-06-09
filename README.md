@@ -204,9 +204,11 @@ Lighthouse is a feature of Google Chrome developer tools and is used to assess t
 
 ![](docs/images/first_lighthouse_report.png)
 
-I made concious effort to increase this by reducing image sizes on smaller screens using the 'srcset' and 'sizes' attributes & I also deffered any CSS or JS that wasn't required for the first paint. 
+I made concious effort to increase this by reducing image sizes on smaller screens using the 'srcset' and 'sizes' attributes & I also deffered any CSS or JS that wasn't required for the first paint. Furthermore, I added the 'rel="noreferrer"' to all external links as this is considered best practice. 
 
-Furthermore, I added the 'rel="noreferrer"' to all external links as this is considered best practice. 
+I am very pleased to now hit above 90 for all scores:
+
+![](docs/images/final_lighthouse_report.png)
 
 ### **HTML and CSS Validation**
 
