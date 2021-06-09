@@ -951,10 +951,18 @@ h3 {
 		font-size: 18px;
 	}
 
+	.sri_lanka>h4 {
+		font-size: 16px;
+	} 
+
 	#sri_lanka_rewiew>h4,
 	p {
 		font-size: 15px;
 		padding: 10px;
+	}
+
+	#more>h4 {
+		font-size: 20px;
 	}
 
 	#sri_lanka_route>iframe {
@@ -973,7 +981,7 @@ h3 {
 	}
 
 	#form_heading {
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.form_title {
@@ -1006,7 +1014,10 @@ h3 {
 		padding-right: 20px;
 		font-size: 30px;
 	}
-
+	#about_container h2 {
+		font-size: 65px;
+		
+	}
 	.sub_heading {
 		font-size: 60px;
 	}
@@ -1051,6 +1062,10 @@ h3 {
 		font-size: 25px;
 	}
 
+	#travel_tips_list {
+		font-size: 25px;
+	}
+
 	#review_heading, .sub_heading {
 		font-size: 45px;
 	}
@@ -1059,6 +1074,20 @@ h3 {
 	p {
 		font-size: 30px;
 		padding: 10px;
+	}
+
+	.sri_lanka>h4 {
+		font-size: 30px;
+	} 
+
+	#sri_lanka_rewiew>h4,
+	p {
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	#more>h4 {
+		font-size: 30px;
 	}
 
 	.sri_lanka>p, #more>p {
@@ -1079,9 +1108,7 @@ h3 {
 		font-size: 45px;
 	}
 
-	#travel_tips > p > ul {
-		font-size: 25px;
-	}
+	
 
 	}
 
