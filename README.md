@@ -2,7 +2,7 @@
 
 [Visit the website here](https://daisygunn.github.io/la-petite-traveller/)
 
-![](assets/README-files/images/amiresponsive_image.png)
+![](docs/images/amiresponsive_image.png)
 
 Created to provide guidance and inspiration for people interested in backpacking; furthermore those specifically interested in visiting Sri Lanka as that is the 'recent trip' currently featured on this website. This website was made for educational purposes only.
 
@@ -184,7 +184,7 @@ The 'Keep in Touch' button is found in the navbar, upon clicking this the user w
 ### **Lighthouse**
 Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved a low performance score initially, as you can see below:
 
-![](assets/README-files/images/first_lighthouse_report.png)
+![](docs/images/first_lighthouse_report.png)
 
 I made concious effort to increase this by reducing image sizes on smaller screens using the 'srcset' and 'sizes' attributes & I also deffered any CSS or JS that wasn't required for the first paint. 
 
@@ -198,7 +198,7 @@ I validated both my HTML and CSS code multiple times whilst building the website
 
 As part of my testing I wanted to ensure that all of my clickable links worked & opened up in a new page, I found that two of the links when clicked gave a 404 error message:
 
-![](assets/README-files/images/error_404_message.png)
+![](docs/mages/error_404_message.png)
 
 This has now been resolved and all of the links work.
 
@@ -206,11 +206,11 @@ Throughout the entire process, I used Google Dev Tools and Unicorn revealer to d
 
 I also used a number of Accessibility tools in order to design a fully accessible website, this brought up some issues and so I had to make some big changes to the colour scheme. The website was initially designed in turquoise but this failed the contrast validator:
 
-![](assets/README-files/images/contrast_test_failed.png) 
+![](docs/images/contrast_test_failed.png) 
 
 So I decided to change the main colour to a darker blue to improve the overall accessibility, which passed the contrast validator with no issues:
 
-![](assets/README-files/images/contrast_test_passed.png)
+![](docs/images/contrast_test_passed.png)
 
 In addition to testing that I conducted I got my friends, family & fellow students to test the website on their phones/laptops/tablets/desktops and provide feedback on anything they felt didn't work or look right, this enabled me to debug any issues that I might not have otherwise found. 
 
@@ -228,7 +228,7 @@ I deployed this website by using GitPages and following the below steps:
 5. In the source section, select branch 'Master' and save
 6. The page is then given a site URL which you will see above the source section, it will look like the following: 
 
-![](assets/README-files/images/git-pages-published.png)
+![](docs/images/git-pages-published.png)
 
 Please note it can take a while for this link to become fully active. 
 
