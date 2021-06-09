@@ -166,20 +166,38 @@ I have used several technologies that have enabled this design to work:
 1. *As a first-time visitor, I want to easily find useful information & tips for travelling/backpacking.*  
 As soon as you enter the page you can easily see within the navbar the 'Travel Tips 101' section; upon clicking this you are taken to a section filled with tips on various elements of travelling/backpacking.
 
+![](docs/images/travel_tips_user_story.png)
+![](docs/images/travel_tips_user_story_2.png)
+
 2. *As a first-time visitor, I want to find inspiration for planning future trips.*  
 The page is designed to immediately inspire, the photo in the heading allows for the user to be transported to thoughts of being away. As you scroll further down the page the tips and tricks provide key info for planning future trips; this is followed by 'My Last Trip', this section is started with another emotive photograph, combined with the information on Sri Lanka will stimulate inspiration. 
+
+![](docs/images/inspiration_user_story.png)
+![](docs/images/inspiration_user_story_2.png)
+![](docs/images/inspiration_user_story_3.png)
 
 3. *As a first-time visitor, I want to find a helpful guide on Sri Lanka, with possible routes to take and options of places to visit available.*   
 As soon as you enter the page you can easily find the 'My Last Trip' button in the navbar, clicking on this link will take you straight to the Sri Lanka guide and review. Embedded in this section is a map of the route taken by the author and there are options within this section of things to do. If a user isn't immediately looking for this section they might be guided by the link in the 'About' section.
 
+![](docs/images/sri_lanka_user_story.png)
+![](docs/images/sri_lanka_user_story_2.png)
+![](docs/images/sri_lanka_user_story_3.png)
+
 4. *As a recurring or first-time visitor, I want to find recommendations from a trusted source for restaurants/hotels/products.*  
 Within the 'Travel Tips 101' section I have provided clickable links for any products that have been mentioned with clear recommendations as to why they are useful/good. A user interested in hotel recommendations will find these easily within the Sri Lanka route section as these are linked at the beginning of each destination. Where possible I have also provided links and recommendations for great food that was eaten. 
+
+![](docs/images/recommendation_user_story.png)
+![](docs/images/recommendation_user_story_2.png)
 
 5. *As a recurring or first-time visitor, to easily find affiliate pages for the author, with even more inspiration available.*   
 All social media icons can be found in the footer of the page, linked directly to those of the author.
 
+![](docs/images/social_media_user_story.png)
+
 6. *As a first-time user, I want to be able to sign up to directly receive content via a newsletter.*  
 The 'Keep in Touch' button is found in the navbar, upon clicking this the user will be taken to this section towards the end of the page. In this section is a newsletter sign up form for the user to register their interest. The form was built using the required attribute so all fields are necessary to 'Sign Up!'.
+
+![](docs/images/newsletter_sign_up_user_story.png)
 
 ### **Lighthouse**
 Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved a low performance score initially, as you can see below:
