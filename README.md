@@ -188,6 +188,9 @@ I validated both my HTML and CSS code multiple times whilst building the website
 
 ### **Known bugs and fixes**
 
+As part of my testing I wanted to ensure that all of my clickable links worked & opened up in a new page, two of the links when clicked gave a 404 error message:
+
+This has now been resolved and all of the links work.
 ### **Further testing**
 
 Throughout the entire process, I used Google Dev Tools and Unicorn revealer to debug the website and its layout, this allowed me to check the responsiveness of the site and quickly debug any issues that I came across. 
