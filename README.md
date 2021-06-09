@@ -271,4 +271,7 @@ The below websites were used for the content:
 
 ---
 ## Acknowledgements
+
+I would like to thank my course mentor Guido Cecilio for his support and guidance throughout the course of the project and my fellow students Harry Dhillon and Jack Crosbie for their support & feedback.
+
 ---
