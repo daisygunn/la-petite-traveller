@@ -190,6 +190,8 @@ I validated both my HTML and CSS code multiple times whilst building the website
 
 As part of my testing I wanted to ensure that all of my clickable links worked & opened up in a new page, two of the links when clicked gave a 404 error message:
 
+![](assets/README-files/images/error_404_message.png)
+
 This has now been resolved and all of the links work.
 ### **Further testing**
 
