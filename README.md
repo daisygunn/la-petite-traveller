@@ -70,7 +70,7 @@ This website is a single-page website to allow for desired flow; the navigation 
 
 ### **Skeleton**
 
-[Wireframes](wireframes.pdf/wireframes_la_petite_traveller.pdf)
+[Wireframes](docs/wireframes_la_petite_traveller.pdf)
 
 Please note the actual website has changed slightly from these wireframes.
 
