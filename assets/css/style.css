@@ -996,6 +996,11 @@ h3 {
 }
 
 @media screen and (min-width: 2440px) {
+
+.topnav a {
+font-size: 25px;
+
+}
 	#about_container {
 		width: 60%;
 		display: block;
