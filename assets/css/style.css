@@ -1124,6 +1124,11 @@ h3 {
 		font-size: 25px;
 	}
 
+	.footer-basic .social>a {
+	font-size: 35px;
+	width: 60px;
+    height: 60px;
+    line-height: 60px;
 	}
 
 /* Code for Privacy Policy */
@@ -1178,4 +1183,5 @@ h3 {
 	font-size: 14px !important;
 	font-family: Arial !important;
 	word-break: break-word !important;
+}
 }
