@@ -912,10 +912,6 @@ h3 {
 	#sri_lanka_map {
 		height: 400px;
 	}
-
-	.mySlides>img {
-		width: 60%;
-	}
 }
 
 /* Desktop screens */
@@ -973,11 +969,6 @@ h3 {
 
 	.myBtn {
 		position: fixed;
-	}
-
-	.mySlides>img {
-		width: 35%;
-		clear: both;
 	}
 
 	#form_heading {
@@ -1131,6 +1122,13 @@ h3 {
     line-height: 60px;
 	}
 
+	.footer-basic .copyright {
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	}
+}
+
 /* Code for Privacy Policy */
 
 #privacy-policy {
@@ -1183,5 +1181,4 @@ h3 {
 	font-size: 14px !important;
 	font-family: Arial !important;
 	word-break: break-word !important;
-}
 }
