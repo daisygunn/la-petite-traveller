@@ -299,7 +299,7 @@ h3 {
 	clear: both;
 }
 
-/* Code for Fancybox styling */
+/* Code for Fancybox styling found here: https://fancyapps.com/fancybox/3/docs/#images */
 
 #gallery {
 	display: grid;
@@ -315,6 +315,8 @@ h3 {
 	object-fit: cover;
 	display: block;
 }
+
+/* Code for grid found here, although this was edited for use: https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ */
 
 #gallery__item--1 {
 	grid-column-start: 1;
@@ -496,11 +498,6 @@ h3 {
 	transition: 0.3s;
 	background-color: rgba(5, 101, 175, 0.9);
 }
-
-/* .hidden {
-	margin: 0;
-	content-visibility: 0;
-} */
 
 .form_input:focus {
 	background: #f8f8f8;
@@ -708,6 +705,8 @@ h3 {
 		padding-bottom: 0;
 	}
 }
+
+/* Media Queries */
 
 /* Small mobile screens */
 
