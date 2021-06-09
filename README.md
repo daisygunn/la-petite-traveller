@@ -2,7 +2,9 @@
 
 [Visit the website here](https://daisygunn.github.io/la-petite-traveller/)
 
-This website was created to provide guidance and inspiration for people interested in backpacking; furthermore those specifically interested in visiting Sri Lanka as that is the 'recent trip' currently featured on this website. This website was made for educational purposes only.
+![](assets/README-files/images/amiresponsive_image.png)
+
+Created to provide guidance and inspiration for people interested in backpacking; furthermore those specifically interested in visiting Sri Lanka as that is the 'recent trip' currently featured on this website. This website was made for educational purposes only.
 
 This website is made up of the following sections:
 
@@ -92,7 +94,7 @@ This is a fully responsive website that was designed mobile-first as this is the
 The navbar is placed on top of a responsive image which acts as a header, when viewed on smaller screens I opted for the menu to collapse into a hamburger icon as I still wanted to image to be seen. The image I have chosen is representative of the site's theme and incorporates the colour palette, it immediately encourages the user to think of being on holiday and entices them to read further. 
 
 ### *About*
-This is where I introduce myself and the page and give a brief insight into why it was created, I have used an H2 element for the main heading, followed by an H3 tag line and then a more descriptive paragraph. I wanted to keep this section simple and clean as there is plenty more information to follow.  
+This is where I introduce myself and the page and give a brief insight into why it was created, I have used an H2 element for the main heading, followed by an H3 tag line and then a more descriptive paragraph. I wanted to keep this section simple and clean as there is plenty of information that follows.  
 
 ### *Travel Tips 101*
 This section starts with an H2 heading and is then followed by a series of H4 and P elements, this structure is used to provide clarity of the items within this section and make it easy to understand at a glance. This also allows the users to direct their attention to a particular section they a more interested in. Within the p elements, there are several clickable links for products mentioned, this enables the user to easily navigate their way to recommended products creating a trusting relationship between the author and user.
@@ -182,9 +184,9 @@ Lighthouse is a feature of Google Chrome developer tools and is used to assess t
 
 ![](assets/README-files/images/first_lighthouse_report.png)
 
-I made concious effort to increase this by reducing image sizes on smaller screens & deffering any CSS or JS that wasn't required for the first paint. 
+I made concious effort to increase this by reducing image sizes on smaller screens using the 'srcset' and 'sizes' attributes & I also deffered any CSS or JS that wasn't required for the first paint. 
 
-Furthermore, I added the rel="noreferrer" to all external links as this is considered best practice. 
+Furthermore, I added the 'rel="noreferrer"' to all external links as this is considered best practice. 
 
 ### **HTML and CSS Validation**
 
