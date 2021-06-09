@@ -268,6 +268,7 @@ h3 {
 	margin: 0;
 	padding: 5px;
 }
+
 #map_container {
 	width: inherit;
 	margin: 0 auto;
@@ -979,15 +980,6 @@ h3 {
 		font-size: 20px;
 	}
 
-	.footer #page_footer {
-		height: 100px;
-		margin-top: 20px;
-	}
-
-	.left_footer,
-	.right_footer {
-		font-size: 14px;
-	}
 }
 
 /* Extra large desktop screens */
@@ -1003,6 +995,91 @@ h3 {
 		float: right;
 	}
 }
+
+@media screen and (min-width: 2440px) {
+	#about_container {
+		width: 60%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 30px;
+	}
+
+	.sub_heading {
+		font-size: 60px;
+	}
+
+	.section_heading {
+		font-size: 50px;
+	}
+
+	#essentials_description {
+		font-size: 30px;
+	}
+
+	.essentials_list {
+		font-size: 25px;
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+	.list_heading {
+		font-size: 30px
+	}
+
+	#my_last_trip_img {
+		max-width: 100%;
+		height: auto;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: block;
+		clear: both;
+		padding: 0;
+	}
+
+	.sub_section_heading {
+		font-size: 35px;
+	}
+	
+	.fas, .far {
+		font-size: 25px;
+	}
+
+	#travel_tips > p {
+		font-size: 25px;
+	}
+
+	#review_heading, .sub_heading {
+		font-size: 45px;
+	}
+
+	#sri_lanka_rewiew>h4,
+	p {
+		font-size: 30px;
+		padding: 10px;
+	}
+
+	.sri_lanka>p, #more>p {
+		font-size: 30px;
+	}
+
+	#sri_lanka_route>iframe {
+		max-width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+
+	.myBtn {
+		position: fixed;
+	}
+
+	#form_heading {
+		font-size: 45px;
+	}
+
+	}
 
 /* Code for Privacy Policy */
 
