@@ -457,7 +457,7 @@ h3 {
 
 #form_heading {
 	font-family: 'Cookie', cursive;
-	font-size: 30px !important;
+	font-size: 30px;
 }
 
 .form_title {
@@ -1099,7 +1099,7 @@ h3 {
 	}
 
 	#form_heading {
-		font-size: 45px;
+		font-size: 50px;
 	}
 
 	.form_title {
@@ -1116,6 +1116,9 @@ h3 {
 		font-size: 25px;
 	}
 	
+	.btn {
+		font-size: 25px;
+	}
 
 	}
 
