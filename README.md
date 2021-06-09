@@ -214,11 +214,14 @@ I am very pleased to now hit above 90 for all scores:
 
 I validated both my HTML and CSS code multiple times whilst building the website, I did this so that there were not a huge amount of errors/warnings at the final stages of development for me to deal with. This allowed me to incremently improve my code and upon completion there were 0 errors found. 
 
+![](docs/images/css_validation_no_errors.png)
+![](docs/images/html_validation_no_errors.png)
+
 ### **Known bugs and fixes**
 
 As part of my testing I wanted to ensure that all of my clickable links worked & opened up in a new page, I found that two of the links when clicked gave a 404 error message:
 
-![](docs/mages/error_404_message.png)
+![](docs/images/error_404_message.png)
 
 This has now been resolved and all of the links work.
 
