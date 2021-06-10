@@ -84,9 +84,9 @@ In addition to these changes I also decided to add an animated arrow between the
 
 I chose a colour palette based around blues & greens as these colours remind me of the sea & being amongst nature; I want the users of this website to be transported to their memories of travelling/holiday's and believe these colours will help to do this. I paired these with a lighter off-white to allow for appropriate contrast. 
 
-I used Google fonts 'Cookie' and 'Raleway' across the entire website, I felt 'Cookie' was a fun text and stood out on the page but I also wanted something easier to read for the large blocks of texts which is why I chose 'Raleway' for the body text.
+I used Google fonts 'Cookie' and 'Raleway' across the entire website, I felt 'Cookie' was a fun text and stood out on the page but I also wanted something easier to read for the large blocks of texts which is why I chose 'Raleway' for the body text, example below:
 
-
+![](docs/images/font_selection.png)
 
 ---
 
