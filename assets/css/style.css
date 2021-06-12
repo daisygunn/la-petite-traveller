@@ -79,13 +79,13 @@ h3 {
 
 /* About Section */
 
-#about_container h2 {
+#home_container h2 {
 	font-size: 45px;
 	color: #0565AF;
 	text-align: center;
 }
 
-#about_container {
+#home_container {
 	font-size: 18px;
 	text-align: center;
 	color: #0565AF;
@@ -694,7 +694,7 @@ h3 {
 		text-align: left;
 	}
 
-	.about_container {
+	#home_container {
 		font-size: 14px;
 	}
 
@@ -761,7 +761,7 @@ h3 {
 		text-align: left;
 	}
 
-	.about_container {
+	#home_container {
 		font-size: 15px;
 	}
 
@@ -845,7 +845,7 @@ h3 {
 		width: 100%;
 	}
 
-	#about_container {
+	#home_container {
 		font-size: 15px;
 		font-family: 'Raleway', serif;
 		text-align: center;
@@ -932,7 +932,7 @@ h3 {
 
 @media screen and (min-width: 1024px) {
 
-	#about_container {
+	#home_container {
 		width: 80%;
 		display: block;
 		margin-left: auto;
@@ -1018,7 +1018,7 @@ h3 {
 
 	}
 
-	#about_container {
+	#home_container {
 		width: 60%;
 		display: block;
 		margin-left: auto;
@@ -1028,7 +1028,7 @@ h3 {
 		font-size: 30px;
 	}
 
-	#about_container h2 {
+	#home_container h2 {
 		font-size: 65px;
 
 	}
