@@ -130,7 +130,7 @@ I have used several technologies that have enabled this design to work:
     - Used to obtain the social media icons used in the footer and the icons in La Petite Review.
 - [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
     - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
-- [Github](https://github.com/)
+- [GitHub](https://github.com/)
     - Used to store code for the project after being pushed.
 - [Git](https://git-scm.com/)
     - Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
@@ -254,9 +254,9 @@ In addition to testing that I conducted I got my friends, family & fellow studen
 
 I deployed this website by using GitPages and following the below steps:
 
-*Github pages deployment* 
+*GitHub pages deployment* 
 
-1. Log in to Github
+1. Log in to GitHub
 2. In your Repository section, select the project repository that you want to deploy
 3. In the menu located at the top of this section, click 'Settings'
 4. Select 'Pages' on the left-hand menu - this is around halfway down
@@ -267,13 +267,24 @@ I deployed this website by using GitPages and following the below steps:
 
 Please note it can take a while for this link to become fully active. 
 
-*Forking the Github Repository*
+*Forking the GitHub Repository*
 
 If you want to make changes to your repository without affecting it, you can make a copy of it by 'Forking' it. This ensures your original repository remains unchanged.
 
-1. Find the relevant Github repository
+1. Find the relevant GitHub repository
 2. In the top right corner of the page, click the Fork button (under your account)
 3. Your repository has now been 'Forked' and you have a copy to work on
+
+*Cloning the GitHub Repository*
+
+Cloning your repository will allow you to download a local version of the repository to be worked on. Cloning can also be a great way to backup your work.
+
+1. Find the relevant GitHub repository
+2. Press the arrow on the Code button
+3. Copy the link that is shown in the drop down
+4. Now open Gitpod & select the directory location where you would like the clone created
+5. In the terminal type 'git clone' & then paste the link you copied in GitHub
+6. Press enter and your local clone will be created.
 
 ---
 ## Credits
@@ -287,6 +298,8 @@ The following websites/articles were used for research and guidance:
 - [Design tips](https://99designs.co.uk/blog/tips/responsive-web-design-key-tips-and-approaches/)
 
 - [Media Queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+
+- [Accessibility for burger menu](https://medium.com/@linlinghao/accessibility-for-hamburger-menu-a37fa9617a89) 
 
 I used code from the following resources:
 
@@ -303,6 +316,8 @@ I used code from the following resources:
 - [Image grid](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
 
 - [Fancybox gallery](https://fancyapps.com/fancybox/3/docs/#images)
+
+- [Visually hidden elements](https://www.w3.org/WAI/tutorials/forms/labels/)
 
 The below websites were used for the content: 
 
