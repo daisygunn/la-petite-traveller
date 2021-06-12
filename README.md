@@ -10,7 +10,7 @@ This website is made up of the following sections:
 
 1. Home/Introduction
 2. Travel Tips 101
-3. Guide for the most recent trip the author has taken, in this case, Sri Lanka
+3. My Last Trip - a Guide for the most recent trip the author has taken, in this case, Sri Lanka
 4. Form to sign up to La Petite Traveller's newsletter
 
 The business goals for this website are:
@@ -110,7 +110,6 @@ There is then a separate div that contains a far more detailed review of Sri Lan
 I have then included a Fancybox gallery of images of my trip to Sri Lanka, this uses 2 Fancybox libraries that have been included at the bottom of my HTML code.
 
 ### *Keep in touch*
-
 This is a signup form that will allow the user to sign up for La Petite Traveller's newsletter. There is an H2 & H3 providing information regarding the form and an animated arrow guiding the user's attention to the form below. The form uses 3 elements, 2 text inputs and an email input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same across the site.
 
 ---
@@ -169,6 +168,7 @@ I have used several technologies that have enabled this design to work:
 ## Testing
 
 ### **User Stories**
+
 1. **As a first-time visitor, I want to easily find useful information & tips for travelling/backpacking.**  
 As soon as you enter the page you can easily see within the navbar the 'Travel Tips 101' section; upon clicking this you are taken to a section filled with tips on various elements of travelling/backpacking.
 
@@ -206,6 +206,7 @@ The 'Keep in Touch' button is found in the navbar, upon clicking this the user w
 ![](docs/images/newsletter_sign_up_user_story.png)
 
 ### **Lighthouse**
+
 Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved a low-performance score initially, as you can see below:
 
 ![](docs/images/first_lighthouse_report.png)
