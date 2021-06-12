@@ -239,6 +239,14 @@ So I decided to change the main colour to a darker blue to improve the overall a
 
 ![](docs/images/contrast_test_passed.png)
 
+Accessibility was also tested in WAVE, initially I had some errors due to insufficient labelling for my form elements and a link within the navbar:
+
+![](docs/images/wave_errors.png)
+
+ using the report I made the necessary changes and the website now passes with no errors:
+
+![](docs/images/wave_no_errors.png)
+
 In addition to testing that I conducted I got my friends, family & fellow students to test the website on their phones/laptops/tablets/desktops and provide feedback on anything they felt didn't work or look right, this enabled me to debug any issues that I might not have otherwise found. 
 
 ---
