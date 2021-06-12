@@ -1214,9 +1214,9 @@ h3 {
 }
 
 #home_button {
-	width: 30px;
-	height: 30px;
-	background-color: #0565AF;
-	color: #f8f8f8;
+	width: 30px !important ;
+	height: 30px !important ;
+	background-color: #0565AF !important ; 
+	color: #f8f8f8 !important ;
 
 }
