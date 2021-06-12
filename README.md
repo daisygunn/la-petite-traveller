@@ -204,11 +204,11 @@ The 'Keep in Touch' button is found in the navbar, upon clicking this the user w
 ![](docs/images/newsletter_sign_up_user_story.png)
 
 ### **Lighthouse**
-Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved a low performance score initially, as you can see below:
+Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved a low-performance score initially, as you can see below:
 
 ![](docs/images/first_lighthouse_report.png)
 
-I made concious effort to increase this by reducing image sizes on smaller screens using the 'srcset' and 'sizes' attributes & I also deffered any CSS or JS that wasn't required for the first paint. Furthermore, I added the 'rel="noreferrer"' to all external links as this is considered best practice. 
+I made a conscious effort to increase this by reducing image sizes on smaller screens using the 'srcset' and 'sizes' attributes & I also deferred any CSS or JS that wasn't required for the first paint. Furthermore, I added the 'rel="noreferrer"' to all external links as this is considered best practice. 
 
 I am very pleased to now hit above 90 for all scores:
 
@@ -216,7 +216,7 @@ I am very pleased to now hit above 90 for all scores:
 
 ### **HTML and CSS Validation**
 
-I validated both my HTML and CSS code multiple times whilst building the website, I did this so that there were not a huge amount of errors/warnings at the final stages of development for me to deal with. This allowed me to incremently improve my code and upon completion there were 0 errors found. 
+I validated both my HTML and CSS code multiple times whilst building the website, I did this so that there were not a huge amount of errors/warnings at the final stages of development for me to deal with. This allowed me to incrementally improve my code and upon completion, there were 0 errors found. 
 
 ![](docs/images/css_validation_no_errors.png)
 ![](docs/images/html_validation_no_errors.png)
@@ -239,7 +239,7 @@ So I decided to change the main colour to a darker blue to improve the overall a
 
 ![](docs/images/contrast_test_passed.png)
 
-Accessibility was also tested in WAVE, initially I had some errors due to insufficient labelling for my form elements and a link within the navbar:
+Accessibility was also tested in WAVE, initially, I had some errors due to insufficient labelling for my form elements and a link within the navbar:
 
 ![](docs/images/wave_errors.png)
 
@@ -281,7 +281,7 @@ Cloning your repository will allow you to download a local version of the reposi
 
 1. Find the relevant GitHub repository
 2. Press the arrow on the Code button
-3. Copy the link that is shown in the drop down
+3. Copy the link that is shown in the drop-down
 4. Now open Gitpod & select the directory location where you would like the clone created
 5. In the terminal type 'git clone' & then paste the link you copied in GitHub
 6. Press enter and your local clone will be created.
