@@ -549,6 +549,9 @@ h3 {
 	}
 }
 
+/* Hides any element visually but provides information for screen readers */
+/* CSS code found here: https://www.w3.org/WAI/tutorials/forms/labels/ */
+
 .visually_hidden {
 	border: 0;
 	clip: rect(0 0 0 0);
