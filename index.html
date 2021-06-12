@@ -1,558 +1,551 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description"
-      content="La Petite Traveller, a travel guide full of useful tips and tricks for backpacking and reviews of countries visited.">
-   <meta name="keywords"
-      content="travel, Sri Lanka, backpacking, travelling, la petite traveller, exploring, travel tips, travel guide, travel blog">
-   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
-   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
-   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
-   <link rel="manifest" href="assets/favicon_io/manifest.json">
-
-   <!-- fontawesome library import -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-   <!-- stylesheet for fancybox -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-
-   <title>La Petite Traveller</title>
-</head>
-
-<body>
-   <link rel="stylesheet" href="assets/css/style.css">
-   <header>
-      <nav>
-         <!-- Code for navbar found on W3 school -->
-         <div class="bg-img">
-            <h1 id="main_heading">La Petite Traveller</h1>
-            <div class="container">
-               <div class="topnav" id="myTopnav">
-                  <a href="#home" class="active">Home</a>
-                  <a href="#travel_tips_101">Travel Tips 101</a>
-                  <a href="#my_last_trip">My Last Trip</a>
-                  <a href="#stay_in_touch">Keep in Touch!</a>
-                  <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description"
+         content="La Petite Traveller, a travel guide full of useful tips and tricks for backpacking and reviews of countries visited.">
+      <meta name="keywords"
+         content="travel, Sri Lanka, backpacking, travelling, la petite traveller, exploring, travel tips, travel guide, travel blog">
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+      <link rel="manifest" href="assets/favicon_io/manifest.json">
+      <!-- fontawesome library import -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- stylesheet for fancybox -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+      <title>La Petite Traveller</title>
+   </head>
+   <body>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <header>
+         <nav>
+            <!-- Code for navbar found on W3 school -->
+            <div class="bg-img">
+               <h1 id="main_heading">La Petite Traveller</h1>
+               <div class="container">
+                  <div class="topnav" id="myTopnav">
+                     <a href="#home" class="active">Home</a>
+                     <a href="#travel_tips_101">Travel Tips 101</a>
+                     <a href="#my_last_trip">My Last Trip</a>
+                     <a href="#stay_in_touch">Keep in Touch!</a>
+                     <a href="javascript:void(0);" class="icon" onclick="navFunction()">
                      <i class="fa fa-bars"></i><span class="visually_hidden">Menu button</span></a>
+                  </div>
                </div>
             </div>
-         </div>
-      </nav>
-   </header>
-   <hr>
-   
-   <section id="home">
-      <div id="home_container">
-         <h2 class="sub_heading">La Petite Traveller</h2>
-         <p>The go-to guide for any backpacker!</p>
-         <p>I have been very fortunate to spend a lot of time exploring our beautiful planet.
-            Whilst there are plenty of travel blogs and guides out there, I found that when researching for
-            my first big trip, there just wasn't enough out there about backpacking on a budget that didn't
-            involve missing out on half of the country! I want to give you, my readers, the best tips that
-            I've learnt along the way so that you can make the most of every second & every penny that
-            you have to make life-long memories. </p>
-            
-           <p><a href="#my_last_trip"
+         </nav>
+      </header>
+      <hr>
+      <section id="home">
+         <div id="home_container">
+            <h2 class="sub_heading">La Petite Traveller</h2>
+            <p>The go-to guide for any backpacker!</p>
+            <p>I have been very fortunate to spend a lot of time exploring our beautiful planet.
+               Whilst there are plenty of travel blogs and guides out there, I found that when researching for
+               my first big trip, there just wasn't enough out there about backpacking on a budget that didn't
+               involve missing out on half of the country! I want to give you, my readers, the best tips that
+               I've learnt along the way so that you can make the most of every second & every penny that
+               you have to make life-long memories. 
+            </p>
+            <p><a href="#my_last_trip"
                class="cursor blue-link">You will also find a review of my most recent trip to Sri Lanka here!</a>
-         </p>
-      </div>
-   </section>
-   <hr>
-   <section id="travel_tips_101">
-      <div>
-         <h2 class="section_heading">Travel Tips 101</h2>
-      </div>
-      <div class="background_colour_container float_left">
-         <div id="travel_tips" class="background_blue">
-            <h4 class="sub_section_heading"><i class="fas fa-check"></i> Getting started</h4>
-            <p>You need to have a good idea of where you want to go even if that's just a starting point before
-               contemplating planning (sounds obvious but you'd be surprised how many people just say they want to go
-               away!!).</p>
-            <p>For my first big backpacking trip, I desperately knew I wanted to start in India and so that was
-               destination 1 - it was only once I was in India that I then started to think about where to go next and
-               made decisions based on flight prices, weather in the surrounding countries and what the food was meant
-               to be like! I'm a vegetarian and so food is always a big factor for me. </p>
-            <p>This is not the ideal way for many to travel as it does come with some risks but I found not being tied
-               down to flights and routes meant I was able to travel based upon the people I was meeting &
-               recommendations I was being given.</p>
-
-            <h4 class="sub_section_heading"><i class="fas fa-route"></i> Route planning</h4>
-            <p>Read, read & read again, you are not the first person visiting this country and so there will be plenty
-               of recommendations available for you. </p>
-            <p>If you're stretched for time then be realistic, moving every day is
-               bound to knacker you out and won't always allow for the most fun to be had! Of course, we are all
-               different people but I find spending 2-3 days in any one place my preferred pace of travel.</p>
-            <p>Be flexible, have an idea of where you want to go but be open to it changing. Some of my favourite places
-               have been off my planned route - so please do not think you have to stick to any plans!!</p>
-
-            <h4 class="sub_section_heading"><i class="fas fa-suitcase"></i> Packing</h4>
-            <p>Pack light - It is KEY to not overpack, get yourself a decent
-               <a href="https://www.cotswoldoutdoor.com/p/osprey-womens-fairview-70-travel-pack-E2414409.html?channable=00ff736964003230363337305f393876&colour=98&utm_source=google&utm_source=google&utm_medium=organic&utm_medium=cpc&utm_campaign=shopping&utm_campaign=Luggage%20Mid%20Priority%20tROAS-BOFU-PLA%20&cq_plac=&cq_net=g&cq_pos=&cq_med=pla&cq_plt=gp&gclid=Cj0KCQjwna2FBhDPARIsACAEc_WcPdMLZhtyg7c35qRCHCMHbA8QVvOnVXGV5kg9ROMx53l6Dzf0YZUaAkFvEALw_wcB')"
-                  target="_blank" aria-label="Link to example of a good rucksack, opens in a new tab."
-                  class="cursor white-link" rel="noreferrer">bag</a> (look
-               into how many litres it is) and be sensible. Do you need 6 pairs of shoes? Probably not.
-               You will be so thankful once you're away that your bag doesn't weigh 25kg and that you're able to access
-               all of your items with ease. </p>
-            <p>It is also very important to consider the countries that you're visiting and ensure that you take
-               appropriate clothing so as not to offend.</p>
-            <p>Rolling your clothes is the only way to do it, get yourself some <a
+            </p>
+         </div>
+      </section>
+      <hr>
+      <section id="travel_tips_101">
+         <div>
+            <h2 class="section_heading">Travel Tips 101</h2>
+         </div>
+         <div class="background_colour_container float_left">
+            <div id="travel_tips" class="background_blue">
+               <h4 class="sub_section_heading"><i class="fas fa-check"></i> Getting started</h4>
+               <p>You need to have a good idea of where you want to go even if that's just a starting point before
+                  contemplating planning (sounds obvious but you'd be surprised how many people just say they want to go
+                  away!!).
+               </p>
+               <p>For my first big backpacking trip, I desperately knew I wanted to start in India and so that was
+                  destination 1 - it was only once I was in India that I then started to think about where to go next and
+                  made decisions based on flight prices, weather in the surrounding countries and what the food was meant
+                  to be like! I'm a vegetarian and so food is always a big factor for me. 
+               </p>
+               <p>This is not the ideal way for many to travel as it does come with some risks but I found not being tied
+                  down to flights and routes meant I was able to travel based upon the people I was meeting &
+                  recommendations I was being given.
+               </p>
+               <h4 class="sub_section_heading"><i class="fas fa-route"></i> Route planning</h4>
+               <p>Read, read & read again, you are not the first person visiting this country and so there will be plenty
+                  of recommendations available for you. 
+               </p>
+               <p>If you're stretched for time then be realistic, moving every day is
+                  bound to knacker you out and won't always allow for the most fun to be had! Of course, we are all
+                  different people but I find spending 2-3 days in any one place my preferred pace of travel.
+               </p>
+               <p>Be flexible, have an idea of where you want to go but be open to it changing. Some of my favourite places
+                  have been off my planned route - so please do not think you have to stick to any plans!!
+               </p>
+               <h4 class="sub_section_heading"><i class="fas fa-suitcase"></i> Packing</h4>
+               <p>Pack light - It is KEY to not overpack, get yourself a decent
+                  <a href="https://www.cotswoldoutdoor.com/p/osprey-womens-fairview-70-travel-pack-E2414409.html?channable=00ff736964003230363337305f393876&colour=98&utm_source=google&utm_source=google&utm_medium=organic&utm_medium=cpc&utm_campaign=shopping&utm_campaign=Luggage%20Mid%20Priority%20tROAS-BOFU-PLA%20&cq_plac=&cq_net=g&cq_pos=&cq_med=pla&cq_plt=gp&gclid=Cj0KCQjwna2FBhDPARIsACAEc_WcPdMLZhtyg7c35qRCHCMHbA8QVvOnVXGV5kg9ROMx53l6Dzf0YZUaAkFvEALw_wcB')"
+                     target="_blank" aria-label="Link to example of a good rucksack, opens in a new tab."
+                     class="cursor white-link" rel="noreferrer">bag</a> (look
+                  into how many litres it is) and be sensible. Do you need 6 pairs of shoes? Probably not.
+                  You will be so thankful once you're away that your bag doesn't weigh 25kg and that you're able to access
+                  all of your items with ease. 
+               </p>
+               <p>It is also very important to consider the countries that you're visiting and ensure that you take
+                  appropriate clothing so as not to offend.
+               </p>
+               <p>Rolling your clothes is the only way to do it, get yourself some <a
                   href="https://www.amazon.co.uk/Eono-Essentials-Lightweight-Organizers-Accessories/dp/B07JWCW87Y/ref=asc_df_B07JWCW87Y/?tag=googshopuk-21&linkCode=df0&hvadid=310446945021&hvpos=&hvnetw=g&hvrand=12797766163628329236&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006609&hvtargid=pla-596526684374&psc=1"
                   target="_blank" aria-label="Link to packing cubes on Amazon, opens in a new tab" class="cursor"
                   rel="noreferrer">packing cubes</a> and
-               organise your stuff into sections, this will make accessing your clothes super quick and easy!</p>
-            <p><a
+                  organise your stuff into sections, this will make accessing your clothes super quick and easy!
+               </p>
+               <p><a
                   href="assets/documents/downloadable_packing_essentials.pdf" class="blue-link cursor" target="_blank"
                   aria-label="Link to Packing Essentials PDF document, opens in a new tab" title="Link to Packing Essentials PDF document">Find my downloadable essentials packing list here.</a>. </p>
-
-            <h4 class="sub_section_heading"><i class="fas fa-wallet"></i> Budgeting</h4>
-            <p>Be strict! Have a good understanding of how much you have to spend per day/per week/per month and only
-               allow yourself access to this budget. </p>
-            <p>Research how much travelling from place to place is going to cost, consider all options. Travelling
-               overnight is often the cheapest way to get around as you also save on a night of accommodation! <br>
-               Depending on which country you visit the hostels may have kitchens, this is a great way to save on money
-               as you can prepare lunch or dinner. </p>
-            <p>Book somewhere that has breakfast included - makes all the difference getting 1 meal a day for free!
-               Don't be scared of street food, this is often how the locals eat, the food is cheaper and it's normally
-               DELICIOUS.</p>
-
-            <h4 class="sub_section_heading"><i class="fas fa-heartbeat"></i> Health & Wellbeing</h4>
-            <p>Shampoo and conditioner bars are a great way to save on space, weight and money. I bought this <a
+               <h4 class="sub_section_heading"><i class="fas fa-wallet"></i> Budgeting</h4>
+               <p>Be strict! Have a good understanding of how much you have to spend per day/per week/per month and only
+                  allow yourself access to this budget. 
+               </p>
+               <p>Research how much travelling from place to place is going to cost, consider all options. Travelling
+                  overnight is often the cheapest way to get around as you also save on a night of accommodation! <br>
+                  Depending on which country you visit the hostels may have kitchens, this is a great way to save on money
+                  as you can prepare lunch or dinner. 
+               </p>
+               <p>Book somewhere that has breakfast included - makes all the difference getting 1 meal a day for free!
+                  Don't be scared of street food, this is often how the locals eat, the food is cheaper and it's normally
+                  DELICIOUS.
+               </p>
+               <h4 class="sub_section_heading"><i class="fas fa-heartbeat"></i> Health & Wellbeing</h4>
+               <p>Shampoo and conditioner bars are a great way to save on space, weight and money. I bought this <a
                   href="https://uk.lush.com/products/honey-shampoo/honey-i-washed-my-hair" target="_blank"
                   aria-label="Link to Lush shampoo bar, opens in a new page" class="cursor" rel="noreferrer">shampoo</a>
-               and this <a href="https://uk.lush.com/hair-care/conditioner/valkyrie" target="_blank"
-                  aria-label="Link to Lush conditioner bar, opens in a new page" class="cursor"
-                  rel="noreferrer">conditioner</a> and both
-               lasted me my entire 6 months of travelling!! </p>
-            <p>Always have Imodium & rehydration sachets (or something similar) just in case you get an upset stomach,
-               having these on hand got me out of a couple of tricky situations.
-               I also always take a first aid kit with me, loaded with plasters and painkillers - being prepared for
-               anything will make your life so much easier!
-            </p>
-
-            <h4 class="sub_section_heading"><i class="fas fa-wifi"></i> Useful apps/websites</h4>
-            <p>Look into the available travel apps for the country you're visiting, some of my faves are:</p>
+                  and this <a href="https://uk.lush.com/hair-care/conditioner/valkyrie" target="_blank"
+                     aria-label="Link to Lush conditioner bar, opens in a new page" class="cursor"
+                     rel="noreferrer">conditioner</a> and both
+                  lasted me my entire 6 months of travelling!! 
+               </p>
+               <p>Always have Imodium & rehydration sachets (or something similar) just in case you get an upset stomach,
+                  having these on hand got me out of a couple of tricky situations.
+                  I also always take a first aid kit with me, loaded with plasters and painkillers - being prepared for
+                  anything will make your life so much easier!
+               </p>
+               <h4 class="sub_section_heading"><i class="fas fa-wifi"></i> Useful apps/websites</h4>
+               <p>Look into the available travel apps for the country you're visiting, some of my faves are:</p>
                <ul id="travel_tips_list">
                   <li>Busbud is great for buses in North America, South America, Europe, Africa, and Southeast Asia.
                   </li>
                   <li>HostelBookers <em>(use my code LAPETITET123 for an introductory 15% discount)</em></li>
                   <li>Rome2Rio is great for almost any country you're in, perfect place to start if you're stuck on how
-                     to get from A to B.</li>
+                     to get from A to B.
+                  </li>
                </ul>
+            </div>
          </div>
-      </div>
-      <div class="float_right">
-         <div id="essentials">
-            <h3 class="sub_heading">Packing Essentials</h3>
-            <p id="essentials_description"><a href="assets/documents/downloadable_packing_essentials.pdf" class="blue-link"
+         <div class="float_right">
+            <div id="essentials">
+               <h3 class="sub_heading">Packing Essentials</h3>
+               <p id="essentials_description"><a href="assets/documents/downloadable_packing_essentials.pdf" class="blue-link"
                   target="_blank" aria-label="Link to Packing Essentials PDF document, opens in a new tab" title="Link to Packing Essentials PDF document">Download this list (with alternative climate options) to use for your own packing!</a></p>
-            <h4 class="list_heading">Clothes</h4>
-            <ul class="essentials_list">
-               <li>Jumper</li>
-               <li>Swimwear (3)</li>
-               <li>Tops (8)</li>
-               <li>Shorts (3)</li>
-               <li>Dresses (2)</li>
-               <li>Baggy/comfortable trousers (3)</li>
-               <li>Raincoat - even if it's hot!</li>
-            </ul>
-
-            <h4 class="list_heading">Shoes</h4>
-            <ul class="essentials_list">
-               <li>Comfortable trainers</li>
-               <li>Comfortable sandals, i.e birkenstocks</li>
-               <li>Flip flops</li>
-               <li>Walking boots (if hiking)</li>
-            </ul>
-
-            <h4 class="list_heading">Health & Wellness</h4>
-            <ul class="essentials_list">
-               <li>Silk sleeping bag & mosquito net</li>
-               <li>Microfibre travel towel</li>
-               <li>Toiletries</li>
-               <li>First aid kit</li>
-               <li>Mosquito spray (100% deet)</li>
-               <li>Hat - to protect your face on hikes/beach</li>
-            </ul>
-
-            <h4 class="list_heading">Extras</h4>
-            <ul class="essentials_list">
-               <li>Ear plugs - an absolute necessity for sleeping on trains/in hostels</li>
-               <li>Eye mask</li>
-               <li>Travel journal - great way to reflect on your time</li>
-               <li>Water bottle <a href="https://www.chillysbottles.com/uk/categories/bottles"
+               <h4 class="list_heading">Clothes</h4>
+               <ul class="essentials_list">
+                  <li>Jumper</li>
+                  <li>Swimwear (3)</li>
+                  <li>Tops (8)</li>
+                  <li>Shorts (3)</li>
+                  <li>Dresses (2)</li>
+                  <li>Baggy/comfortable trousers (3)</li>
+                  <li>Raincoat - even if it's hot!</li>
+               </ul>
+               <h4 class="list_heading">Shoes</h4>
+               <ul class="essentials_list">
+                  <li>Comfortable trainers</li>
+                  <li>Comfortable sandals, i.e birkenstocks</li>
+                  <li>Flip flops</li>
+                  <li>Walking boots (if hiking)</li>
+               </ul>
+               <h4 class="list_heading">Health & Wellness</h4>
+               <ul class="essentials_list">
+                  <li>Silk sleeping bag & mosquito net</li>
+                  <li>Microfibre travel towel</li>
+                  <li>Toiletries</li>
+                  <li>First aid kit</li>
+                  <li>Mosquito spray (100% deet)</li>
+                  <li>Hat - to protect your face on hikes/beach</li>
+               </ul>
+               <h4 class="list_heading">Extras</h4>
+               <ul class="essentials_list">
+                  <li>Ear plugs - an absolute necessity for sleeping on trains/in hostels</li>
+                  <li>Eye mask</li>
+                  <li>Travel journal - great way to reflect on your time</li>
+                  <li>Water bottle <a href="https://www.chillysbottles.com/uk/categories/bottles"
                      target="_blank" aria-label="Link to Chilly bottle website, opens in a new tab"
                      class="cursor blue-link" rel="noreferrer">(the brand chilly is my fave)</a></li>
-            </ul>
+               </ul>
+            </div>
          </div>
-      </div>
-   </section>
-   <div id="my_last_trip_img"></div>
-   <section id="my_last_trip">
-      <h2 class="section_heading">My Last Trip - Sri Lanka</h2>
-      <div class="sri_lanka background_colour_container float_left">
-         <section class="background_blue" id="sri_lanka_review">
-            <h3 class="sub_heading" id="review_heading">A La Petite Review</h3>
-            <h4 class="sub_section_heading"><i class="fas fa-pound-sign"></i> Total Budget</h4>
-            <p>£1200</p>
-            <h4 class="sub_section_heading"><i class="fas fa-utensils"></i> Food Score (out of 10)</h4>
-            <p>A very solid 10/10 - I could not fault it, the curries are delcious, the hoppers, the fruit!!!!!</p>
-            <h4 class="sub_section_heading"><i class="fas fa-bus-alt"></i> Internal Travel</h4>
-            <p>As Sri Lanka is relatively small it was super easy to travel, the local buses are somewhat terrifying but
-               a real experience and oh-so cheap.</p>
-            <h4 class="sub_section_heading"><i class="far fa-thumbs-up"></i> Best Moment</h4>
-            <p>Safari at Udawalwe - my elephant dreams came true!
-               Also sitting on any of the pictureqesque beaches in the South.
-               Seeing fireflies and a shooting star in Sigiriya!
-            </p>
-            <h4 class="sub_section_heading"><i class="far fa-thumbs-down"></i> Low Moment</h4>
-            <p>Genuinely - none.</p>
-            <h4 class="sub_section_heading"><i class="far fa-calendar-check"></i> When to go?</h4>
-            <p>The weather in Sri Lanka is a little crazy for some a small island, the north and south are often very
-               different.
-               I went in the month of December which was fantastic in the South for weather.
-            </p>
-            <h4 class="sub_section_heading"><i class="far fa-star"></i> Ratings (out of 10)</h4>
-            <p>10 - Sri Lanka has really taken one of my top spots!
-            </p>
-         </section>
-      </div>
-      <section id="sri_lanka_route_details" class="float_right">
-         <div class="sri_lanka">
-            <h3 class="sub_heading">My Route</h3>
-            <p class="route_details">I've made it pretty obvious by now that I fell deeply in love with Sri Lanka, the
-               combination of hikes,
-               nature, food, culture and of course the beaches was
-               something I hadn't expected - it is a real delight and somewhere I would recommend everyone to visit. In
-               fact, I don't think I've shut up about it since I
-               got home. There is something for everyone and being a pretty small country - the UK is about 3.7 times
-               bigger than Sri Lanka - it is quick and easy to get
-               around so perfect for shorter trips too! </p>
-            <p class="route_details">
-               Below is a map of my route, I had just over 3 weeks in total and as I was travelling over Christmas I had
-               to factor in that everything would be busy and
-               fully booked, after some research, I decided not to risk being stranded on Christmas Day and I pre-booked
-               a few places and so had to stick to my schedule.
-               I was also adamant to spend at least 10 days lying on a beach so wanted to move pretty quickly through
-               the beginning of my itinerary. </p>
-            <p class="route_details"><em>If I'd had more time I would have definitely travelled over to the South West
+      </section>
+      <div id="my_last_trip_img"></div>
+      <section id="my_last_trip">
+         <h2 class="section_heading">My Last Trip - Sri Lanka</h2>
+         <div class="sri_lanka background_colour_container float_left">
+            <section class="background_blue" id="sri_lanka_review">
+               <h3 class="sub_heading" id="review_heading">A La Petite Review</h3>
+               <h4 class="sub_section_heading"><i class="fas fa-pound-sign"></i> Total Budget</h4>
+               <p>£1200</p>
+               <h4 class="sub_section_heading"><i class="fas fa-utensils"></i> Food Score (out of 10)</h4>
+               <p>A very solid 10/10 - I could not fault it, the curries are delcious, the hoppers, the fruit!!!!!</p>
+               <h4 class="sub_section_heading"><i class="fas fa-bus-alt"></i> Internal Travel</h4>
+               <p>As Sri Lanka is relatively small it was super easy to travel, the local buses are somewhat terrifying but
+                  a real experience and oh-so cheap.
+               </p>
+               <h4 class="sub_section_heading"><i class="far fa-thumbs-up"></i> Best Moment</h4>
+               <p>Safari at Udawalwe - my elephant dreams came true!
+                  Also sitting on any of the pictureqesque beaches in the South.
+                  Seeing fireflies and a shooting star in Sigiriya!
+               </p>
+               <h4 class="sub_section_heading"><i class="far fa-thumbs-down"></i> Low Moment</h4>
+               <p>Genuinely - none.</p>
+               <h4 class="sub_section_heading"><i class="far fa-calendar-check"></i> When to go?</h4>
+               <p>The weather in Sri Lanka is a little crazy for some a small island, the north and south are often very
+                  different.
+                  I went in the month of December which was fantastic in the South for weather.
+               </p>
+               <h4 class="sub_section_heading"><i class="far fa-star"></i> Ratings (out of 10)</h4>
+               <p>10 - Sri Lanka has really taken one of my top spots!
+               </p>
+            </section>
+         </div>
+         <section id="sri_lanka_route_details" class="float_right">
+            <div class="sri_lanka">
+               <h3 class="sub_heading">My Route</h3>
+               <p class="route_details">I've made it pretty obvious by now that I fell deeply in love with Sri Lanka, the
+                  combination of hikes,
+                  nature, food, culture and of course the beaches was
+                  something I hadn't expected - it is a real delight and somewhere I would recommend everyone to visit. In
+                  fact, I don't think I've shut up about it since I
+                  got home. There is something for everyone and being a pretty small country - the UK is about 3.7 times
+                  bigger than Sri Lanka - it is quick and easy to get
+                  around so perfect for shorter trips too! 
+               </p>
+               <p class="route_details">
+                  Below is a map of my route, I had just over 3 weeks in total and as I was travelling over Christmas I had
+                  to factor in that everything would be busy and
+                  fully booked, after some research, I decided not to risk being stranded on Christmas Day and I pre-booked
+                  a few places and so had to stick to my schedule.
+                  I was also adamant to spend at least 10 days lying on a beach so wanted to move pretty quickly through
+                  the beginning of my itinerary. 
+               </p>
+               <p class="route_details"><em>If I'd had more time I would have definitely travelled over to the South West
                   coast to explore
                   Arugam Bay - famous for its surfing and headed up to the Tamil North to explore Jaffna and it's
                   wonderous Temples.</em>
-            </p>
-
-            <br>
-            <div id="map_container">
-               <iframe id="sri_lanka_map" aria-label="Interactive google map of my route taken in Sri Lanka"
-                  src="https://www.google.com/maps/d/u/0/embed?mid=1LlT7nQG2jxItQoSmAg2VAuO_Cl4ZmHxR"></iframe>
-            </div>
-            <h4>
-               Negombo - Colombo - Sigirya - Dambulla - Kandy - Ella - Udawalwe - Tallala - Mirissa - Unawatuna -
-               Colombo
-            </h4>
-            <button onclick="showMore()" id="read_more" class="buttons float right">Read more</button>
-            <div id="more">
-               <h4>Negombo - 1 night</h4>
-               <p>Stayed: <a
+               </p>
+               <br>
+               <div id="map_container">
+                  <iframe id="sri_lanka_map" aria-label="Interactive google map of my route taken in Sri Lanka"
+                     src="https://www.google.com/maps/d/u/0/embed?mid=1LlT7nQG2jxItQoSmAg2VAuO_Cl4ZmHxR"></iframe>
+               </div>
+               <h4>
+                  Negombo - Colombo - Sigirya - Dambulla - Kandy - Ella - Udawalwe - Tallala - Mirissa - Unawatuna -
+                  Colombo
+               </h4>
+               <button onclick="showMore()" id="read_more" class="buttons float right">Read more</button>
+               <div id="more">
+                  <h4>Negombo - 1 night</h4>
+                  <p>Stayed: <a
                      href="https://www.tripadvisor.co.uk/Hotel_Review-g297897-d6921033-Reviews-Hostel_First_Colombo_Airport-Negombo_Western_Province.html"
                      target="_blank" class="blue-link" rel="noreferrer"
                      aria-label="Link to Hostel First Trip Advisor page, opens in a new tab">Hostel First</a></p>
-               <p>The main airport in Sri Lanka is called 'Bandaranaike International Colombo Airport' but is actually
-                  located closer to Negombo.
-                  My flight got in pretty late so I decided to spend my first night and day in Negombo, it was nice to
-                  see the beach but there's not much to see here -
-                  can easily be missed.</p>
-               <hr>
-               <h4>Colombo - 1 night</h4>
-               <p>Stayed: <a
+                  <p>The main airport in Sri Lanka is called 'Bandaranaike International Colombo Airport' but is actually
+                     located closer to Negombo.
+                     My flight got in pretty late so I decided to spend my first night and day in Negombo, it was nice to
+                     see the beach but there's not much to see here -
+                     can easily be missed.
+                  </p>
+                  <hr>
+                  <h4>Colombo - 1 night</h4>
+                  <p>Stayed: <a
                      href="https://www.hostelworld.com/pwa/hosteldetails.php/Hitchhike-Backpackers/Colombo/92705?from=2021-06-06&to=2021-06-09&guests=2"
                      target="_blank" class="blue-link" rel="noreferrer"
                      aria-label="Link to Hitchhike Backpackers hostel world page, opens in a new tab">Hitchhike
-                     Backpackers</a></p>
-               <p>Colombo is Sri Lanka's capital and it is a typically big, busy Asian city but has an interesting
-                  architectural twist. Due to the colonial rule in the 16th Century,
-                  there are a plethora of beautiful colonial buildings mixed in with swanky new office blocks - making
-                  this city a real delight to explore. There is an abundance of
-                  street food available in the markets and the Pettah Bazaar is definitely worth a visit.
-                  The Barefoot bar is an iconic Colombo institution and offers live Jazz on Sundays - this is not a
-                  cheap place and so not ideal for those of us on a tight budget!
-                  If I'm being totally honest, we probably should have spent more time properly exploring Colombo but
-                  with just under a month (and a desperate want to sit on the beach)
-                  I wanted to get moving ASAP and so only spent a night.</p>
-               <hr>
-               <h4>Sigirya - 2 nights</h4>
-               <p>Stayed: <a
+                     Backpackers</a>
+                  </p>
+                  <p>Colombo is Sri Lanka's capital and it is a typically big, busy Asian city but has an interesting
+                     architectural twist. Due to the colonial rule in the 16th Century,
+                     there are a plethora of beautiful colonial buildings mixed in with swanky new office blocks - making
+                     this city a real delight to explore. There is an abundance of
+                     street food available in the markets and the Pettah Bazaar is definitely worth a visit.
+                     The Barefoot bar is an iconic Colombo institution and offers live Jazz on Sundays - this is not a
+                     cheap place and so not ideal for those of us on a tight budget!
+                     If I'm being totally honest, we probably should have spent more time properly exploring Colombo but
+                     with just under a month (and a desperate want to sit on the beach)
+                     I wanted to get moving ASAP and so only spent a night.
+                  </p>
+                  <hr>
+                  <h4>Sigirya - 2 nights</h4>
+                  <p>Stayed: <a
                      href="https://www.tripadvisor.co.uk/Hotel_Review-g304141-d12370401-Reviews-Landun_Sigiri_Villas-Sigiriya_Central_Province.html"
                      target="_blank" class="blue-link" rel="noreferrer"
                      aria-label="Link to Landun Sigiri Villas Trip Advisor page, opens in a new tab">Landun Sigiri
                      Villas</a>
-               </p>
-               <p>
-                  As luck would have it there was a train strike when we were in Sri Lanka which meant I had to revert
-                  to travelling by bus - we got a bus to Dambulla and then a tuktuk to our guest house. We stayed at
-                  Landun Sigirya Villas and I cannot recommend it enough - our host was delightful and made some of the
-                  nicest food I've ever eaten in my life.
-                  Sigirya is famous for 'Lions Rock' which is an impressive sight from below and offers stunning views
-                  from the top. It takes just over an hour to climb and is mostly up stairs. Get there early, avoid the
-                  crowds and also the height of the sun!
-                  I was also advised by a friend to climb the smaller rock opposite Pidarangula, this is less of a
-                  tourist attraction and is more of a wild climb - there are no stairs and it involves some basic
-                  climbing. The top offers incredible views of Lions Rock and the climb was a little more fun.
-               </p>
-               <hr>
-               <h4>Dambulla - 1 afternoon</h4>
-               <p>We stopped in Dambulla on the way to the bus station as we wanted to visit the Dambulla Cave Temple;
-                  it is the largest and best-preserved cave temple complex in Sri Lanka.
-                  The rock towers 160 m over the surrounding plains. Major attractions are spread over five caves, which
-                  contain statues and paintings. It comes at a small cost of 1500 LUK and is well worth it!
-               </p>
-               <hr>
-               <h4>Kandy - 2 nights</h4>
-               <p>Stayed: <a
+                  </p>
+                  <p>
+                     As luck would have it there was a train strike when we were in Sri Lanka which meant I had to revert
+                     to travelling by bus - we got a bus to Dambulla and then a tuktuk to our guest house. We stayed at
+                     Landun Sigirya Villas and I cannot recommend it enough - our host was delightful and made some of the
+                     nicest food I've ever eaten in my life.
+                     Sigirya is famous for 'Lions Rock' which is an impressive sight from below and offers stunning views
+                     from the top. It takes just over an hour to climb and is mostly up stairs. Get there early, avoid the
+                     crowds and also the height of the sun!
+                     I was also advised by a friend to climb the smaller rock opposite Pidarangula, this is less of a
+                     tourist attraction and is more of a wild climb - there are no stairs and it involves some basic
+                     climbing. The top offers incredible views of Lions Rock and the climb was a little more fun.
+                  </p>
+                  <hr>
+                  <h4>Dambulla - 1 afternoon</h4>
+                  <p>We stopped in Dambulla on the way to the bus station as we wanted to visit the Dambulla Cave Temple;
+                     it is the largest and best-preserved cave temple complex in Sri Lanka.
+                     The rock towers 160 m over the surrounding plains. Major attractions are spread over five caves, which
+                     contain statues and paintings. It comes at a small cost of 1500 LUK and is well worth it!
+                  </p>
+                  <hr>
+                  <h4>Kandy - 2 nights</h4>
+                  <p>Stayed: <a
                      href="https://www.hostelworld.com/pwa/hosteldetails.php/J-Hostel-Kandy/Kandy/281406?from=2021-06-06&to=2021-06-09&guests=2"
                      target="_blank" class="blue-link" rel="noreferrer"
                      aria-label="Link to Hostel Kandy's hostel world page, opens in a new tab">Hostel Kandy</a></p>
-               <p>We got the bus to Kandy, the city's heart is scenic Kandy Lake (Bogambara Lake), which is popular for
-                  strolling. Kandy is famed for sacred Buddhist sites, including the Temple of the Tooth (Sri Dalada
-                  Maligawa) shrine, celebrated with the grand Esala Perahera annual procession.
-                  We hired a tuk tuk for the day to take us around, we visited the Pinnawella elephant sanctuary (where
-                  you can bottle feed baby elephants!!!!) & the Royal Botanical Gardens which are an absolute delight,
-                  think Kew Gardens but more exotic with monkeys roaming around!
-                  In the evening we visited a traditional Kandyian dance show - you will see adverts everywhere for this
-                  - I don't know if it was just the one we visited but it felt like a massive tourist trap so I can't
-                  say I would recommend.
-               </p>
-               <hr>
-               <h4>Ella - 2 night</h4>
-               <p>Stayed: <a
+                  <p>We got the bus to Kandy, the city's heart is scenic Kandy Lake (Bogambara Lake), which is popular for
+                     strolling. Kandy is famed for sacred Buddhist sites, including the Temple of the Tooth (Sri Dalada
+                     Maligawa) shrine, celebrated with the grand Esala Perahera annual procession.
+                     We hired a tuk tuk for the day to take us around, we visited the Pinnawella elephant sanctuary (where
+                     you can bottle feed baby elephants!!!!) & the Royal Botanical Gardens which are an absolute delight,
+                     think Kew Gardens but more exotic with monkeys roaming around!
+                     In the evening we visited a traditional Kandyian dance show - you will see adverts everywhere for this
+                     - I don't know if it was just the one we visited but it felt like a massive tourist trap so I can't
+                     say I would recommend.
+                  </p>
+                  <hr>
+                  <h4>Ella - 2 night</h4>
+                  <p>Stayed: <a
                      href="https://www.hostelworld.com/pwa/hosteldetails.php/Tomorrowland-Hostel/Ella/273648?from=2021-06-06&to=2021-06-09&guests=2"
                      target="_blank" class="blue-link" rel="noreferrer"
                      aria-label="Link to Tomorrowland Hostel's hostel world page, opens in a new tab">Tomorrowland
-                     Hostel</a></p>
-               <p>
-                  Getting to Ella from Kandy is one of the nicest train rides you'll ever experience and something you
-                  absolutely will have seen photos of! YOU MUST BOOK!
-                  If you pre-plan far enough in advance (and have the budget) book the observation car as this will
-                  offer you panoramic views of the scenery. If, like me,
-                  you're unable to book a seat (Christmas tourists meant they sold out) you absolutely will want to get
-                  to the train station with ample time to ensure you are by
-                  the doors when the train arrives - we were lucky, we got a seat by the window otherwise you'll find
-                  yourself sat on the floor with no air-con or breeze!
-                  Ella is another real treat for the hikers out there; we arrived relatively late on the first night and
-                  so we just had dinner in our guesthouse and hit the sack.
-                  The following morning we got up at the crack of dawn to climb Ella's rock - be warned the route to the
-                  top is not the easiest and there will be locals
-                  that want to guide you (for a fee of course) and may even throw you off the right path to do so! This
-                  is a great <a href="https://nomadicboys.com/trekking-to-ella-rock/" target="_blank" class="blue-link"
-                     aria-label="Link to a step-by-step guide to climb Ella's rock, opens in a new tab."
-                     rel="noreferrer">step-by-step
+                     Hostel</a>
+                  </p>
+                  <p>
+                     Getting to Ella from Kandy is one of the nicest train rides you'll ever experience and something you
+                     absolutely will have seen photos of! YOU MUST BOOK!
+                     If you pre-plan far enough in advance (and have the budget) book the observation car as this will
+                     offer you panoramic views of the scenery. If, like me,
+                     you're unable to book a seat (Christmas tourists meant they sold out) you absolutely will want to get
+                     to the train station with ample time to ensure you are by
+                     the doors when the train arrives - we were lucky, we got a seat by the window otherwise you'll find
+                     yourself sat on the floor with no air-con or breeze!
+                     Ella is another real treat for the hikers out there; we arrived relatively late on the first night and
+                     so we just had dinner in our guesthouse and hit the sack.
+                     The following morning we got up at the crack of dawn to climb Ella's rock - be warned the route to the
+                     top is not the easiest and there will be locals
+                     that want to guide you (for a fee of course) and may even throw you off the right path to do so! This
+                     is a great <a href="https://nomadicboys.com/trekking-to-ella-rock/" target="_blank" class="blue-link"
+                        aria-label="Link to a step-by-step guide to climb Ella's rock, opens in a new tab."
+                        rel="noreferrer">step-by-step
                      guide</a> to follow.
-                  Also in Ella is Adam's Peak, another beautiful trek that is best made in the early hours so that you
-                  get to the top for sunrise - we were very unlucky in that our next morning had rain and so we didn't
-                  actually go.
-                  We did, however, take a walk to the 9 Arch Bridge which provides another iconic view and a great photo
-                  op!
-               </p>
-               <hr>
-               <h4>Udawalwe - 2 nights</h4>
-               <p>Stayed: <a
+                     Also in Ella is Adam's Peak, another beautiful trek that is best made in the early hours so that you
+                     get to the top for sunrise - we were very unlucky in that our next morning had rain and so we didn't
+                     actually go.
+                     We did, however, take a walk to the 9 Arch Bridge which provides another iconic view and a great photo
+                     op!
+                  </p>
+                  <hr>
+                  <h4>Udawalwe - 2 nights</h4>
+                  <p>Stayed: <a
                      href="https://www.booking.com/hotel/lk/nature-house.en-gb.html?label=gen173nr-1DCAEoggI46AdIM1gEaFCIAQGYAQm4AQfIAQzYAQPoAQGIAgGoAgO4ApHw7YUGwAIB0gIkZGJiMTkyMzEtZjY4NC00ZGQ0LWIwM2EtZmFhYTE5MTk2YWE32AIE4AIB&sid=e4dd994e8784259edf20d39c51714e32&all_sr_blocks=100696504_258619240_0_41_0&checkin=2021-07-21&checkout=2021-07-24&dest_id=-2237982&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=7&highlighted_blocks=100696504_258619240_0_41_0&hpos=7&no_rooms=1&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=100696504_258619240_0_41_0__4080&srepoch=1622898847&srpvid=98985d0f38bb021d&type=total&ucfs=1&activeTab=main"
                      target="_blank" class="blue-link" rel="noreferrer"
                      aria-label="Link to Nature House booking.com page, opens in a new tab">Nature House</a></p>
-               <p>
-                  We decided to do a safari at Udawalawe National Park due to the number of elephants that live there,
-                  we got a bus
-                  from Ella and booked our safari through the guest house we were staying at. They picked us up at
-                  5.30am and took us
-                  straight to the National Park. WHAT AN EXPERIENCE. We saw an unbelievable amount of animals, elephants
-                  - even a baby,
-                  crocodiles, bison, peacocks & tropical birds - and the best part is the entrance fee was only £25. A
-                  slightly steep
-                  activity when living on budget of £30 a day but well worth it. How many times in your life are you
-                  going to experience that?!
-               </p>
-               <hr>
-               <h4>Tallala - 2 nights</h4>
-               <p>Stayed: <a
+                  <p>
+                     We decided to do a safari at Udawalawe National Park due to the number of elephants that live there,
+                     we got a bus
+                     from Ella and booked our safari through the guest house we were staying at. They picked us up at
+                     5.30am and took us
+                     straight to the National Park. WHAT AN EXPERIENCE. We saw an unbelievable amount of animals, elephants
+                     - even a baby,
+                     crocodiles, bison, peacocks & tropical birds - and the best part is the entrance fee was only £25. A
+                     slightly steep
+                     activity when living on budget of £30 a day but well worth it. How many times in your life are you
+                     going to experience that?!
+                  </p>
+                  <hr>
+                  <h4>Tallala - 2 nights</h4>
+                  <p>Stayed: <a
                      href="https://www.booking.com/hotel/lk/thalalla-170-villa.en-gb.html?label=gen173nr-1DCAEoggI46AdIM1gEaFCIAQGYAQm4AQfIAQzYAQPoAQGIAgGoAgO4ApHw7YUGwAIB0gIkZGJiMTkyMzEtZjY4NC00ZGQ0LWIwM2EtZmFhYTE5MTk2YWE32AIE4AIB&sid=e4dd994e8784259edf20d39c51714e32&all_sr_blocks=429136203_265995075_2_2_0&checkin=2021-07-21&checkout=2021-07-24&dest_id=-2236522&dest_type=city&dist=0&from_beach_key_ufi_sr=1&group_adults=2&group_children=0&hapos=6&highlighted_blocks=429136203_265995075_2_2_0&hpos=6&no_rooms=1&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=429136203_265995075_2_2_0__9680&srepoch=1622899005&srpvid=61405d5df59c0116&type=total&ucfs=1&activeTab=main"
                      target="_blank" class="blue-link" rel="noreferrer"
                      aria-label="Link to Talalla 170 villa booking.com page, opens in a new tab">Talalla 170 Villa</a>
-               </p>
-               <p>
-                  We could not wait until we got to the coast and we were not disappointed; I can honestly say the
-                  beaches rival those of the Philippines and in some cases were even nicer, mainly due to the lack of
-                  people on
-                  them!!!
-                  We opted to travel first to Tallala and base ourselves there so that we could explore some of the
-                  surrounding beaches.
-                  Hiriketiya is just beautiful and great place to surf! Just down from the beach is where I ate one of
-                  the best meals of my
-                  life. We then visited Dikwella the next day which was completely empty and stunning.
-               </p>
-               <hr>
-               <h4>Mirissa - 3 nights</h4>
-               <p>Stayed: <a
+                  </p>
+                  <p>
+                     We could not wait until we got to the coast and we were not disappointed; I can honestly say the
+                     beaches rival those of the Philippines and in some cases were even nicer, mainly due to the lack of
+                     people on
+                     them!!!
+                     We opted to travel first to Tallala and base ourselves there so that we could explore some of the
+                     surrounding beaches.
+                     Hiriketiya is just beautiful and great place to surf! Just down from the beach is where I ate one of
+                     the best meals of my
+                     life. We then visited Dikwella the next day which was completely empty and stunning.
+                  </p>
+                  <hr>
+                  <h4>Mirissa - 3 nights</h4>
+                  <p>Stayed: <a
                      href="https://www.airbnb.co.uk/rooms/21334158?check_in=2021-07-16&check_out=2021-07-24&translate_ugc=false&federated_search_id=b5b93519-b7d7-453b-b55e-02e7f7cff036&source_impression_id=p3_1622899137_Jlp%2BU20wWU7IS0JO&guests=1&adults=1"
                      target="_blank" class="blue-link" rel="noreferrer"
                      aria-label="Link to D Canal House airbnb page, opens in a new tab">D
-                     Canal House</a></p>
-               <p>
-                  We got to Mirissa on Christmas eve and stayed in a pretty nice Airbnb - it was a real Christmas
-                  treat.
-                  We partied on the beach and spent Christmas day super hungover around our pool and so didn't really
-                  explore much!
-                  We then visited Wijaya beach where you can snorkel and swim with turtles, rental of the snorkel
-                  equipment is cheap.
-                  The Wijaya beach bar here is also delightful and does some seriously tasty food!
-               </p>
-               <hr>
-               <h4>Unawatuna - 3 nights</h4>
-               <p>Stayed: <a
+                     Canal House</a>
+                  </p>
+                  <p>
+                     We got to Mirissa on Christmas eve and stayed in a pretty nice Airbnb - it was a real Christmas
+                     treat.
+                     We partied on the beach and spent Christmas day super hungover around our pool and so didn't really
+                     explore much!
+                     We then visited Wijaya beach where you can snorkel and swim with turtles, rental of the snorkel
+                     equipment is cheap.
+                     The Wijaya beach bar here is also delightful and does some seriously tasty food!
+                  </p>
+                  <hr>
+                  <h4>Unawatuna - 3 nights</h4>
+                  <p>Stayed: <a
                      href="https://www.tripadvisor.co.uk/Hotel_Review-g644047-d12989113-Reviews-Mr_Funk_s_Hostel-Unawatuna_Galle_District_Southern_Province.html"
                      target="_blank" class="blue-link" rel="noreferrer"
                      aria-label="Link to Mr Funks Hostel trip advisor page, opens in a new tab">Mr Funks Hostel</a></p>
-               <p>
-                  We then moved along to Unawatuna, one of the busier coastal towns and for good reason, there is so
-                  much to do and see!
-                  It was NYE over our time here and so again didn't do too much exploring, just visited beaches in the
-                  day and partied at night!
-                  Jungle Beach was really cool and very chill, a great place to snorkel!
-               </p>
-               <hr>
-               <h4>Colombo</h4>
-               <p>Then it was back to Colombo to catch our flight!
-               </p>
+                  <p>
+                     We then moved along to Unawatuna, one of the busier coastal towns and for good reason, there is so
+                     much to do and see!
+                     It was NYE over our time here and so again didn't do too much exploring, just visited beaches in the
+                     day and partied at night!
+                     Jungle Beach was really cool and very chill, a great place to snorkel!
+                  </p>
+                  <hr>
+                  <h4>Colombo</h4>
+                  <p>Then it was back to Colombo to catch our flight!
+                  </p>
+               </div>
             </div>
-         </div>
+         </section>
       </section>
-   </section>
-
-   <!-- Fancybox gallery code found here: https://fancyapps.com/fancybox/3/docs/#images -->
-   <section id="fancybox-gallery" class="clear">
-      <h2 class="section_heading">Sri Lanka photo gallery</h2>
-      <div id="gallery">
-         <a href="assets/images/slideshow_1_1024x.jpeg" data-fancybox="gallery"
-            data-caption="Hoppers, a traditional (and delicious) Sri Lankan breakfast" id="gallery__item--1">
+      <!-- Fancybox gallery code found here: https://fancyapps.com/fancybox/3/docs/#images -->
+      <section id="fancybox-gallery" class="clear">
+         <h2 class="section_heading">Sri Lanka photo gallery</h2>
+         <div id="gallery">
+            <a href="assets/images/slideshow_1_1024x.jpeg" data-fancybox="gallery"
+               data-caption="Hoppers, a traditional (and delicious) Sri Lankan breakfast" id="gallery__item--1">
             <img src="/assets/images/slideshow_1_1024x.jpeg"
                srcset="assets/images/slideshow_1_600x.jpeg 600w, assets/images/slideshow_1_425x.jpeg 425w"
                class="fancybox-photo" alt="Photo of Hoppers, a traditional Sri Lankan breakfast" sizes="20vw" />
-         </a>
-
-         <a href="assets/images/slideshow_2_1024x.jpeg" data-fancybox="gallery"
-            data-caption="A tuktuk, a cheap and quick way to travel in Sri Lanka" id="gallery__item--2">
+            </a>
+            <a href="assets/images/slideshow_2_1024x.jpeg" data-fancybox="gallery"
+               data-caption="A tuktuk, a cheap and quick way to travel in Sri Lanka" id="gallery__item--2">
             <img src="/assets/images/slideshow_2_1024x.jpeg"
                srcset="assets/images/slideshow_2_600x.jpeg 600w, assets/images/slideshow_2_425x.jpeg 425w"
                class="fancybox-photo" alt="Photo of a tuktuk, a cheap and quick way to travel in Sri Lanka"
                sizes="20vw" />
-         </a>
-
-         <a href="assets/images/slideshow_3_1024x.jpeg" data-fancybox="gallery"
-            data-caption="Local Sri Lankan man fixing his boat on Dikwella beach" id="gallery__item--3">
+            </a>
+            <a href="assets/images/slideshow_3_1024x.jpeg" data-fancybox="gallery"
+               data-caption="Local Sri Lankan man fixing his boat on Dikwella beach" id="gallery__item--3">
             <img src="assets/images/slideshow_3_1024x.jpeg"
                srcset="assets/images/slideshow_3_600x.jpeg 600w, assets/images/slideshow_3_425x.jpeg 425w"
                class="fancybox-photo" alt="Photo of a local Sri Lankan man fixing his boat on Dikwella beach"
                sizes="20vw" />
-         </a>
-
-         <a href="assets/images/slideshow_4_1024x.jpeg" data-fancybox="gallery"
-            data-caption="Photo of Buddha statue from within the Dambulla Cave Temple" id="gallery__item--4">
+            </a>
+            <a href="assets/images/slideshow_4_1024x.jpeg" data-fancybox="gallery"
+               data-caption="Photo of Buddha statue from within the Dambulla Cave Temple" id="gallery__item--4">
             <img src="assets/images/slideshow_4_1024x.jpeg" class="fancybox-photo"
                srcset="assets/images/slideshow_4_600x.jpeg 600w, assets/images/slideshow_4_425x.jpeg 425w"
                alt="Photo of Buddha statue from within the Dambulla Cave Temple" sizes="20vw" />
-         </a>
-
-         <a href="assets/images/slideshow_5_1024x.jpeg" data-fancybox="gallery"
-            data-caption="The panoramic view from the top of Pidarangula rock" id="gallery__item--5">
+            </a>
+            <a href="assets/images/slideshow_5_1024x.jpeg" data-fancybox="gallery"
+               data-caption="The panoramic view from the top of Pidarangula rock" id="gallery__item--5">
             <img src="assets/images/slideshow_5_1024x.jpeg"
                srcset="assets/images/slideshow_5_2440x.jpeg 2440w, assets/images/slideshow_5_600x.jpeg 600w, assets/images/slideshow_5_425x.jpeg 425w"
                class="fancybox-photo" alt="The panoramic view from the top of Pidarangula rock" sizes="20vw" />
-         </a>
-
-         <a href="assets/images/slideshow_6_1024x.jpeg" data-fancybox="gallery"
-            data-caption="Classic Sri Lankan blue train travelling through the tea plantations" id="gallery__item--6">
+            </a>
+            <a href="assets/images/slideshow_6_1024x.jpeg" data-fancybox="gallery"
+               data-caption="Classic Sri Lankan blue train travelling through the tea plantations" id="gallery__item--6">
             <img src="assets/images/slideshow_6_small.jpeg"
                srcset="assets/images/slideshow_6_600x.jpeg 600w, assets/images/slideshow_6_425x.jpeg 425w"
                class="fancybox-photo" alt="Classic Sri Lankan blue train travelling through the tea plantations"
                sizes="20vw" />
-         </a>
-
-         <a href="assets/images/slideshow_7_1024x.jpeg" data-fancybox="gallery"
-            data-caption="The pictureqesue Wijaya beach - one of my favourites" id="gallery__item--7">
+            </a>
+            <a href="assets/images/slideshow_7_1024x.jpeg" data-fancybox="gallery"
+               data-caption="The pictureqesue Wijaya beach - one of my favourites" id="gallery__item--7">
             <img src="assets/images/slideshow_7_1024x.jpeg"
                srcset="assets/images/slideshow_7_600x.jpeg 600w, assets/images/slideshow_7_425x.jpeg 454w"
                class="fancybox-photo" alt="Photo of Wijaya beach, blue skies and palm trees" sizes="20vw" />
-         </a>
-
-      </div>
-   </section>
-
-   <!-- Code for form found here, has been edited for the purpose of this site: https://codepen.io/dope/pen/ZQWBeL -->
-   <section id="stay_in_touch">
-      <div class="newsletter_form">
-         <header class="newsletter_form_header">
-            <h2 class="form_title" id="form_heading">Keep in Touch</h2>
-            <h3 class="form_title">Get my latest reviews and tips straight in to your inbox, by signing up to my
-               newsletter below</h3>
-         </header>
-         <br>
-         <div class="arrow"></div>
-         <form class="form" action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
-            <div class="form__group">
-               <label for="first_name" class="visually_hidden">First Name</label>
-               <input type="text" placeholder="First Name" id="first_name" class="form__input" name="first_name"
-                  required />
-            </div>
-            <div class="form__group">
-               <label for="last_name" class="visually_hidden">Last Name</label>
-               <input type="text" id="last_name" placeholder="Last Name" class="form__input" name="last_name"
-                  required />
-            </div>
-            <div class="form__group">
-               <label for="email_address" class="visually_hidden">Email Address</label>
-               <input type="email" id="email_address" placeholder="Email" class="form__input" name="email_address"
-                  required />
-            </div>
-            <button class="btn cursor" id="form_btn" type="submit" onclick="signUp()">Sign Up!</button>
-         </form>
-      </div>
-   </section>
-
-   <!-- Footer code found here: https://epicbootstrap.com/snippets/footer-basic -->
-   <section class="footer-basic">
-      <footer>
-         <div class="social"><a href="https://www.instagram.com/daisygunn/"
-               aria-label="Take a look at my instagram, opens in a new tab" target="_blank" rel="noreferrer">
-               <i class="fab fa-instagram cursor socials"></i></a>
-            <a href="https://twitter.com/daisygunn" aria-label="Take a look at our Twitter (opens in a new tab)"
-               target="_blank" rel="noreferrer">
-               <i class="fab fa-twitter cursor socials"></i>
-            </a>
-            <a href="https://www.facebook.com/daisy.lindsaygunn/"
-               aria-label="Take a look at our Facebook, opens in a new tab" target="_blank" class="socials"
-               rel="noreferrer">
-               <i class="fab fa-facebook-f cursor socials"></i>
             </a>
          </div>
-         
+      </section>
+      <!-- Code for form found here, has been edited for the purpose of this site: https://codepen.io/dope/pen/ZQWBeL -->
+      <section id="stay_in_touch">
+         <div class="newsletter_form">
+            <header class="newsletter_form_header">
+               <h2 class="form_title" id="form_heading">Keep in Touch</h2>
+               <h3 class="form_title">Get my latest reviews and tips straight in to your inbox, by signing up to my
+                  newsletter below
+               </h3>
+            </header>
+            <br>
+            <div class="arrow"></div>
+            <form class="form" action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
+               <div class="form__group">
+                  <label for="first_name" class="visually_hidden">First Name</label>
+                  <input type="text" placeholder="First Name" id="first_name" class="form__input" name="first_name"
+                     required />
+               </div>
+               <div class="form__group">
+                  <label for="last_name" class="visually_hidden">Last Name</label>
+                  <input type="text" id="last_name" placeholder="Last Name" class="form__input" name="last_name"
+                     required />
+               </div>
+               <div class="form__group">
+                  <label for="email_address" class="visually_hidden">Email Address</label>
+                  <input type="email" id="email_address" placeholder="Email" class="form__input" name="email_address"
+                     required />
+               </div>
+               <button class="btn cursor" id="form_btn" type="submit" onclick="signUp()">Sign Up!</button>
+            </form>
+         </div>
+      </section>
+      <!-- Footer code found here: https://epicbootstrap.com/snippets/footer-basic -->
+      <section class="footer-basic">
+         <footer>
+            <div class="social"><a href="https://www.instagram.com/daisygunn/"
+               aria-label="Take a look at my instagram, opens in a new tab" target="_blank" rel="noreferrer">
+               <i class="fab fa-instagram cursor socials"></i></a>
+               <a href="https://twitter.com/daisygunn" aria-label="Take a look at our Twitter (opens in a new tab)"
+                  target="_blank" rel="noreferrer">
+               <i class="fab fa-twitter cursor socials"></i>
+               </a>
+               <a href="https://www.facebook.com/daisy.lindsaygunn/"
+                  aria-label="Take a look at our Facebook, opens in a new tab" target="_blank" class="socials"
+                  rel="noreferrer">
+               <i class="fab fa-facebook-f cursor socials"></i>
+               </a>
+            </div>
             <p><a href="#home" aria-label="Go back to the top of the page" class="footer_link cursor"
-                  id="back_to_top">Back to
-                  Top</a></p>
-         <h4 class="copyright">La Petite Traveller © 2021</h4>
-      </footer>
-   </section>
-
-   <!-- Script for Font Awesome -->
-   <script src="https://kit.fontawesome.com/ad6c696766.js" crossorigin="anonymous" defer></script>
-
-   <script src="assets/js/scripts.js"></script>
-
-   <!-- Fancybox libraries -->
-   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-
-   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-</body>
-
+               id="back_to_top">Back to
+               Top</a>
+            </p>
+            <h4 class="copyright">La Petite Traveller © 2021</h4>
+         </footer>
+      </section>
+      <!-- Script for Font Awesome -->
+      <script src="https://kit.fontawesome.com/ad6c696766.js" crossorigin="anonymous" defer></script>
+      <script src="assets/js/scripts.js"></script>
+      <!-- Fancybox libraries -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+   </body>
 </html>

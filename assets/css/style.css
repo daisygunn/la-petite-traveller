@@ -13,7 +13,6 @@ h3 {
 	margin: 5px 0 5px;
 }
 
-
 /* CSS code for Navbar styling found on W3 schools */
 
 .bg-img {
@@ -561,7 +560,7 @@ h3 {
 	padding: 0;
 	position: absolute;
 	width: 1px;
-  }
+}
 
 /* Footer credit to https://epicbootstrap.com/snippets/footer-basic */
 
@@ -841,7 +840,7 @@ h3 {
 /* Small tablet screens */
 
 @media screen and (max-width: 600px) {
-	
+
 	#home_container {
 		font-size: 15px;
 		font-family: 'Raleway', serif;
