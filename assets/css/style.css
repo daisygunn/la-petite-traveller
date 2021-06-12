@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@300;500&display=swap');
 
 body {
@@ -12,6 +19,7 @@ h3 {
 	font-family: 'Cookie', cursive;
 	margin: 5px 0 5px;
 }
+
 
 /* CSS code for Navbar styling found on W3 schools */
 
@@ -94,6 +102,8 @@ h3 {
 .sub_heading {
 	color: #0565AF;
 	text-align: center;
+	max-width: -webkit-fit-content;
+	max-width: -moz-fit-content;
 	max-width: fit-content;
 	display: block;
 	font-size: 35px;
@@ -129,6 +139,7 @@ h3 {
 	display: inline-block;
 	padding: 10px;
 	margin-bottom: 5px;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	width: 100%;
 }
@@ -137,6 +148,7 @@ h3 {
 	float: left;
 	padding: 15px;
 	width: 100%;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	text-align: left;
 	font-family: 'Raleway', serif;
@@ -166,6 +178,7 @@ h3 {
 #essentials {
 	padding: 15px;
 	width: 66%;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	display: block;
 	margin-left: auto;
@@ -217,6 +230,7 @@ h3 {
 	float: left;
 	padding: 2px 15px 5px 15px;
 	width: 100%;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	text-align: left;
 	font-family: 'Raleway', serif;
@@ -301,16 +315,340 @@ h3 {
 /* Code for Fancybox styling found here: https://fancyapps.com/fancybox/3/docs/#images */
 
 #gallery {
+	display: -ms-grid;
 	display: grid;
+	-ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
 	grid-template-columns: repeat(8, 1fr);
+	-ms-grid-rows: 5vw 10px 5vw 10px 5vw 10px 5vw 10px 5vw 10px 5vw 10px 5vw 10px 5vw;
 	grid-template-rows: repeat(8, 5vw);
 	grid-gap: 10px;
 	margin-top: 10px;
 }
 
+#gallery>*:nth-child(1) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 1;
+}
+
+#gallery>*:nth-child(2) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 3;
+}
+
+#gallery>*:nth-child(3) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 5;
+}
+
+#gallery>*:nth-child(4) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 7;
+}
+
+#gallery>*:nth-child(5) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 9;
+}
+
+#gallery>*:nth-child(6) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 11;
+}
+
+#gallery>*:nth-child(7) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 13;
+}
+
+#gallery>*:nth-child(8) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 15;
+}
+
+#gallery>*:nth-child(9) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 1;
+}
+
+#gallery>*:nth-child(10) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 3;
+}
+
+#gallery>*:nth-child(11) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 5;
+}
+
+#gallery>*:nth-child(12) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 7;
+}
+
+#gallery>*:nth-child(13) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 9;
+}
+
+#gallery>*:nth-child(14) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 11;
+}
+
+#gallery>*:nth-child(15) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 13;
+}
+
+#gallery>*:nth-child(16) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 15;
+}
+
+#gallery>*:nth-child(17) {
+	-ms-grid-row: 5;
+	-ms-grid-column: 1;
+}
+
+#gallery>*:nth-child(18) {
+	-ms-grid-row: 5;
+	-ms-grid-column: 3;
+}
+
+#gallery>*:nth-child(19) {
+	-ms-grid-row: 5;
+	-ms-grid-column: 5;
+}
+
+#gallery>*:nth-child(20) {
+	-ms-grid-row: 5;
+	-ms-grid-column: 7;
+}
+
+#gallery>*:nth-child(21) {
+	-ms-grid-row: 5;
+	-ms-grid-column: 9;
+}
+
+#gallery>*:nth-child(22) {
+	-ms-grid-row: 5;
+	-ms-grid-column: 11;
+}
+
+#gallery>*:nth-child(23) {
+	-ms-grid-row: 5;
+	-ms-grid-column: 13;
+}
+
+#gallery>*:nth-child(24) {
+	-ms-grid-row: 5;
+	-ms-grid-column: 15;
+}
+
+#gallery>*:nth-child(25) {
+	-ms-grid-row: 7;
+	-ms-grid-column: 1;
+}
+
+#gallery>*:nth-child(26) {
+	-ms-grid-row: 7;
+	-ms-grid-column: 3;
+}
+
+#gallery>*:nth-child(27) {
+	-ms-grid-row: 7;
+	-ms-grid-column: 5;
+}
+
+#gallery>*:nth-child(28) {
+	-ms-grid-row: 7;
+	-ms-grid-column: 7;
+}
+
+#gallery>*:nth-child(29) {
+	-ms-grid-row: 7;
+	-ms-grid-column: 9;
+}
+
+#gallery>*:nth-child(30) {
+	-ms-grid-row: 7;
+	-ms-grid-column: 11;
+}
+
+#gallery>*:nth-child(31) {
+	-ms-grid-row: 7;
+	-ms-grid-column: 13;
+}
+
+#gallery>*:nth-child(32) {
+	-ms-grid-row: 7;
+	-ms-grid-column: 15;
+}
+
+#gallery>*:nth-child(33) {
+	-ms-grid-row: 9;
+	-ms-grid-column: 1;
+}
+
+#gallery>*:nth-child(34) {
+	-ms-grid-row: 9;
+	-ms-grid-column: 3;
+}
+
+#gallery>*:nth-child(35) {
+	-ms-grid-row: 9;
+	-ms-grid-column: 5;
+}
+
+#gallery>*:nth-child(36) {
+	-ms-grid-row: 9;
+	-ms-grid-column: 7;
+}
+
+#gallery>*:nth-child(37) {
+	-ms-grid-row: 9;
+	-ms-grid-column: 9;
+}
+
+#gallery>*:nth-child(38) {
+	-ms-grid-row: 9;
+	-ms-grid-column: 11;
+}
+
+#gallery>*:nth-child(39) {
+	-ms-grid-row: 9;
+	-ms-grid-column: 13;
+}
+
+#gallery>*:nth-child(40) {
+	-ms-grid-row: 9;
+	-ms-grid-column: 15;
+}
+
+#gallery>*:nth-child(41) {
+	-ms-grid-row: 11;
+	-ms-grid-column: 1;
+}
+
+#gallery>*:nth-child(42) {
+	-ms-grid-row: 11;
+	-ms-grid-column: 3;
+}
+
+#gallery>*:nth-child(43) {
+	-ms-grid-row: 11;
+	-ms-grid-column: 5;
+}
+
+#gallery>*:nth-child(44) {
+	-ms-grid-row: 11;
+	-ms-grid-column: 7;
+}
+
+#gallery>*:nth-child(45) {
+	-ms-grid-row: 11;
+	-ms-grid-column: 9;
+}
+
+#gallery>*:nth-child(46) {
+	-ms-grid-row: 11;
+	-ms-grid-column: 11;
+}
+
+#gallery>*:nth-child(47) {
+	-ms-grid-row: 11;
+	-ms-grid-column: 13;
+}
+
+#gallery>*:nth-child(48) {
+	-ms-grid-row: 11;
+	-ms-grid-column: 15;
+}
+
+#gallery>*:nth-child(49) {
+	-ms-grid-row: 13;
+	-ms-grid-column: 1;
+}
+
+#gallery>*:nth-child(50) {
+	-ms-grid-row: 13;
+	-ms-grid-column: 3;
+}
+
+#gallery>*:nth-child(51) {
+	-ms-grid-row: 13;
+	-ms-grid-column: 5;
+}
+
+#gallery>*:nth-child(52) {
+	-ms-grid-row: 13;
+	-ms-grid-column: 7;
+}
+
+#gallery>*:nth-child(53) {
+	-ms-grid-row: 13;
+	-ms-grid-column: 9;
+}
+
+#gallery>*:nth-child(54) {
+	-ms-grid-row: 13;
+	-ms-grid-column: 11;
+}
+
+#gallery>*:nth-child(55) {
+	-ms-grid-row: 13;
+	-ms-grid-column: 13;
+}
+
+#gallery>*:nth-child(56) {
+	-ms-grid-row: 13;
+	-ms-grid-column: 15;
+}
+
+#gallery>*:nth-child(57) {
+	-ms-grid-row: 15;
+	-ms-grid-column: 1;
+}
+
+#gallery>*:nth-child(58) {
+	-ms-grid-row: 15;
+	-ms-grid-column: 3;
+}
+
+#gallery>*:nth-child(59) {
+	-ms-grid-row: 15;
+	-ms-grid-column: 5;
+}
+
+#gallery>*:nth-child(60) {
+	-ms-grid-row: 15;
+	-ms-grid-column: 7;
+}
+
+#gallery>*:nth-child(61) {
+	-ms-grid-row: 15;
+	-ms-grid-column: 9;
+}
+
+#gallery>*:nth-child(62) {
+	-ms-grid-row: 15;
+	-ms-grid-column: 11;
+}
+
+#gallery>*:nth-child(63) {
+	-ms-grid-row: 15;
+	-ms-grid-column: 13;
+}
+
+#gallery>*:nth-child(64) {
+	-ms-grid-row: 15;
+	-ms-grid-column: 15;
+}
+
 .fancybox-photo {
 	width: 100%;
 	height: 100%;
+	-o-object-fit: cover;
 	object-fit: cover;
 	display: block;
 }
@@ -318,51 +656,79 @@ h3 {
 /* Code for grid found here, although this was edited for use: https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ */
 
 #gallery__item--1 {
+	-ms-grid-column: 1;
 	grid-column-start: 1;
+	-ms-grid-column-span: 2;
 	grid-column-end: 3;
+	-ms-grid-row: 1;
 	grid-row-start: 1;
+	-ms-grid-row-span: 2;
 	grid-row-end: 3;
 }
 
 #gallery__item--2 {
+	-ms-grid-column: 3;
 	grid-column-start: 3;
+	-ms-grid-column-span: 2;
 	grid-column-end: 5;
+	-ms-grid-row: 1;
 	grid-row-start: 1;
+	-ms-grid-row-span: 5;
 	grid-row-end: 6;
 }
 
 #gallery__item--3 {
+	-ms-grid-column: 7;
 	grid-column-start: 7;
+	-ms-grid-column-span: 2;
 	grid-column-end: 9;
+	-ms-grid-row: 1;
 	grid-row-start: 1;
+	-ms-grid-row-span: 5;
 	grid-row-end: 6;
 }
 
 #gallery__item--4 {
+	-ms-grid-column: 1;
 	grid-column-start: 1;
+	-ms-grid-column-span: 2;
 	grid-column-end: 3;
+	-ms-grid-row: 3;
 	grid-row-start: 3;
+	-ms-grid-row-span: 3;
 	grid-row-end: 6;
 }
 
 #gallery__item--5 {
+	-ms-grid-column: 1;
 	grid-column-start: 1;
+	-ms-grid-column-span: 4;
 	grid-column-end: 5;
+	-ms-grid-row: 6;
 	grid-row-start: 6;
+	-ms-grid-row-span: 3;
 	grid-row-end: 9;
 }
 
 #gallery__item--6 {
+	-ms-grid-column: 5;
 	grid-column-start: 5;
+	-ms-grid-column-span: 2;
 	grid-column-end: 7;
+	-ms-grid-row: 1;
 	grid-row-start: 1;
+	-ms-grid-row-span: 8;
 	grid-row-end: 9;
 }
 
 #gallery__item--7 {
+	-ms-grid-column: 7;
 	grid-column-start: 7;
+	-ms-grid-column-span: 2;
 	grid-column-end: 9;
+	-ms-grid-row: 6;
 	grid-row-start: 6;
+	-ms-grid-row-span: 3;
 	grid-row-end: 9;
 }
 
@@ -396,6 +762,8 @@ h3 {
 	width: 40px;
 	height: 40px;
 	margin: -20px 0 0 -20px;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 	border-left: none;
 	border-top: none;
@@ -413,9 +781,24 @@ h3 {
 	border-top: none;
 	border-right: 1px #0565AF solid;
 	border-bottom: 1px #0565AF solid;
+	-webkit-animation-duration: 2s;
 	animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
+	-webkit-animation-name: arrow;
 	animation-name: arrow;
+}
+
+@-webkit-keyframes arrow {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate(-10px, -10px);
+		transform: translate(-10px, -10px);
+	}
 }
 
 @keyframes arrow {
@@ -425,6 +808,7 @@ h3 {
 
 	100% {
 		opacity: 0;
+		-webkit-transform: translate(-10px, -10px);
 		transform: translate(-10px, -10px);
 	}
 }
@@ -453,7 +837,9 @@ h3 {
 .newsletter_form_header {
 	text-align: center;
 	opacity: 0;
+	-webkit-transform: translate3d(0, 500px, 0);
 	transform: translate3d(0, 500px, 0);
+	-webkit-animation: arrive 500ms ease-in-out 0.7s forwards;
 	animation: arrive 500ms ease-in-out 0.7s forwards;
 	margin: 20px
 }
@@ -476,13 +862,17 @@ h3 {
 	border-radius: 6px;
 	overflow: hidden;
 	opacity: 0;
+	-webkit-transform: translate3d(0, 500px, 0);
 	transform: translate3d(0, 500px, 0);
+	-webkit-animation: arrive 500ms ease-in-out 0.9s forwards;
 	animation: arrive 500ms ease-in-out 0.9s forwards;
 }
 
 .form--no {
+	-webkit-animation: NO 1s ease-in-out;
 	animation: NO 1s ease-in-out;
 	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 }
 
@@ -494,6 +884,8 @@ h3 {
 	-webkit-appearance: none;
 	border: 0;
 	outline: 0;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
 	transition: 0.3s;
 	background-color: #0565AF;
 }
@@ -512,6 +904,8 @@ h3 {
 	border: 0;
 	color: #0565AF;
 	background: #f8f8f8;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
 	transition: 0.3s;
 	margin-bottom: 20px;
 }
@@ -522,15 +916,45 @@ h3 {
 
 }
 
-@keyframes arrive {
+@-webkit-keyframes arrive {
 	0% {
 		opacity: 0;
+		-webkit-transform: translate3d(0, 50px, 0);
 		transform: translate3d(0, 50px, 0);
 	}
 
 	100% {
 		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes arrive {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 50px, 0);
+		transform: translate3d(0, 50px, 0);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@-webkit-keyframes move {
+	0% {
+		background-position: 0 0
+	}
+
+	50% {
+		background-position: 100% 0
+	}
+
+	100% {
+		background-position: 0 0
 	}
 }
 
@@ -630,6 +1054,22 @@ h3 {
 	font-size: 12px;
 	color: #f8f8f8;
 	margin-bottom: 0;
+}
+
+::-webkit-input-placeholder {
+	color: #f8f8f8;
+}
+
+::-moz-placeholder {
+	color: #f8f8f8;
+}
+
+:-ms-input-placeholder {
+	color: #f8f8f8;
+}
+
+::-ms-input-placeholder {
+	color: #f8f8f8;
 }
 
 ::placeholder {
@@ -895,6 +1335,7 @@ h3 {
 
 	#essentials {
 		width: 66%;
+		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 		display: block;
 		margin-left: auto;
@@ -1125,6 +1566,22 @@ h3 {
 		width: 90%;
 		max-width: 600px;
 		margin: 5vh auto;
+	}
+
+	::-webkit-input-placeholder {
+		font-size: 25px;
+	}
+
+	::-moz-placeholder {
+		font-size: 25px;
+	}
+
+	:-ms-input-placeholder {
+		font-size: 25px;
+	}
+
+	::-ms-input-placeholder {
+		font-size: 25px;
 	}
 
 	::placeholder {
