@@ -15,7 +15,7 @@ function navFunction() {
  */
 function showMore() {
     var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
+    var btnText = document.getElementById("read_more");
 
     if (moreText.style.display === "inline") {
         btnText.innerHTML = "Read more";
