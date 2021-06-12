@@ -162,6 +162,8 @@ I have used several technologies that have enabled this design to work:
     - Used to accurately format my CSS code.
 - [Freeformatter HTML Formatter](https://www.freeformatter.com/html-formatter.html)
     - Used to accurately format my HTML code.
+- [AmIResponsive](http://ami.responsivedesign.is/)
+    - Used to generate repsonsive image used in README file.
 
 ---
 ## Testing
