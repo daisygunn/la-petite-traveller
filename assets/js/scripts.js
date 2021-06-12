@@ -37,3 +37,8 @@ const form = document.querySelector('.form')
 button.addEventListener('click', function () {
     form.classList.add('form--no')
 });
+
+function signUp() {
+    document.getElementById("form_btn").innerHTML = "Thank You!";
+  }
+
